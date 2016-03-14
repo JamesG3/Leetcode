@@ -1,5 +1,7 @@
 class Solution(object):
     def containsDuplicate(self, nums):
+        
+        #return len(nums) > len(set(nums))                  The fastest solution
         """
         :type nums: List[int]
         :rtype: bool
@@ -13,3 +15,5 @@ class Solution(object):
                 dic[n]=1
         
         return False
+        
+        
