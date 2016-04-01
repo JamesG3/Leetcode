@@ -10,3 +10,4 @@ class Solution(object):
             num=(num%10+num/10)
             
         return num
+#Solution 1
