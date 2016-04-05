@@ -16,4 +16,5 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
+        #Determine whether an integer is a palindrome. Do this without extra space.
         
