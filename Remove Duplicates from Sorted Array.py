@@ -21,3 +21,4 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        #Given a sorted linked list, delete all duplicates such that each element appear only once. 
