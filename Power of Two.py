@@ -19,3 +19,4 @@ class Solution(object):
 #                return False
 #        return True
         
+#Given an integer, write a function to determine if it is a power of two. 
