@@ -13,7 +13,12 @@ class Solution(object):
             return root.left.val + self.sumOfLeftLeaves(root.right)
         else:
             return self.sumOfLeftLeaves(root.left) + self.sumOfLeftLeaves(root.right)
-            
+        
+        
+        #set all right leaves equals to 0
+        #add all the leaves use recursive
+        #because all the right leaves are 0, so the return value would be the sum of all left leaves
+        
 
         
         """
