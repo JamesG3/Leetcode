@@ -19,4 +19,5 @@ class Solution(object):
         """
         :type root: TreeNode
         :rtype: int
+        Find the sum of all left leaves in a given binary tree.
         """
