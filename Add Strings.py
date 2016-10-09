@@ -6,5 +6,8 @@ class Solution(object):
         :type num1: str
         :type num2: str
         :rtype: str
+        
+        Given two non-negative numbers num1 and num2 represented as string, return the sum of num1 and num2.
+        
         """
         
