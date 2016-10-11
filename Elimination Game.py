@@ -6,27 +6,27 @@ class Solution(object):
         end=n
         status=0
         
-        while start != end:
+        while start != end:                 #until one element left
             if status == 0:
-                if (end-start)%jump==0:
+                if (end-start)%jump==0:     #whether to change the last element
                     end-=jump/2
                 start+=jump/2
                 status=1
             else:
-                if (end-start)%jump==0:
+                if (end-start)%jump==0:     #whether to change the first element
                     start+=jump/2
                 end-=jump/2
                 status=0
-            jump*=2
+            jump*=2                         #double the jump
             
         return start
         
         
         
+        #Time exceeded version
         
         #l=range(1,n+1)
         #status=0
-        
         #while len(l)!=1:
         #    if status==0:
         #        n=0
