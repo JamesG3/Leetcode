@@ -9,16 +9,16 @@ class Solution(object):
         if head == None:
             return head
             
-        First = ListNode(0)
+        First = ListNode(0)                     #build a very first head before current head
         First.next = head
         tem = head
         
-        while tem.next != None:
-            if tem.next.val < tem.val:
+        while tem.next != None:                 #go through the list
+            if tem.next.val < tem.val:          #if the sequence is not right
                 F = First
-                while F.next.val < tem.next.val:
+                while F.next.val < tem.next.val:    #compare each number from the head, to find the position to insert
                     F = F.next
-                tn = tem.next
+                tn = tem.next                      #insert.  (pay attation to the insert sequence)
                 tem.next = tem.next.next
                 tn.next = F.next
                 F.next = tn
