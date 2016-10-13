@@ -9,10 +9,10 @@ class Solution(object):
         ahead=head
         behind=head
         
-        while behind != None and behind.next != None:
-            ahead=ahead.next
-            behind=behind.next.next
-            if behind == ahead:
+        while ahead != None and ahead.next != None:             #if the one goes ahead reach the end of list, break and return False
+            behind=behind.next
+            ahead=ahead.next.next
+            if behind == ahead:                                 #go on until ahead meet behind                     
                 return True
         return False
         """
