@@ -1,4 +1,9 @@
 # TIPS
+
+##ABOUT LeetCode
+###List of tricky exercises
+- Happy Number: *42 is an important number after experiments*
+
 ## ABOUT PYTHON
 - For **list l**, using `l[::-1]` can return the reverse sequence of **list l**. `[::-1]` can also used in string or list like`[[1,2,3],[2,43,4],[3,4,5]]`
 
