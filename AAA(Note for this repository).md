@@ -19,6 +19,7 @@
 	 `return a`  
 	For this part of code, the final return value would be **5**, not **3**.
 	After a one-time check (a=2\<=3), the code in the *if block* can be executed, whatever the value of *a* becomes.
+
 #### for n in list:
 - when using `for n in list`, we can read `n` from list, but cannot assign a value to `n`.
 - For example: `for n in a:` `n=0`, this operation cannot be realized.
