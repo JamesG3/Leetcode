@@ -1,5 +1,23 @@
 class Solution(object):
     def productExceptSelf(self, nums):
+        #without divsion
+        res=[]
+        product=1                               #calculate product from left to right
+        for n in range(0,len(nums)):
+            res.append(product)
+            product *= nums[n]
+            
+        product = 1
+        for n in range(len(nums)-1, -1, -1):        #calculate product from right to left
+            res[n] *= product                   #with one digit shift amount
+            product *= nums[n]
+        
+        return res
+        
+        
+        
+        """
+        #version of using division
         
         if nums.count(0) >= 2:
             for index in range(0,len(nums)):
@@ -28,14 +46,9 @@ class Solution(object):
             for index in range(0,len(nums)):
                 nums[index] = product/nums[index]
             return nums
-            
-            
-            
+        """
         """
         :type nums: List[int]
         :rtype: List[int]
-        
-        Given an array of n integers where n > 1, nums, 
-        return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
         """
         
