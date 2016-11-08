@@ -1,34 +1,26 @@
-"""
-class Solution(object):                                   # brute force solution
+class Solution(object):
     def minMoves(self, nums):
+        
         step=0
         while nums.count(nums[0])!=len(nums):
+            nums.sort()
             temmax=max(nums)
             temmin=min(nums)
             temstep=temmax-temmin
-            
-            
-            if nums.count(temmax)>1:
-                step+=1
-                count=1
-                for n in range(0,len(nums)):
-                    if nums[n] != temmax:
-                        nums[n]+=1
-                    else:
-                        count-=1
-                        if count<0:
-                            nums[n]+=1
-                    continue
-                    
-            else:
-                step+=temstep
-                for n in range(0,len(nums)):
-                    if nums[n]!=temmax:
+            step+=temstep
+            count=1
+            point=nums.index(temmax)
+            for n in range(0,len(nums)):
+                if nums[n]!=temmax:
+                    nums[n]+=temstep
+                else:
+                    count-=1
+                    if count<0:
                         nums[n]+=temstep
+            
         return step
             
         """
         :type nums: List[int]
         :rtype: int
         """
-"""
