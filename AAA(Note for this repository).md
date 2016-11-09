@@ -4,6 +4,7 @@
 ### List of tricky exercises
 - Happy Number: *42 is an important number after experiments*
 - Product of Array Except Self: from left -> right ; then right->left
+- Minimum Moves to Equal Array Elements: using `sum(nums) - len(nums)*min(nums)` to calculate the total moving steps
 
 ## ABOUT PYTHON
 ### Useful Tools
