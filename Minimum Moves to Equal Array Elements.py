@@ -10,11 +10,20 @@ class Solution(object):
                 step+=nums[n]-nums[0]
             
         return step
-            
+    
+       #return sum(nums) - len(nums)*min(nums)
+       #onelinesolution       
         """
         :type nums: List[int]
         :rtype: int
+        
+        
+        Given a non-empty integer array of size n, 
+        find the minimum number of moves required to make all array elements equal, 
+        where a move is incrementing n - 1 elements by 1.
         """
+
+        
 """
 # brute force solution
 
