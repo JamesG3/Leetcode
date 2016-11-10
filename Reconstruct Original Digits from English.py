@@ -82,4 +82,7 @@ class Solution(object):
         seven   s 4
         eight   e 9
         nine   n 10
+        
+        Using unique mark for every number, delete corresponding letters in the dictionary,
+        then find out the next unique mark.
         """
