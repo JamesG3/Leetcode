@@ -3,7 +3,7 @@
 ## ABOUT LeetCode
 ### List of tricky exercises
 - Happy Number: *42 is an important number after experiments*
-- Product of Array Except Self: from left -> right ; then right->left
+- Product of Array Except Self: from left -\> right ; then right-\>left
 - Minimum Moves to Equal Array Elements: using `sum(nums) - len(nums)*min(nums)` to calculate the total moving steps
 
 ## ABOUT PYTHON
@@ -13,9 +13,11 @@
 #### zip
 - a=[12, 2, 3, 3, 4], b=[1, 1, 1, 1, 1], **zip(a,b)=[(12, 1), (2, 1), (3, 1), (3, 1), (4, 1)]**
 - c=[(12, 1), (2, 1), (3, 1), (3, 1), (4, 1)], **`zip(*c)=[(12, 2, 3, 3, 4), (1, 1, 1, 1, 1)]`**  
-more: [http://www.cnblogs.com/BeginMan/archive/2013/03/14/2959447.html]
-
-
+	more: [http://www.cnblogs.com/BeginMan/archive/2013/03/14/2959447.html]
+#### `[:]`
+- When we want to duplicate a list, we cannot simply use b=a, it will cause list *b* points to the same location. When we operate list *a*, list *b* will be modified. In other word, *b* will be always same as list *a*
+- So we should use a `[:]` when creating a different list with same content.
+- For example, `a=[1,2,3]`, `b=a[:]`
 ### Attentions
 #### If and while:
 - *If* is a one-time check, what is required in the *if(requirement)* can change to any value or state in the *if block*.
