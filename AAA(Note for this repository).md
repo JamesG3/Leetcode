@@ -18,6 +18,13 @@
 - When we want to duplicate a list, we cannot simply use b=a, it will cause list *b* points to the same location. When we operate list *a*, list *b* will be modified. In other word, *b* will be always same as list *a*
 - So we should use a `[:]` when creating a different list with same content.
 - For example, `a=[1,2,3]`, `b=a[:]`
+#### Counter
+- need to import from collection
+- `from collections import Counter`
+- For example: `a=['r', 'd', 'g', 'd']`, `C=Counter(a)`,      then `C=Counter({'d': 2, 'r': 1, 'g': 1})`
+- Although a Counter looks like a dictionary, but it’s more flexible, we can add new element into a Counter directly, without checking if it’s exist.
+- For example: `C['b']=4`, then `C=Counter({'b': 4, 'd': 2, 'r': 1, 'g': 1})`
+- But we cannot do this in a dictionary.
 ### Attentions
 #### If and while:
 - *If* is a one-time check, what is required in the *if(requirement)* can change to any value or state in the *if block*.
