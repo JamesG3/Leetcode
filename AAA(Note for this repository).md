@@ -18,25 +18,25 @@
 - a=[12, 2, 3, 3, 4], b=[1, 1, 1, 1, 1], **zip(a,b)=[(12, 1), (2, 1), (3, 1), (3, 1), (4, 1)]**
 - c=[(12, 1), (2, 1), (3, 1), (3, 1), (4, 1)], **`zip(*c)=[(12, 2, 3, 3, 4), (1, 1, 1, 1, 1)]`**  
 	more: [http://www.cnblogs.com/BeginMan/archive/2013/03/14/2959447.html]
-#### `[:]`
+#### `[:]`  
 - When we want to duplicate a list, we cannot simply use b=a, it will cause list *b* points to the same location. When we operate list *a*, list *b* will be modified. In other word, *b* will be always same as list *a*
 - So we should use a `[:]` when creating a different list with same content.
 - For example, `a=[1,2,3]`, `b=a[:]`
-#### Counter
+#### Counter  
 - need to import from collection
 - `from collections import Counter`
 - For example: `a=['r', 'd', 'g', 'd']`, `C=Counter(a)`,      then `C=Counter({'d': 2, 'r': 1, 'g': 1})`
 - Although a Counter looks like a dictionary, but it’s more flexible, we can add new element into a Counter directly, without checking if it’s exist.
 - For example: `C['b']=4`, then `C=Counter({'b': 4, 'd': 2, 'r': 1, 'g': 1})`
 - But we cannot do this in a dictionary.
-### Attentions
-#### If and while:
+### Attentions  
+#### If and while:  
 - *If* is a one-time check, what is required in the *if(requirement)* can change to any value or state in the *if block*.
 - For example:`a=2` `if(a<=3):` `while(a<6):` `a+=1`  
 	 `return a`  
 	For this part of code, the final return value would be **5**, not **3**.
 	After a one-time check (a=2\<=3), the code in the *if block* can be executed, whatever the value of *a* becomes.
 
-#### for n in list:
+#### for n in list:  
 - when using `for n in list`, we can read `n` from list, but cannot assign a value to `n`.
 - For example: `for n in a:` `n=0`, this operation cannot be realized.
