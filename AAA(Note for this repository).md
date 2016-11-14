@@ -6,13 +6,15 @@
 - Product of Array Except Self: from left -\> right ; then right-\>left
 - Minimum Moves to Equal Array Elements: using `sum(nums) - len(nums)*min(nums)` to calculate the total moving steps  
 - Arithmetic Slices: alculate the nth of 1,3,6,10... use formula `nth=n(n-1)/2`  
+
 ### Need to be refreshed
 - Battleship in a Board: checking head horizontally and vertically  
-## ABOUT PYTHON
-### Useful Tools
-#### [::-1]
+
+## ABOUT PYTHON  
+### Useful Tools  
+#### [::-1]  
 - For **list l**, using `l[::-1]` can return the reverse sequence of **list l**. `[::-1]` can also used in string or list like`[[1,2,3],[2,43,4],[3,4,5]]`  
-#### zip
+#### zip  
 - a=[12, 2, 3, 3, 4], b=[1, 1, 1, 1, 1], **zip(a,b)=[(12, 1), (2, 1), (3, 1), (3, 1), (4, 1)]**
 - c=[(12, 1), (2, 1), (3, 1), (3, 1), (4, 1)], **`zip(*c)=[(12, 2, 3, 3, 4), (1, 1, 1, 1, 1)]`**  
 	more: [http://www.cnblogs.com/BeginMan/archive/2013/03/14/2959447.html]
