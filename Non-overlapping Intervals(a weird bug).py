@@ -10,7 +10,8 @@ class Solution(object):
             return 0
         
         count=0
-        intervals.sort()
+        intervals.sort(key=lambda x:x.start)
+        #intervals.sort() this sort can sort intervals based on their address, not value
         temend=intervals[0].end
         
         for n in intervals[1:]:
