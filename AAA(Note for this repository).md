@@ -8,10 +8,13 @@
 - Arithmetic Slices: alculate the nth of 1,3,6,10... use formula `nth=n(n-1)/2`  
 
 ### Need to be refreshed
-- Battleship in a Board: checking head horizontally and vertically  
+- Battleship in a Board: checking head horizontally and vertically
 
-## ABOUT PYTHON  
-### Useful Tools  
+### Questions
+- 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
+
+## ABOUT PYTHON
+### Useful Tools
 #### [::-1]  
 - For **list l**, using `l[::-1]` can return the reverse sequence of **list l**. `[::-1]` can also used in string or list like`[[1,2,3],[2,43,4],[3,4,5]]`  
 
@@ -19,7 +22,7 @@
 - a=[12, 2, 3, 3, 4], b=[1, 1, 1, 1, 1], **zip(a,b)=[(12, 1), (2, 1), (3, 1), (3, 1), (4, 1)]**
 - c=[(12, 1), (2, 1), (3, 1), (3, 1), (4, 1)], **`zip(*c)=[(12, 2, 3, 3, 4), (1, 1, 1, 1, 1)]`**  
 	more: [http://www.cnblogs.com/BeginMan/archive/2013/03/14/2959447.html]
-	
+	 
 #### `[:]`  
 - When we want to duplicate a list, we cannot simply use b=a, it will cause list *b* points to the same location. When we operate list *a*, list *b* will be modified. In other word, *b* will be always same as list *a*
 - So we should use a `[:]` when creating a different list with same content.
