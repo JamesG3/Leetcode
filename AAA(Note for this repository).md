@@ -12,6 +12,7 @@
 
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
+- 435 Non-overlapping Intervals: When i test [\[1,2]() , [2,3]()] using Run Code, it pass with a result 0. However, when i click Submit Solution, the result is Wrong Answer, and it shows my result is 1, not 0. Is there someone knows whats wrong with the code or test case?
 
 ## ABOUT PYTHON
 ### Useful Tools
@@ -56,3 +57,4 @@
 #### for n in list:  
 - when using `for n in list`, we can read `n` from list, but cannot assign a value to `n`.
 - For example: `for n in a:` `n=0`, this operation cannot be realized.
+
