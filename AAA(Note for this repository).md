@@ -47,6 +47,12 @@
 - This function is very similar to range(), but returns an xrange object instead of a list.
 - Save space.
 
+#### Sort two-dimensions list OR Intervals  
+- We cannot apply sort() to Intervals, it will sort it with the value of address.  
+- *arr.sort(key=lambda x:x[1])* means sort using the first key of arr
+- *arr.sort(key=lambda x:x[1],reverse=True)* means a reverse sort using the first key of arr
+- *intervals.sort(key=lambda x:x.start)* means sort using the first key of intervals
+
 ### Attentions  
 
 #### If and while:  
