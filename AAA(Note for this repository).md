@@ -32,7 +32,17 @@
 - Although a Counter looks like a dictionary, but it’s more flexible, we can add new element into a Counter directly, without checking if it’s exist.
 - For example: `C['b']=4`, then `C=Counter({'b': 4, 'd': 2, 'r': 1, 'g': 1})`
 - But we cannot do this in a dictionary.
+
+#### Random  
+- **random.randrange(stop)** same as **random.randrange(start, stop, step)**
+- using for choosing a random number
+
+#### Xrange  
+- This function is very similar to range(), but returns an xrange object instead of a list.
+- Save space.
+
 ### Attentions  
+
 #### If and while:  
 - *If* is a one-time check, what is required in the *if(requirement)* can change to any value or state in the *if block*.
 - For example:`a=2` `if(a<=3):` `while(a<6):` `a+=1`  
