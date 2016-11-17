@@ -8,7 +8,8 @@
 - Arithmetic Slices: alculate the nth of 1,3,6,10... use formula `nth=n(n-1)/2`  
 
 ### Need to be refreshed
-- Battleship in a Board: checking head horizontally and vertically
+- Battleship in a Board: checking head horizontally and vertically.
+- Binary Tree Level Order Traversal: recursive solution with a mark of level.
 
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
@@ -61,7 +62,7 @@
 
 #### If and while:  
 - *If* is a one-time check, what is required in the *if(requirement)* can change to any value or state in the *if block*.
-- For example:`a=2` `if(a<=3):` `while(a<6):` `a+=1`  
+- For example:`a=2` `if(a<=3):` `while(a<6):` `a+=1`  
 	 `return a`  
 	For this part of code, the final return value would be **5**, not **3**.
 	After a one-time check (a=2\<=3), the code in the *if block* can be executed, whatever the value of *a* becomes.
