@@ -11,9 +11,9 @@
 - Battleship in a Board: checking head horizontally and vertically
 
 ### Questions
-- 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?  
-	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**  
-- 435 Non-overlapping Intervals: When i test [[1,2]() , [2,3]()] using Run Code, it pass with a result 0. However, when i click Submit Solution, the result is Wrong Answer, and it shows my result is 1, not 0. Is there someone knows whats wrong with the code or test case?  
+- 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
+	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
+- 435 Non-overlapping Intervals: When i test [[1,2]() , [2,3]()] using Run Code, it pass with a result 0. However, when i click Submit Solution, the result is Wrong Answer, and it shows my result is 1, not 0. Is there someone knows whats wrong with the code or test case?
 	- **Because Intervals.sort() sort this intervals by the address.**
 
 ## ABOUT PYTHON
@@ -25,7 +25,6 @@
 - a=[12, 2, 3, 3, 4], b=[1, 1, 1, 1, 1], **zip(a,b)=[(12, 1), (2, 1), (3, 1), (3, 1), (4, 1)]**
 - c=[(12, 1), (2, 1), (3, 1), (3, 1), (4, 1)], **`zip(*c)=[(12, 2, 3, 3, 4), (1, 1, 1, 1, 1)]`**  
 	more: [http://www.cnblogs.com/BeginMan/archive/2013/03/14/2959447.html]
-	  
 #### `[:]`  
 - When we want to duplicate a list, we cannot simply use b=a, it will cause list *b* points to the same location. When we operate list *a*, list *b* will be modified. In other word, *b* will be always same as list *a*
 - So we should use a `[:]` when creating a different list with same content.
@@ -52,6 +51,11 @@
 - *arr.sort(key=lambda x:x[1])* means sort using the first key of arr
 - *arr.sort(key=lambda x:x[1],reverse=True)* means a reverse sort using the first key of arr
 - *intervals.sort(key=lambda x:x.start)* means sort using the first key of intervals
+
+#### iter  
+- Turning a non-iterator object into a iterator object, and return the head of it.
+- Including dictionary, list, string, etc.
+- For example, `i = iter('example')`, the result of `print i.next()` is `e`, the second time we execute `print i.next()` will return `x`, then `a`, `m`, `p`, `l`, `e`, and an error `StopIteration`.
 
 ### Attentions  
 
