@@ -6,6 +6,7 @@
 - Product of Array Except Self: from left -\> right ; then right-\>left
 - Minimum Moves to Equal Array Elements: using `sum(nums) - len(nums)*min(nums)` to calculate the total moving steps  
 - Arithmetic Slices: alculate the nth of 1,3,6,10... use formula `nth=n(n-1)/2`  
+- 125 Valid Palindrome: cannot use a brute force solution, would cause a TLE error, should use a in place solution, use O(n).
 
 ### Need to be refreshed
 - Battleship in a Board: checking head horizontally and vertically.
@@ -58,6 +59,10 @@
 - Including dictionary, list, string, etc.
 - For example, `i = iter('example')`, the result of `print i.next()` is `e`, the second time we execute `print i.next()` will return `x`, then `a`, `m`, `p`, `l`, `e`, and an error `StopIteration`.
 
+#### isalnum()
+- `a.isalnum()`
+- if a is alphanumeric characters, return True, else return False.
+
 ### Attentions  
 
 #### If and while:  
@@ -70,4 +75,7 @@
 #### for n in list:  
 - when using `for n in list`, we can read `n` from list, but cannot assign a value to `n`.
 - For example: `for n in a:` `n=0`, this operation cannot be realized.
+
+#### ASCII
+- In ASCII table, ‘a’-‘z’ and “A” - “Z” are not successive.
 
