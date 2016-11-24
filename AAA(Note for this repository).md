@@ -64,6 +64,10 @@
 #### isalnum()
 - `a.isalnum()`
 - if a is alphanumeric characters, return True, else return False.
+#### global variable
+- global variable is useful especially in recursive function
+- declare `global variable` under every function which may use this variable.
+- For example: 230. Kth Smallest Element in a BST
 
 ### Attentions  
 
