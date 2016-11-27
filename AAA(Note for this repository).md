@@ -8,6 +8,18 @@
 - Arithmetic Slices: alculate the nth of 1,3,6,10... use formula `nth=n(n-1)/2`  
 - 125 Valid Palindrome: cannot use a brute force solution, would cause a TLE error, should use a in place solution, use O(n).
 
+### Classify  
+#### Tree
+- **Using dictionary to save every level’s nodes:** 
+	- 103.Binary Tree Zigzag Level Order Traversal
+	- 107.Binary Tree Level Order Traversal II
+	- 199.Binary Tree Right Side View
+	- 337.House Robber III
+- **Tree Traversal**
+	- 144.Binary Tree Preorder Traversal
+	- 145.Binary Tree Postorder Traversal
+	- 230.Kth Smallest Element in a BST
+
 ### Need to be refreshed
 - Battleship in a Board: checking head horizontally and vertically.
 - Binary Tree Level Order Traversal: recursive solution with a mark of level.
