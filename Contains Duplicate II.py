@@ -17,7 +17,7 @@ class Solution(object):
     
     
     
-#    def containsNearbyDuplicate(self, nums, k):                    #An time consuming solution
+#    def containsNearbyDuplicate(self, nums, k):                    #A time consuming solution
 #        if(k==0 or k==len(nums)):
 #            return False
 #        tem=[]
