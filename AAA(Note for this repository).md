@@ -7,8 +7,10 @@
 - Minimum Moves to Equal Array Elements: using `sum(nums) - len(nums)*min(nums)` to calculate the total moving steps  
 - Arithmetic Slices: alculate the nth of 1,3,6,10... use formula `nth=n(n-1)/2`  
 - 125 Valid Palindrome: cannot use a brute force solution, would cause a TLE error, should use a in place solution, use O(n).
+- 189 Rotate Array: in java using reverse, only 3 times can get the result, O(n) time and O(1) space.
+	- **should try in python !!**
 
-### Classify  
+### Classify
 #### Tree
 - **Using dictionary to save every level’s nodes:** 
 	- 103.Binary Tree Zigzag Level Order Traversal
