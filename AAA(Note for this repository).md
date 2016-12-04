@@ -25,6 +25,7 @@
 - Binary Tree Level Order Traversal: recursive solution with a mark of level.
 - Balanced Binary Tree: find maxDepth, divide and conquer.
 - Invert Binary Tree: build an Invert function and a Traversal function to swap every node
+- Convert Sorted Array to Binary Search Tree: insert recursively
 
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
