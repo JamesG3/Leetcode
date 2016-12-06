@@ -9,6 +9,7 @@
 - 125 Valid Palindrome: cannot use a brute force solution, would cause a TLE error, should use a in place solution, use O(n).
 - 189 Rotate Array: in java using reverse, only 3 times can get the result, O(n) time and O(1) space.
 	- **should try in python !!**
+- 96.Unique Binary Search Trees: using *Catalan number* to calculate. [https://en.wikipedia.org/wiki/Catalan\_number][1]
 
 ### Classify
 #### Tree
@@ -28,6 +29,8 @@
 - Balanced Binary Tree: find maxDepth, divide and conquer.
 - Invert Binary Tree: build an Invert function and a Traversal function to swap every node
 - Convert Sorted Array to Binary Search Tree: insert recursively
+- H-Index: how to calculate a H-Index.
+	- [https://zh.wikipedia.org/wiki/H指数][2]
 
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
@@ -67,8 +70,8 @@
 
 #### Sort two-dimensions list OR Intervals  
 - We cannot apply sort() to Intervals, it will sort it with the value of address.  
-- *arr.sort(key=lambda x:x[1])* means sort using the first key of arr
-- *arr.sort(key=lambda x:x[1],reverse=True)* means a reverse sort using the first key of arr
+- *arr.sort(key=lambda x:x[1][5])* means sort using the first key of arr
+- *arr.sort(key=lambda x:x[1][6],reverse=True)* means a reverse sort using the first key of arr
 - *intervals.sort(key=lambda x:x.start)* means sort using the first key of intervals
 
 #### iter  
@@ -100,3 +103,7 @@
 #### ASCII
 - In ASCII table, ‘a’-‘z’ and “A” - “Z” are not successive.
 
+[1]:	https://en.wikipedia.org/wiki/Catalan_number
+[2]:	https://zh.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0
+[5]:	https://en.wikipedia.org/wiki/Catalan_number
+[6]:	https://en.wikipedia.org/wiki/Catalan_number
