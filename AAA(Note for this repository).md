@@ -19,9 +19,13 @@
 	- 199.Binary Tree Right Side View
 	- 337.House Robber III
 - **Tree Traversal**
+	- 94.Binary Tree Inorder Traversal
 	- 144.Binary Tree Preorder Traversal
 	- 145.Binary Tree Postorder Traversal
 	- 230.Kth Smallest Element in a BST
+- **Greedy**
+	- 121.Best Time to Buy and Sell Stock
+	- 122.Best Time to Buy and Sell Stock II
 
 ### Need to be refreshed
 - Battleship in a Board: checking head horizontally and vertically.
