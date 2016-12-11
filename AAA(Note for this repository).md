@@ -96,7 +96,7 @@
 - declare `global variable` under every function which may use this variable.
 - For example: 230. Kth Smallest Element in a BST
 
-### enumerate
+#### enumerate
 - can be used for getting the *index* and the *corresponding element* of a list.
 - For example: `*A=["a","b"]*` is a list.  `for i,element in enumerate(a): print i; print element`
 - Then we can get: `0 "a"   &    0 "b"`
