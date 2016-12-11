@@ -27,6 +27,10 @@
 	- 121.Best Time to Buy and Sell Stock
 	- 122.Best Time to Buy and Sell Stock II
 
+#### deal with String
+- **Using dictionary**
+	- 17.Letter Combinations of a Phone Number
+
 ### Need to be refreshed
 - Battleship in a Board: checking head horizontally and vertically.
 - Binary Tree Level Order Traversal: recursive solution with a mark of level.
@@ -90,6 +94,12 @@
 - global variable is useful especially in recursive function
 - declare `global variable` under every function which may use this variable.
 - For example: 230. Kth Smallest Element in a BST
+### enumerate
+- can be used for getting the *index* and the *corresponding element* of a list.
+- For example: `*A=["a","b"]*` is a list.  `for i,element in enumerate(a): print i; print element`
+- Then we can get: `0 "a"   &    0 "b"`
+- enumerate can be used in **String** and **Dictionary**
+- useful to Traversal a list 
 
 ### Attentions  
 
