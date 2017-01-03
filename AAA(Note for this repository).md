@@ -10,6 +10,7 @@
 - 189 Rotate Array: in java using reverse, only 3 times can get the result, O(n) time and O(1) space.
 	- **should try in python !!**
 - 96.Unique Binary Search Trees: using *Catalan number* to calculate. [https://en.wikipedia.org/wiki/Catalan\_number][1]
+- 448.Find All Numbers Disappeared in an Array: reset every number, using index to represent existed/disappeared number.
 
 ### Classify
 #### Tree
@@ -26,6 +27,10 @@
 - **Greedy**
 	- 121.Best Time to Buy and Sell Stock
 	- 122.Best Time to Buy and Sell Stock II
+
+### Array and List
+- **Traverse the list and mark**
+	- 448.Find All Numbers Disappeared in an Array
 
 #### deal with String
 - **Using dictionary**
