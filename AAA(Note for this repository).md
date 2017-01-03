@@ -28,7 +28,7 @@
 	- 121.Best Time to Buy and Sell Stock
 	- 122.Best Time to Buy and Sell Stock II
 
-### Array and List
+#### Array and List
 - **Traverse the list and mark**
 	- 448.Find All Numbers Disappeared in an Array
 
@@ -44,6 +44,7 @@
 - Convert Sorted Array to Binary Search Tree: insert recursively
 - H-Index: how to calculate a H-Index.
 	- [https://zh.wikipedia.org/wiki/H指数][2]
+- 448.Find All Numbers Disappeared in an Array
 
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
@@ -76,6 +77,12 @@
 #### Random  
 - **random.randrange(stop)** same as **random.randrange(start, stop, step)**
 - using for choosing a random number
+- **random.sample(list, length)**
+	- using for sampling from a list randomly with a certain length.  
+
+- **Exercises:**
+	- 384.Shuffle an Array
+
 
 #### Xrange  
 - This function is very similar to range(), but returns an xrange object instead of a list.
@@ -118,11 +125,11 @@
 	After a one-time check (a=2\<=3), the code in the *if block* can be executed, whatever the value of *a* becomes.
 
 #### for n in list:  
-- when using `for n in list`, we can read `n` from list, but cannot assign a value to `n`.
+- when using `for n in list`, we can read `n` from list, but cannot assign a value for `n`.
 - For example: `for n in a:` `n=0`, this operation cannot be realized.
 
 #### ASCII
-- In ASCII table, ‘a’-‘z’ and “A” - “Z” are not successive.
+- In ASCII table, ‘a’-‘z’ to “A” - “Z” is not successive.
 
 [1]:	https://en.wikipedia.org/wiki/Catalan_number
 [2]:	https://zh.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0
