@@ -31,6 +31,7 @@
 #### Array and List
 - **Traverse the list and mark**
 	- 448.Find All Numbers Disappeared in an Array
+	- 204.Count Primes ([Sieve of Eratosthenes][2])
 
 #### deal with String
 - **Using dictionary**
@@ -43,8 +44,9 @@
 - Invert Binary Tree: build an Invert function and a Traversal function to swap every node
 - Convert Sorted Array to Binary Search Tree: insert recursively
 - H-Index: how to calculate a H-Index.
-	- [https://zh.wikipedia.org/wiki/H指数][2]
+	- [https://zh.wikipedia.org/wiki/H指数][3]
 - 448.Find All Numbers Disappeared in an Array
+- 120.Triangle
 
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
@@ -78,7 +80,7 @@
 - **random.randrange(stop)** same as **random.randrange(start, stop, step)**
 - using for choosing a random number
 - **random.sample(list, length)**
-	- using for sampling from a list randomly with a certain length.  
+	- using for sampling from a list randomly with a certain length.
 
 - **Exercises:**
 	- 384.Shuffle an Array
@@ -90,8 +92,8 @@
 
 #### Sort two-dimensions list OR Intervals  
 - We cannot apply sort() to Intervals, it will sort it with the value of address.  
-- *arr.sort(key=lambda x:x[1][5])* means sort using the first key of arr
-- *arr.sort(key=lambda x:x[1][6],reverse=True)* means a reverse sort using the first key of arr
+- *arr.sort(key=lambda x:x[1][6])* means sort using the first key of arr
+- *arr.sort(key=lambda x:x[1][7],reverse=True)* means a reverse sort using the first key of arr
 - *intervals.sort(key=lambda x:x.start)* means sort using the first key of intervals
 
 #### iter  
@@ -132,6 +134,7 @@
 - In ASCII table, ‘a’-‘z’ to “A” - “Z” is not successive.
 
 [1]:	https://en.wikipedia.org/wiki/Catalan_number
-[2]:	https://zh.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0
-[5]:	https://en.wikipedia.org/wiki/Catalan_number
+[2]:	https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+[3]:	https://zh.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0
 [6]:	https://en.wikipedia.org/wiki/Catalan_number
+[7]:	https://en.wikipedia.org/wiki/Catalan_number
