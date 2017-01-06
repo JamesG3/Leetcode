@@ -11,6 +11,8 @@
 	- **should try in python !!**
 - 96.Unique Binary Search Trees: using *Catalan number* to calculate. [https://en.wikipedia.org/wiki/Catalan\_number][1]
 - 448.Find All Numbers Disappeared in an Array: reset every number, using index to represent existed/disappeared number.
+- 109.Convert Sorted List to Binary Search Tree: using *fast* and *slow* to find the root of every BST; divide and conquer, recursive solution.
+- 232.Implement Queue using Stacks: using 2 stack to implement Queue
 
 ### Classify
 #### Tree
@@ -21,6 +23,7 @@
 	- 337.House Robber III
 - **Tree Traversal**
 	- 94.Binary Tree Inorder Traversal
+	- 98.Validate Binary Search Tree
 	- 144.Binary Tree Preorder Traversal
 	- 145.Binary Tree Postorder Traversal
 	- 230.Kth Smallest Element in a BST
@@ -32,6 +35,8 @@
 - **Traverse the list and mark**
 	- 448.Find All Numbers Disappeared in an Array
 	- 204.Count Primes ([Sieve of Eratosthenes][2])
+- **Stack and Queue**
+	- 232.Implement Queue using Stacks
 
 #### deal with String
 - **Using dictionary**
@@ -47,6 +52,8 @@
 	- [https://zh.wikipedia.org/wiki/H指数][3]
 - 448.Find All Numbers Disappeared in an Array
 - 120.Triangle
+- 232.Implement Queue using Stacks: using 2 stack to implement Queue
+
 
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
