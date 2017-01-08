@@ -13,6 +13,8 @@
 - 448.Find All Numbers Disappeared in an Array: reset every number, using index to represent existed/disappeared number.
 - 109.Convert Sorted List to Binary Search Tree: using *fast* and *slow* to find the root of every BST; divide and conquer, recursive solution.
 - 232.Implement Queue using Stacks: using 2 stack to implement Queue
+- 234.Palindrome Linked List: turn **1234321** to **1231234**, then compare two parts. 
+- 114.Flatten Binary Tree to Linked List **(reverse pre-order traversal)**
 
 ### Classify
 #### Tree
@@ -27,6 +29,7 @@
 	- 144.Binary Tree Preorder Traversal
 	- 145.Binary Tree Postorder Traversal
 	- 230.Kth Smallest Element in a BST
+	- 114.Flatten Binary Tree to Linked List (reverse pre-order traversal)
 - **Greedy**
 	- 121.Best Time to Buy and Sell Stock
 	- 122.Best Time to Buy and Sell Stock II
@@ -37,6 +40,8 @@
 	- 204.Count Primes ([Sieve of Eratosthenes][2])
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
+- **Palindrome**
+	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
 
 #### deal with String
 - **Using dictionary**
