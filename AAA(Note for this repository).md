@@ -15,6 +15,7 @@
 - 232.Implement Queue using Stacks: using 2 stack to implement Queue
 - 234.Palindrome Linked List: turn **1234321** to **1231234**, then compare two parts. 
 - 114.Flatten Binary Tree to Linked List **(reverse pre-order traversal)**
+- 142.Linked List Cycle II(find where the cycle starts)
 
 ### Classify
 #### Tree
@@ -33,6 +34,8 @@
 - **Greedy**
 	- 121.Best Time to Buy and Sell Stock
 	- 122.Best Time to Buy and Sell Stock II
+- **Level traversal**
+	- 116.Populating Next Right Pointers in Each Node
 
 #### Array and List
 - **Traverse the list and mark**
@@ -58,6 +61,8 @@
 - 448.Find All Numbers Disappeared in an Array
 - 120.Triangle
 - 232.Implement Queue using Stacks: using 2 stack to implement Queue
+- 116.Populating Next Right Pointers in Each Node
+- 142.Linked List Cycle II
 
 
 ### Questions
@@ -65,6 +70,7 @@
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
 - 435 Non-overlapping Intervals: When i test [[1,2]() , [2,3]()] using Run Code, it pass with a result 0. However, when i click Submit Solution, the result is Wrong Answer, and it shows my result is 1, not 0. Is there someone knows whats wrong with the code or test case?
 	- **Because Intervals.sort() sort this intervals by the address.**
+- 142.Linked List Cycle II: why the result is the start of cycle? **MATHEMATICAL** explanation: [https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation][6]
 
 ## ABOUT PYTHON
 ### Useful Tools
@@ -104,8 +110,8 @@
 
 #### Sort two-dimensions list OR Intervals  
 - We cannot apply sort() to Intervals, it will sort it with the value of address.  
-- *arr.sort(key=lambda x:x[1][6])* means sort using the first key of arr
-- *arr.sort(key=lambda x:x[1][7],reverse=True)* means a reverse sort using the first key of arr
+- *arr.sort(key=lambda x:x[1][7])* means sort using the first key of arr
+- *arr.sort(key=lambda x:x[1][8],reverse=True)* means a reverse sort using the first key of arr
 - *intervals.sort(key=lambda x:x.start)* means sort using the first key of intervals
 
 #### iter  
@@ -145,8 +151,13 @@
 #### ASCII
 - In ASCII table, ‘a’-‘z’ to “A” - “Z” is not successive.
 
+
+### Simplify code:
+- **root.right.next = root.next and root.next.left** equals to —- root.right.next = root.next.left **if** root.next != None
+
 [1]:	https://en.wikipedia.org/wiki/Catalan_number
 [2]:	https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 [3]:	https://zh.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0
-[6]:	https://en.wikipedia.org/wiki/Catalan_number
+[6]:	https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation
 [7]:	https://en.wikipedia.org/wiki/Catalan_number
+[8]:	https://en.wikipedia.org/wiki/Catalan_number
