@@ -16,6 +16,7 @@
 - 234.Palindrome Linked List: turn **1234321** to **1231234**, then compare two parts. 
 - 114.Flatten Binary Tree to Linked List **(reverse pre-order traversal)**
 - 142.Linked List Cycle II(find where the cycle starts)
+- 168.Excel Sheet Column Title
 
 ### Classify
 #### Tree
@@ -41,6 +42,7 @@
 - **Traverse the list and mark**
 	- 448.Find All Numbers Disappeared in an Array
 	- 204.Count Primes ([Sieve of Eratosthenes][2])
+	- 376.Wiggle Subsequence
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 - **Palindrome**
@@ -49,6 +51,9 @@
 #### deal with String
 - **Using dictionary**
 	- 17.Letter Combinations of a Phone Number
+
+#### Mathematics 
+- 168.Excel Sheet Column Title
 
 ### Need to be refreshed
 - Battleship in a Board: checking head horizontally and vertically.
@@ -63,6 +68,7 @@
 - 232.Implement Queue using Stacks: using 2 stack to implement Queue
 - 116.Populating Next Right Pointers in Each Node
 - 142.Linked List Cycle II
+- 168.Excel Sheet Column Title
 
 
 ### Questions
