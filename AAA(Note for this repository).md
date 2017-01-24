@@ -52,9 +52,10 @@
 - **Using dictionary**
 	- 17.Letter Combinations of a Phone Number
 
-#### Mathematics 
+#### Mathematics
 - 168.Excel Sheet Column Title
-
+- 476.Number Complement
+- 171.Excel Sheet Column Number 
 ### Need to be refreshed
 - Battleship in a Board: checking head horizontally and vertically.
 - Binary Tree Level Order Traversal: recursive solution with a mark of level.
@@ -159,7 +160,9 @@
 
 
 ### Simplify code:
-- **root.right.next = root.next and root.next.left** equals to —- root.right.next = root.next.left **if** root.next != None
+- **root.right.next = root.next and root.next.left** equals to —\> root.right.next = root.next.left **if** root.next != None
+- **`ar = [int(i) for i in raw_input().strip().split()]`**
+	convert the input **2 4 6 8 3** to `[2,3,6,8,3]`
 
 [1]:	https://en.wikipedia.org/wiki/Catalan_number
 [2]:	https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
