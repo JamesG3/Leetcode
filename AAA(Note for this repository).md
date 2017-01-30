@@ -35,6 +35,7 @@
 - **Greedy**
 	- 121.Best Time to Buy and Sell Stock
 	- 122.Best Time to Buy and Sell Stock II
+	- 475.Heaters
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
 
@@ -43,6 +44,8 @@
 	- 448.Find All Numbers Disappeared in an Array
 	- 204.Count Primes ([Sieve of Eratosthenes][2])
 	- 376.Wiggle Subsequence
+	- 485.Max Consecutive Ones
+	- 475.Heaters
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 - **Palindrome**
@@ -51,6 +54,7 @@
 #### deal with String
 - **Using dictionary**
 	- 17.Letter Combinations of a Phone Number
+	- 290.Word Pattern
 
 #### Mathematics
 - 168.Excel Sheet Column Title
