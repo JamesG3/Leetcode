@@ -25,6 +25,7 @@
 	- 107.Binary Tree Level Order Traversal II
 	- 199.Binary Tree Right Side View
 	- 337.House Robber III
+	- 501.Find Mode in Binary Search Tree
 - **Tree Traversal**
 	- 94.Binary Tree Inorder Traversal
 	- 98.Validate Binary Search Tree
@@ -32,6 +33,7 @@
 	- 145.Binary Tree Postorder Traversal
 	- 230.Kth Smallest Element in a BST
 	- 114.Flatten Binary Tree to Linked List (reverse pre-order traversal)
+	- 501.Find Mode in Binary Search Tree
 - **Greedy**
 	- 121.Best Time to Buy and Sell Stock
 	- 122.Best Time to Buy and Sell Stock II
@@ -59,7 +61,9 @@
 #### Mathematics
 - 168.Excel Sheet Column Title
 - 476.Number Complement
-- 171.Excel Sheet Column Number 
+- 171.Excel Sheet Column Number
+- 492.Construct the Rectangle
+
 ### Need to be refreshed
 - Battleship in a Board: checking head horizontally and vertically.
 - Binary Tree Level Order Traversal: recursive solution with a mark of level.
