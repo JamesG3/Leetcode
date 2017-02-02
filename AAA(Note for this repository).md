@@ -38,6 +38,8 @@
 	- 121.Best Time to Buy and Sell Stock
 	- 122.Best Time to Buy and Sell Stock II
 	- 475.Heaters
+	- 198.House Robber
+	- 213.House Robber II
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
 
@@ -48,6 +50,7 @@
 	- 376.Wiggle Subsequence
 	- 485.Max Consecutive Ones
 	- 475.Heaters
+	- 203.Remove Linked List Elements
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 - **Palindrome**
@@ -78,7 +81,7 @@
 - 116.Populating Next Right Pointers in Each Node
 - 142.Linked List Cycle II
 - 168.Excel Sheet Column Title
-
+- 198.House Robber: Greddy
 
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
@@ -86,6 +89,7 @@
 - 435 Non-overlapping Intervals: When i test [[1,2]() , [2,3]()] using Run Code, it pass with a result 0. However, when i click Submit Solution, the result is Wrong Answer, and it shows my result is 1, not 0. Is there someone knows whats wrong with the code or test case?
 	- **Because Intervals.sort() sort this intervals by the address.**
 - 142.Linked List Cycle II: why the result is the start of cycle? **MATHEMATICAL** explanation: [https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation][6]
+- 36.Valid Sudoku: How to solve this using a simple solution?
 
 ## ABOUT PYTHON
 ### Useful Tools
