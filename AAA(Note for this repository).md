@@ -17,6 +17,8 @@
 - 114.Flatten Binary Tree to Linked List **(reverse pre-order traversal)**
 - 142.Linked List Cycle II(find where the cycle starts)
 - 168.Excel Sheet Column Title
+- 257.Binary Tree Paths
+- 394.Decode String
 
 ### Classify
 #### Tree
@@ -42,6 +44,8 @@
 	- 213.House Robber II
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
+- **recursive**
+	- 257.Binary Tree Paths
 
 #### Array and List
 - **Traverse the list and mark**
@@ -51,8 +55,10 @@
 	- 485.Max Consecutive Ones
 	- 475.Heaters
 	- 203.Remove Linked List Elements
+	- 167.Two Sum II - Input array is sorted
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
+	- 394.Decode String
 - **Palindrome**
 	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
 
@@ -60,12 +66,21 @@
 - **Using dictionary**
 	- 17.Letter Combinations of a Phone Number
 	- 290.Word Pattern
+	- 409.Longest Palindrome
+	- 451.Sort Characters By Frequency(using two lists as dictionary)
+- **Using mark**
+	- 434.Number of Segments in a String
+- **Others**
+	- 461.Hamming Distance
 
 #### Mathematics
 - 168.Excel Sheet Column Title
 - 476.Number Complement
 - 171.Excel Sheet Column Number
 - 492.Construct the Rectangle
+
+#### Data Structures
+- 225.Implement Stack using Queues
 
 ### Need to be refreshed
 - Battleship in a Board: checking head horizontally and vertically.
@@ -82,7 +97,8 @@
 - 142.Linked List Cycle II
 - 168.Excel Sheet Column Title
 - 198.House Robber: Greddy
-
+- 257.Binary Tree Paths: Nice Grammar!!
+- 394.Decode String: using stack
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
@@ -170,11 +186,16 @@
 #### ASCII
 - In ASCII table, ‘a’-‘z’ to “A” - “Z” is not successive.
 
+#### Python list `[]`:
+- python list can contain multiple types of elements
+- example: `[1,'a',[1,2,3],{3:'r'}]`
 
 ### Simplify code:
 - **root.right.next = root.next and root.next.left** equals to —\> root.right.next = root.next.left **if** root.next != None
 - **`ar = [int(i) for i in raw_input().strip().split()]`**
 	convert the input **2 4 6 8 3** to `[2,3,6,8,3]`
+- Find the highest ‘price’ in a dic: **`max_price = max(item['price'] for item in dict_list)`**
+
 
 [1]:	https://en.wikipedia.org/wiki/Catalan_number
 [2]:	https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
