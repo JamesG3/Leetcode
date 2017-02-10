@@ -59,6 +59,9 @@
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 	- 394.Decode String
+- **Using dictionary**
+	- 447.Number of Boomerangs
+	- 506.Relative Ranks
 - **Palindrome**
 	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
 
@@ -70,8 +73,10 @@
 	- 451.Sort Characters By Frequency(using two lists as dictionary)
 - **Using mark**
 	- 434.Number of Segments in a String
+	- 500.Keyboard Row
 - **Others**
 	- 461.Hamming Distance
+	- 482.License Key Formatting
 
 #### Mathematics
 - 168.Excel Sheet Column Title
@@ -99,6 +104,7 @@
 - 198.House Robber: Greddy
 - 257.Binary Tree Paths: Nice Grammar!!
 - 394.Decode String: using stack
+- 506.Relative Ranks(version: same score supported)
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
@@ -195,6 +201,8 @@
 - **`ar = [int(i) for i in raw_input().strip().split()]`**
 	convert the input **2 4 6 8 3** to `[2,3,6,8,3]`
 - Find the highest ‘price’ in a dic: **`max_price = max(item['price'] for item in dict_list)`**
+- Delete all ’s’ in a string S=’ssdwedSdfag’ :
+	**S.replace('-','')**
 
 
 [1]:	https://en.wikipedia.org/wiki/Catalan_number
