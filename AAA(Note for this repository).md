@@ -28,6 +28,7 @@
 	- 199.Binary Tree Right Side View
 	- 337.House Robber III
 	- 501.Find Mode in Binary Search Tree
+	- 508.Most Frequent Subtree Sum
 - **Tree Traversal**
 	- 94.Binary Tree Inorder Traversal
 	- 98.Validate Binary Search Tree
@@ -36,6 +37,7 @@
 	- 230.Kth Smallest Element in a BST
 	- 114.Flatten Binary Tree to Linked List (reverse pre-order traversal)
 	- 501.Find Mode in Binary Search Tree
+	- 508.Most Frequent Subtree Sum
 - **Greedy**
 	- 121.Best Time to Buy and Sell Stock
 	- 122.Best Time to Buy and Sell Stock II
@@ -46,6 +48,9 @@
 	- 116.Populating Next Right Pointers in Each Node
 - **recursive**
 	- 257.Binary Tree Paths
+	- 129.Sum Root to Leaf Numbers
+	- 508.Most Frequent Subtree Sum
+- **Global variable* - 129.Sum Root to Leaf Numbers
 
 #### Array and List
 - **Traverse the list and mark**
@@ -175,6 +180,20 @@
 - Then we can get: `0 "a"   &    0 "b"`
 - enumerate can be used in **String** and **Dictionary**
 - useful to Traversal a list 
+#### lambda:
+- lambda is a anonymous function. For example: **`a = lambda x:x+1`**, then **a(1)** is **1+1=2**. Same as **`def a(x): return x+1`**
+- variable before colon is the input of a function, after colon is the return value.
+- tools for lambda:
+	- `foo = [2, 18, 9, 22, 17, 24, 8, 12, 27]`
+	- **filter**
+		- `print filter(lambda x: x % 3 == 0, foo)`
+		- `[18, 9, 24, 12, 27]`
+	- **map**
+		- `print map(lambda x: x * 2 + 10, foo)`
+		- `[14, 46, 28, 54, 44, 58, 26, 34, 64]`
+	- **reduce**
+		- `print reduce(lambda x, y: x + y, foo)`
+		- `139`
 
 ### Attentions  
 
