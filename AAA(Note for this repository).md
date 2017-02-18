@@ -2,6 +2,7 @@
 
 ## ABOUT LeetCode
 ### List of tricky exercises
+- 172.Factorial Trailing Zeroes
 - Happy Number: *42 is an important number after experiments*
 - Product of Array Except Self: from left -\> right ; then right-\>left
 - Minimum Moves to Equal Array Elements: using `sum(nums) - len(nums)*min(nums)` to calculate the total moving steps  
@@ -29,6 +30,8 @@
 	- 337.House Robber III
 	- 501.Find Mode in Binary Search Tree
 	- 508.Most Frequent Subtree Sum
+	- 513.Find Bottom Left Tree Value
+	- 515.Find Largest Value in Each Tree Row
 - **Tree Traversal**
 	- 94.Binary Tree Inorder Traversal
 	- 98.Validate Binary Search Tree
@@ -38,19 +41,24 @@
 	- 114.Flatten Binary Tree to Linked List (reverse pre-order traversal)
 	- 501.Find Mode in Binary Search Tree
 	- 508.Most Frequent Subtree Sum
-- **Greedy**
-	- 121.Best Time to Buy and Sell Stock
-	- 122.Best Time to Buy and Sell Stock II
-	- 475.Heaters
-	- 198.House Robber
-	- 213.House Robber II
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
 - **recursive**
 	- 257.Binary Tree Paths
 	- 129.Sum Root to Leaf Numbers
 	- 508.Most Frequent Subtree Sum
-- **Global variable* - 129.Sum Root to Leaf Numbers
+- **Global variable**
+	- 129.Sum Root to Leaf Numbers
+- **concepts about tree**
+	- 331.Verify Preorder Serialization of a Binary Tree
+
+#### Greedy
+- 121.Best Time to Buy and Sell Stock
+- 122.Best Time to Buy and Sell Stock II
+- 475.Heaters
+- 198.House Robber
+- 213.House Robber II
+- 334.Increasing Triplet Subsequence
 
 #### Array and List
 - **Traverse the list and mark**
@@ -82,17 +90,21 @@
 - **Others**
 	- 461.Hamming Distance
 	- 482.License Key Formatting
-
+#### Simulation
+- 498.Diagonal Traverse
 #### Mathematics
+- 172.Factorial Trailing Zeroes
 - 168.Excel Sheet Column Title
 - 476.Number Complement
 - 171.Excel Sheet Column Number
 - 492.Construct the Rectangle
+- 504.Base 7
 
 #### Data Structures
 - 225.Implement Stack using Queues
 
 ### Need to be refreshed
+- 172.Factorial Trailing Zeroes
 - Battleship in a Board: checking head horizontally and vertically.
 - Binary Tree Level Order Traversal: recursive solution with a mark of level.
 - Balanced Binary Tree: find maxDepth, divide and conquer.
@@ -110,6 +122,7 @@
 - 257.Binary Tree Paths: Nice Grammar!!
 - 394.Decode String: using stack
 - 506.Relative Ranks(version: same score supported)
+- 334.Increasing Triplet Subsequence
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
