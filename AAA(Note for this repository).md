@@ -20,6 +20,7 @@
 - 168.Excel Sheet Column Title
 - 257.Binary Tree Paths
 - 394.Decode String
+- 503.Next Greater Element II
 
 ### Classify
 #### Tree
@@ -72,6 +73,7 @@
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 	- 394.Decode String
+	- 503.Next Greater Element II
 - **Using dictionary**
 	- 447.Number of Boomerangs
 	- 506.Relative Ranks
@@ -123,6 +125,8 @@
 - 394.Decode String: using stack
 - 506.Relative Ranks(version: same score supported)
 - 334.Increasing Triplet Subsequence
+- 503.Next Greater Element II
+- 160.Intersection of Two Linked Lists
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
