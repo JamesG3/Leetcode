@@ -21,6 +21,7 @@
 - 257.Binary Tree Paths
 - 394.Decode String
 - 503.Next Greater Element II
+- 77.Combinations
 
 ### Classify
 #### Tree
@@ -52,6 +53,7 @@
 	- 129.Sum Root to Leaf Numbers
 - **concepts about tree**
 	- 331.Verify Preorder Serialization of a Binary Tree
+	- 173.Binary Search Tree Iterator
 
 #### Greedy
 - 121.Best Time to Buy and Sell Stock
@@ -74,6 +76,8 @@
 	- 232.Implement Queue using Stacks
 	- 394.Decode String
 	- 503.Next Greater Element II
+	- 77.Combinations
+	- 173.Binary Search Tree Iterator
 - **Using dictionary**
 	- 447.Number of Boomerangs
 	- 506.Relative Ranks
@@ -92,6 +96,7 @@
 - **Others**
 	- 461.Hamming Distance
 	- 482.License Key Formatting
+	- 481.Magical String
 #### Simulation
 - 498.Diagonal Traverse
 #### Mathematics
@@ -104,6 +109,7 @@
 
 #### Data Structures
 - 225.Implement Stack using Queues
+- 77.Combinations(using of stack)
 
 ### Need to be refreshed
 - 172.Factorial Trailing Zeroes
@@ -127,6 +133,7 @@
 - 334.Increasing Triplet Subsequence
 - 503.Next Greater Element II
 - 160.Intersection of Two Linked Lists
+- 77.Combinations
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
