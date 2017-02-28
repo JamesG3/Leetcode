@@ -22,6 +22,7 @@
 - 394.Decode String
 - 503.Next Greater Element II
 - 77.Combinations
+- 319.Bulb Switcher
 
 ### Classify
 #### Tree
@@ -43,6 +44,7 @@
 	- 114.Flatten Binary Tree to Linked List (reverse pre-order traversal)
 	- 501.Find Mode in Binary Search Tree
 	- 508.Most Frequent Subtree Sum
+	- 530.Minimum Absolute Difference in BST
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
 - **recursive**
@@ -72,6 +74,7 @@
 	- 475.Heaters
 	- 203.Remove Linked List Elements
 	- 167.Two Sum II - Input array is sorted
+	- 525.Contiguous Array
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 	- 394.Decode String
@@ -106,7 +109,7 @@
 - 171.Excel Sheet Column Number
 - 492.Construct the Rectangle
 - 504.Base 7
-
+- 319.Bulb Switcher
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
@@ -134,6 +137,8 @@
 - 503.Next Greater Element II
 - 160.Intersection of Two Linked Lists
 - 77.Combinations
+- 173.Binary Search Tree Iterator
+- 319.Bulb Switcher
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
