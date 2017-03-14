@@ -23,7 +23,8 @@
 - 503.Next Greater Element II
 - 77.Combinations
 - 319.Bulb Switcher
-
+- 105.Construct Binary Tree from Preorder and Inorder Traversal
+- 260.Single Number III(bit manipulation)
 ### Classify
 #### Tree
 - **Using dictionary to save every level’s nodes:** 
@@ -66,6 +67,9 @@
 - 334.Increasing Triplet Subsequence
 
 #### Array and List
+- **Construct Binary Tree**
+	- 105.Construct Binary Tree from Preorder and Inorder Traversal
+	\-  
 - **Traverse the list and mark**
 	- 448.Find All Numbers Disappeared in an Array
 	- 204.Count Primes ([Sieve of Eratosthenes][2])
@@ -96,12 +100,15 @@
 - **Using mark**
 	- 434.Number of Segments in a String
 	- 500.Keyboard Row
+	- 442.Find All Duplicates in an Array
 - **Others**
 	- 461.Hamming Distance
 	- 482.License Key Formatting
 	- 481.Magical String
 #### Simulation
 - 498.Diagonal Traverse
+#### HASH
+- 535.Encode and Decode TinyURL
 #### Mathematics
 - 172.Factorial Trailing Zeroes
 - 168.Excel Sheet Column Title
@@ -110,6 +117,8 @@
 - 492.Construct the Rectangle
 - 504.Base 7
 - 319.Bulb Switcher
+- 260.Single Number III(bit manipulation)
+- 343.Integer Break
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
@@ -139,6 +148,8 @@
 - 77.Combinations
 - 173.Binary Search Tree Iterator
 - 319.Bulb Switcher
+- 105.Construct Binary Tree from Preorder and Inorder Traversal
+- 260.Single Number III(bit manipulation)
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
