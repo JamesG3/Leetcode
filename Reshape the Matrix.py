@@ -21,7 +21,7 @@ class Solution(object):
             
             counter+=1
         result.append(tem)
-        f
+        
         return result
         
         """
