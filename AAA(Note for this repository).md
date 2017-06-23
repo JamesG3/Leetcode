@@ -25,6 +25,7 @@
 - 319.Bulb Switcher
 - 105.Construct Binary Tree from Preorder and Inorder Traversal
 - 260.Single Number III(bit manipulation)
+- 318.Maximum Product of Word Lengths
 ### Classify
 #### Tree
 - **Using dictionary to save every level’s nodes:** 
@@ -48,12 +49,14 @@
 	- 530.Minimum Absolute Difference in BST
 	- 543.Diameter of Binary Tree
 	- 538.Convert BST to Greater Tree
+	- 617.Merge Two Binary Trees
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
 - **recursive**
 	- 257.Binary Tree Paths
 	- 129.Sum Root to Leaf Numbers
 	- 508.Most Frequent Subtree Sum
+	- 617.dMerge Two Binary Trees
 - **Global variable**
 	- 129.Sum Root to Leaf Numbers
 - **concepts about tree**
@@ -70,7 +73,7 @@
 
 #### Array and List
 - **Construct Binary Tree**
-	- 105.Construct Binary Tree from Preorder and Inorder Traversal 
+	- 105.Construct Binary Tree from Preorder and Inorder Traversal
 - **Traverse the list and mark**
 	- 448.Find All Numbers Disappeared in an Array
 	- 204.Count Primes ([Sieve of Eratosthenes][2])
@@ -81,6 +84,8 @@
 	- 167.Two Sum II - Input array is sorted
 	- 525.Contiguous Array
 	- 240.Search a 2D Matrix II
+	- 554.Brick Wall
+	- 556.Next Greater Element III
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 	- 394.Decode String
@@ -88,6 +93,10 @@
 	- 77.Combinations
 	- 173.Binary Search Tree Iterator
 	- 445.Add Two Numbers II
+	- 406.Queue Reconstruction by Height
+	- 526.Beautiful Arrangement
+- **DFS**
+	- 526.Beautiful Arrangement
 - **Using dictionary**
 	- 447.Number of Boomerangs
 	- 506.Relative Ranks
@@ -110,6 +119,7 @@
 	- 481.Magical String
 #### Simulation
 - 498.Diagonal Traverse
+- 495.Teemo Attacking
 #### HASH
 - 535.Encode and Decode TinyURL
 - 347.Top K Frequent Elements
@@ -124,12 +134,16 @@
 - 260.Single Number III(bit manipulation)
 - 343.Integer Break
 - 357.Count Numbers with Unique Digits
+- 318.Maximum Product of Word Lengths(Bit Map)
+- 553.Optimal Division
+- 462.Minimum Moves to Equal Array Elements II
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
 - 445.Add Two Numbers II (stack & linked list)
 #### DP
 - 357.Count Numbers with Unique Digits
+- 309.Best Time to Buy and Sell Stock with Cooldown(using state machine)
 ### Need to be refreshed
 - 172.Factorial Trailing Zeroes
 - Battleship in a Board: checking head horizontally and vertically.
@@ -158,6 +172,8 @@
 - 105.Construct Binary Tree from Preorder and Inorder Traversal
 - 260.Single Number III(bit manipulation)
 - 357.Count Numbers with Unique Digits
+- 318.Maximum Product of Word Lengths
+- 309.Best Time to Buy and Sell Stock with Cooldown
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
@@ -242,6 +258,9 @@
 	- **reduce**
 		- `print reduce(lambda x, y: x + y, foo)`
 		- `139`
+#### regex (Regular expression)
+- **Search pattern** example:[https://github.com/JamesG3/HackerRank/blob/master/String/HackerRank%20in%20a%20String!.py][9]
+- More information: [https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html][10]
 
 ### Attentions  
 
@@ -278,3 +297,5 @@
 [6]:	https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation
 [7]:	https://en.wikipedia.org/wiki/Catalan_number
 [8]:	https://en.wikipedia.org/wiki/Catalan_number
+[9]:	https://github.com/JamesG3/HackerRank/blob/master/String/HackerRank%20in%20a%20String!.py
+[10]:	https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html
