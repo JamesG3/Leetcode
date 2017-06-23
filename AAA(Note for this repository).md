@@ -100,6 +100,7 @@
 - **Using dictionary**
 	- 447.Number of Boomerangs
 	- 506.Relative Ranks
+	- 609.Find Duplicate File in System
 - **Palindrome**
 	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
 
@@ -109,6 +110,7 @@
 	- 290.Word Pattern
 	- 409.Longest Palindrome
 	- 451.Sort Characters By Frequency(using two lists as dictionary)
+	- 609.Find Duplicate File in System
 - **Using mark**
 	- 434.Number of Segments in a String
 	- 500.Keyboard Row
@@ -261,6 +263,11 @@
 #### regex (Regular expression)
 - **Search pattern** example:[https://github.com/JamesG3/HackerRank/blob/master/String/HackerRank%20in%20a%20String!.py][9]
 - More information: [https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html][10]
+#### dic.values
+- for a dictionary, we can use `for x in dic.values()` to traverse all values for each key:value pairs.
+#### partition function
+- for a string `S = ‘abc&def’`, using `S.partition(‘&’)`, we can get `[abc, &, def]`
+
 
 ### Attentions  
 
@@ -289,6 +296,8 @@
 - Find the highest ‘price’ in a dic: **`max_price = max(item['price'] for item in dict_list)`**
 - Delete all ’s’ in a string S=’ssdwedSdfag’ :
 	**S.replace('-','')**
+- For a dictionary `dic = {a:[1,2,3],b:[6],c:[4,6]}`, print all values if the length of list larger than 1.
+	`print [x for x in dic.values() if len(x)>1] `
 
 
 [1]:	https://en.wikipedia.org/wiki/Catalan_number
