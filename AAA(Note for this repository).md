@@ -26,6 +26,7 @@
 - 105.Construct Binary Tree from Preorder and Inorder Traversal
 - 260.Single Number III(bit manipulation)
 - 318.Maximum Product of Word Lengths
+- 454.4Sum II
 ### Classify
 #### Tree
 - **Using dictionary to save every level’s nodes:** 
@@ -74,6 +75,8 @@
 #### Array and List
 - **Construct Binary Tree**
 	- 105.Construct Binary Tree from Preorder and Inorder Traversal
+- **Binary Search**
+	- 540.Single Element in a Sorted Array
 - **Traverse the list and mark**
 	- 448.Find All Numbers Disappeared in an Array
 	- 204.Count Primes ([Sieve of Eratosthenes][2])
@@ -101,6 +104,7 @@
 	- 447.Number of Boomerangs
 	- 506.Relative Ranks
 	- 609.Find Duplicate File in System
+	- 454.4Sum II
 - **Palindrome**
 	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
 
@@ -298,6 +302,7 @@
 	**S.replace('-','')**
 - For a dictionary `dic = {a:[1,2,3],b:[6],c:[4,6]}`, print all values if the length of list larger than 1.
 	`print [x for x in dic.values() if len(x)>1] `
+- Another example: [https://github.com/JamesG3/HackerRank/blob/master/Implementation/Cut%20the%20sticks.py][11]
 
 
 [1]:	https://en.wikipedia.org/wiki/Catalan_number
@@ -308,3 +313,4 @@
 [8]:	https://en.wikipedia.org/wiki/Catalan_number
 [9]:	https://github.com/JamesG3/HackerRank/blob/master/String/HackerRank%20in%20a%20String!.py
 [10]:	https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html
+[11]:	https://github.com/JamesG3/HackerRank/blob/master/Implementation/Cut%20the%20sticks.py
