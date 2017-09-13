@@ -28,6 +28,7 @@ class Solution(object):
         res[depth][(head+tail)/2] = str(root.val)               # for each level, replace the corresponding mid position
         self.helper(root.left, depth+1, head, (head+tail)/2)    # update the head and tail for next level
         self.helper(root.right, depth+1, (head+tail)/2+1, tail)
+        return
         
         
     
