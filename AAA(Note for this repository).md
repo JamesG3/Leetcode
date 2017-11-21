@@ -27,6 +27,8 @@
 - 260.Single Number III(bit manipulation)
 - 318.Maximum Product of Word Lengths
 - 454.4Sum II
+- 477.Total Hamming Distance
+- 667.Beautiful Arrangement II
 ### Classify
 #### Tree
 - **Using dictionary to save every level’s nodes:** 
@@ -38,6 +40,13 @@
 	- 508.Most Frequent Subtree Sum
 	- 513.Find Bottom Left Tree Value
 	- 515.Find Largest Value in Each Tree Row
+- **BFS**
+	- 637.Average of Levels in Binary Tree
+- **Level traversal**
+	- 116.Populating Next Right Pointers in Each Node
+- **Binary Search Tree**
+	- 669.Trim a Binary Search Tree
+	- 501.Find Mode in Binary Search Tree
 - **Tree Traversal**
 	- 94.Binary Tree Inorder Traversal
 	- 98.Validate Binary Search Tree
@@ -51,8 +60,7 @@
 	- 543.Diameter of Binary Tree
 	- 538.Convert BST to Greater Tree
 	- 617.Merge Two Binary Trees
-- **Level traversal**
-	- 116.Populating Next Right Pointers in Each Node
+	- 655.Print Binary Tree
 - **recursive**
 	- 257.Binary Tree Paths
 	- 129.Sum Root to Leaf Numbers
@@ -100,6 +108,8 @@
 	- 526.Beautiful Arrangement
 - **DFS**
 	- 526.Beautiful Arrangement
+	- 690.Employee Importance
+	- 695.Max Area of Island
 - **Using dictionary**
 	- 447.Number of Boomerangs
 	- 506.Relative Ranks
@@ -107,6 +117,8 @@
 	- 454.4Sum II
 - **Palindrome**
 	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
+	- 647.Palindromic Substrings
+
 
 #### deal with String
 - **Using dictionary**
@@ -115,6 +127,7 @@
 	- 409.Longest Palindrome
 	- 451.Sort Characters By Frequency(using two lists as dictionary)
 	- 609.Find Duplicate File in System
+	- 676.Implement Magic Dictionary
 - **Using mark**
 	- 434.Number of Segments in a String
 	- 500.Keyboard Row
@@ -143,10 +156,12 @@
 - 318.Maximum Product of Word Lengths(Bit Map)
 - 553.Optimal Division
 - 462.Minimum Moves to Equal Array Elements II
+- 477.Total Hamming Distance
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
 - 445.Add Two Numbers II (stack & linked list)
+- 380.Insert Delete GetRandom O(1)
 #### DP
 - 357.Count Numbers with Unique Digits
 - 309.Best Time to Buy and Sell Stock with Cooldown(using state machine)
@@ -180,6 +195,8 @@
 - 357.Count Numbers with Unique Digits
 - 318.Maximum Product of Word Lengths
 - 309.Best Time to Buy and Sell Stock with Cooldown
+- 477.Total Hamming Distance
+- 667.Beautiful Arrangement II
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
@@ -218,6 +235,7 @@
 
 - **Exercises:**
 	- 384.Shuffle an Array
+	- 380.Insert Delete GetRandom O(1)
 
 
 #### Xrange  
