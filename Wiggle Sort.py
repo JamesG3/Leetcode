@@ -1,3 +1,4 @@
+# solution: check whether current number is in right order, if not, swap with previous one
 class Solution(object):
     def wiggleSort(self, nums):
         for i in xrange(len(nums)):
