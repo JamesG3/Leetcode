@@ -20,7 +20,7 @@
 - 168.Excel Sheet Column Title
 - 257.Binary Tree Paths
 - 394.Decode String
-- 503.Next Greater Element II
+[d8e460d4234298930d6c3af5450af673\_hd.jpg][2]- 503.Next Greater Element II
 - 77.Combinations
 - 319.Bulb Switcher
 - 105.Construct Binary Tree from Preorder and Inorder Traversal
@@ -29,6 +29,8 @@
 - 454.4Sum II
 - 477.Total Hamming Distance
 - 667.Beautiful Arrangement II
+- 696.Count Binary Substrings
+- 544.Output Contest Matches
 ### Classify
 #### Tree
 - **Using dictionary to save every level’s nodes:** 
@@ -66,6 +68,7 @@
 	- 129.Sum Root to Leaf Numbers
 	- 508.Most Frequent Subtree Sum
 	- 617.dMerge Two Binary Trees
+	- 544.Output Contest Matches
 - **Global variable**
 	- 129.Sum Root to Leaf Numbers
 - **concepts about tree**
@@ -87,7 +90,7 @@
 	- 540.Single Element in a Sorted Array
 - **Traverse the list and mark**
 	- 448.Find All Numbers Disappeared in an Array
-	- 204.Count Primes ([Sieve of Eratosthenes][2])
+	- 204.Count Primes ([Sieve of Eratosthenes][3])
 	- 376.Wiggle Subsequence
 	- 485.Max Consecutive Ones
 	- 475.Heaters
@@ -110,15 +113,19 @@
 	- 526.Beautiful Arrangement
 	- 690.Employee Importance
 	- 695.Max Area of Island
+	- 339.Nested List Weight Sum
+	- 366.Find Leaves of Binary Tree
 - **Using dictionary**
 	- 447.Number of Boomerangs
 	- 506.Relative Ranks
 	- 609.Find Duplicate File in System
 	- 454.4Sum II
+	- 697.Degree of an Array
 - **Palindrome**
 	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
 	- 647.Palindromic Substrings
-
+- **Sort**
+	- 280.Wiggle Sort (in-place sort)
 
 #### deal with String
 - **Using dictionary**
@@ -128,10 +135,11 @@
 	- 451.Sort Characters By Frequency(using two lists as dictionary)
 	- 609.Find Duplicate File in System
 	- 676.Implement Magic Dictionary
-- **Using mark**
+- **Using mark/State machine**
 	- 434.Number of Segments in a String
 	- 500.Keyboard Row
 	- 442.Find All Duplicates in an Array
+	- 696.Count Binary Substrings
 - **Others**
 	- 461.Hamming Distance
 	- 482.License Key Formatting
@@ -157,6 +165,7 @@
 - 553.Optimal Division
 - 462.Minimum Moves to Equal Array Elements II
 - 477.Total Hamming Distance
+- 544.Output Contest Matches
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
@@ -173,7 +182,7 @@
 - Invert Binary Tree: build an Invert function and a Traversal function to swap every node
 - Convert Sorted Array to Binary Search Tree: insert recursively
 - H-Index: how to calculate a H-Index.
-	- [https://zh.wikipedia.org/wiki/H指数][3]
+	- [https://zh.wikipedia.org/wiki/H指数][4]
 - 448.Find All Numbers Disappeared in an Array
 - 120.Triangle
 - 232.Implement Queue using Stacks: using 2 stack to implement Queue
@@ -202,7 +211,7 @@
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
 - 435 Non-overlapping Intervals: When i test [[1,2]() , [2,3]()] using Run Code, it pass with a result 0. However, when i click Submit Solution, the result is Wrong Answer, and it shows my result is 1, not 0. Is there someone knows whats wrong with the code or test case?
 	- **Because Intervals.sort() sort this intervals by the address.**
-- 142.Linked List Cycle II: why the result is the start of cycle? **MATHEMATICAL** explanation: [https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation][6]
+- 142.Linked List Cycle II: why the result is the start of cycle? **MATHEMATICAL** explanation: [https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation][7]
 - 36.Valid Sudoku: How to solve this using a simple solution?
 
 ## ABOUT PYTHON
@@ -244,8 +253,8 @@
 
 #### Sort two-dimensions list OR Intervals  
 - We cannot apply sort() to Intervals, it will sort it with the value of address.  
-- *arr.sort(key=lambda x:x[1][7])* means sort using the first key of arr
-- *arr.sort(key=lambda x:x[1][8],reverse=True)* means a reverse sort using the first key of arr
+- *arr.sort(key=lambda x:x[1][8])* means sort using the first key of arr
+- *arr.sort(key=lambda x:x[1][9],reverse=True)* means a reverse sort using the first key of arr
 - *intervals.sort(key=lambda x:x.start)* means sort using the first key of intervals
 
 #### iter  
@@ -256,11 +265,6 @@
 #### isalnum()
 - `a.isalnum()`
 - if a is alphanumeric characters, return True, else return False.
-
-#### global variable
-- global variable is useful especially in recursive function
-- declare `global variable` under every function which may use this variable.
-- For example: 230. Kth Smallest Element in a BST
 
 #### enumerate
 - can be used for getting the *index* and the *corresponding element* of a list.
@@ -282,11 +286,18 @@
 	- **reduce**
 		- `print reduce(lambda x, y: x + y, foo)`
 		- `139`
+- sort a dictionary by value
+	- `dic = {'a': 4, 'b': 3, 'c': 2, 'd': 1}`
+	- `sorted(dic.items(), key=lambda x: x[1])`
+	- get: `[('d', 1), ('c', 2), ('b', 3), ('a', 4)]`
 #### regex (Regular expression)
-- **Search pattern** example:[https://github.com/JamesG3/HackerRank/blob/master/String/HackerRank%20in%20a%20String!.py][9]
-- More information: [https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html][10]
-#### dic.values
-- for a dictionary, we can use `for x in dic.values()` to traverse all values for each key:value pairs.
+- **Search pattern** example:[https://github.com/JamesG3/HackerRank/blob/master/String/HackerRank%20in%20a%20String!.py][10]
+- More information: [https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html][11]
+#### dictionary
+- **dic.values**
+	- for a dictionary, we can use `for x in dic.values()` to traverse all values for each key:value pairs.
+- merge two dictionaries:
+	- `z = dict(x, **y)`
 #### partition function
 - for a string `S = ‘abc&def’`, using `S.partition(‘&’)`, we can get `[abc, &, def]`
 
@@ -320,15 +331,19 @@
 	**S.replace('-','')**
 - For a dictionary `dic = {a:[1,2,3],b:[6],c:[4,6]}`, print all values if the length of list larger than 1.
 	`print [x for x in dic.values() if len(x)>1] `
-- Another example: [https://github.com/JamesG3/HackerRank/blob/master/Implementation/Cut%20the%20sticks.py][11]
+- Another example: [https://github.com/JamesG3/HackerRank/blob/master/Implementation/Cut%20the%20sticks.py][12]
+- Check flag or truthiness: 
+	- `x, y, z = 0, 1, 0`
+	- `if any((x, y, z))` == `if 1 in (x, y, z) ` == `if x or y or z`
 
 
 [1]:	https://en.wikipedia.org/wiki/Catalan_number
-[2]:	https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
-[3]:	https://zh.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0
-[6]:	https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation
-[7]:	https://en.wikipedia.org/wiki/Catalan_number
+[2]:	https://pic4.zhimg.com/50/d8e460d4234298930d6c3af5450af673_hd.jpg "d8e460d4234298930d6c3af5450af673_hd.jpg"
+[3]:	https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+[4]:	https://zh.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0
+[7]:	https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation
 [8]:	https://en.wikipedia.org/wiki/Catalan_number
-[9]:	https://github.com/JamesG3/HackerRank/blob/master/String/HackerRank%20in%20a%20String!.py
-[10]:	https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html
-[11]:	https://github.com/JamesG3/HackerRank/blob/master/Implementation/Cut%20the%20sticks.py
+[9]:	https://en.wikipedia.org/wiki/Catalan_number
+[10]:	https://github.com/JamesG3/HackerRank/blob/master/String/HackerRank%20in%20a%20String!.py
+[11]:	https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html
+[12]:	https://github.com/JamesG3/HackerRank/blob/master/Implementation/Cut%20the%20sticks.py
