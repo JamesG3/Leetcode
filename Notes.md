@@ -1,6 +1,4 @@
-# TIPS
-
-## ABOUT LeetCode
+## LeetCode
 ### List of tricky exercises
 - 172.Factorial Trailing Zeroes
 - Happy Number: *42 is an important number after experiments*
@@ -31,6 +29,7 @@
 - 667.Beautiful Arrangement II
 - 696.Count Binary Substrings
 - 544.Output Contest Matches
+- 370.Range Addition
 ### Classify
 #### Tree
 - **Using dictionary to save every level’s nodes:** 
@@ -88,7 +87,7 @@
 	- 105.Construct Binary Tree from Preorder and Inorder Traversal
 - **Binary Search**
 	- 540.Single Element in a Sorted Array
-- **Traverse the list and mark**
+- **Traverse & marking**
 	- 448.Find All Numbers Disappeared in an Array
 	- 204.Count Primes ([Sieve of Eratosthenes][3])
 	- 376.Wiggle Subsequence
@@ -124,6 +123,7 @@
 - **Palindrome**
 	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
 	- 647.Palindromic Substrings
+	- 266.Palindrome Permutation
 - **Sort**
 	- 280.Wiggle Sort (in-place sort)
 
@@ -166,6 +166,7 @@
 - 462.Minimum Moves to Equal Array Elements II
 - 477.Total Hamming Distance
 - 544.Output Contest Matches
+- 370.Range Addition
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
@@ -174,7 +175,7 @@
 #### DP
 - 357.Count Numbers with Unique Digits
 - 309.Best Time to Buy and Sell Stock with Cooldown(using state machine)
-### Need to be refreshed
+### Marked questions
 - 172.Factorial Trailing Zeroes
 - Battleship in a Board: checking head horizontally and vertically.
 - Binary Tree Level Order Traversal: recursive solution with a mark of level.
@@ -214,136 +215,8 @@
 - 142.Linked List Cycle II: why the result is the start of cycle? **MATHEMATICAL** explanation: [https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation][7]
 - 36.Valid Sudoku: How to solve this using a simple solution?
 
-## ABOUT PYTHON
-### Useful Tools
-#### [::-1]  
-- For **list l**, using `l[::-1]` can return the reverse sequence of **list l**. `[::-1]` can also used in string or list like`[[1,2,3],[2,43,4],[3,4,5]]`  
-
-#### zip  
-- a=[12, 2, 3, 3, 4], b=[1, 1, 1, 1, 1], **zip(a,b)=[(12, 1), (2, 1), (3, 1), (3, 1), (4, 1)]**
-- c=[(12, 1), (2, 1), (3, 1), (3, 1), (4, 1)], **`zip(*c)=[(12, 2, 3, 3, 4), (1, 1, 1, 1, 1)]`**  
-	more: [http://www.cnblogs.com/BeginMan/archive/2013/03/14/2959447.html]
-#### `[:]`  
-- When we want to duplicate a list, we cannot simply use b=a, it will cause list *b* points to the same location. When we operate list *a*, list *b* will be modified. In other word, *b* will be always same as list *a*
-- So we should use a `[:]` when creating a different list with same content.
-- For example, `a=[1,2,3]`, `b=a[:]`
-
-#### Counter  
-- need to import from collection
-- `from collections import Counter`
-- For example: `a=['r', 'd', 'g', 'd']`, `C=Counter(a)`,      then `C=Counter({'d': 2, 'r': 1, 'g': 1})`
-- Although a Counter looks like a dictionary, but it’s more flexible, we can add new element into a Counter directly, without checking if it’s exist.
-- For example: `C['b']=4`, then `C=Counter({'b': 4, 'd': 2, 'r': 1, 'g': 1})`
-- But we cannot do this in a dictionary.
-
-#### Random  
-- **random.randrange(stop)** same as **random.randrange(start, stop, step)**
-- using for choosing a random number
-- **random.sample(list, length)**
-	- using for sampling from a list randomly with a certain length.
-
-- **Exercises:**
-	- 384.Shuffle an Array
-	- 380.Insert Delete GetRandom O(1)
-
-
-#### Xrange  
-- This function is very similar to range(), but returns an xrange object instead of a list.
-- Save space.
-
-#### Sort two-dimensions list OR Intervals  
-- We cannot apply sort() to Intervals, it will sort it with the value of address.  
-- *arr.sort(key=lambda x:x[1][8])* means sort using the first key of arr
-- *arr.sort(key=lambda x:x[1][9],reverse=True)* means a reverse sort using the first key of arr
-- *intervals.sort(key=lambda x:x.start)* means sort using the first key of intervals
-
-#### iter  
-- Turning a non-iterator object into a iterator object, and return the head of it.
-- Including dictionary, list, string, etc.
-- For example, `i = iter('example')`, the result of `print i.next()` is `e`, the second time we execute `print i.next()` will return `x`, then `a`, `m`, `p`, `l`, `e`, and an error `StopIteration`.
-
-#### isalnum()
-- `a.isalnum()`
-- if a is alphanumeric characters, return True, else return False.
-
-#### enumerate
-- can be used for getting the *index* and the *corresponding element* of a list.
-- For example: `*A=["a","b"]*` is a list.  `for i,element in enumerate(a): print i; print element`
-- Then we can get: `0 "a"   &    0 "b"`
-- enumerate can be used in **String** and **Dictionary**
-- useful to Traversal a list 
-#### lambda:
-- lambda is a anonymous function. For example: **`a = lambda x:x+1`**, then **a(1)** is **1+1=2**. Same as **`def a(x): return x+1`**
-- variable before colon is the input of a function, after colon is the return value.
-- tools for lambda:
-	- `foo = [2, 18, 9, 22, 17, 24, 8, 12, 27]`
-	- **filter**
-		- `print filter(lambda x: x % 3 == 0, foo)`
-		- `[18, 9, 24, 12, 27]`
-	- **map**
-		- `print map(lambda x: x * 2 + 10, foo)`
-		- `[14, 46, 28, 54, 44, 58, 26, 34, 64]`
-	- **reduce**
-		- `print reduce(lambda x, y: x + y, foo)`
-		- `139`
-- sort a dictionary by value
-	- `dic = {'a': 4, 'b': 3, 'c': 2, 'd': 1}`
-	- `sorted(dic.items(), key=lambda x: x[1])`
-	- get: `[('d', 1), ('c', 2), ('b', 3), ('a', 4)]`
-#### regex (Regular expression)
-- **Search pattern** example:[https://github.com/JamesG3/HackerRank/blob/master/String/HackerRank%20in%20a%20String!.py][10]
-- More information: [https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html][11]
-#### dictionary
-- **dic.values**
-	- for a dictionary, we can use `for x in dic.values()` to traverse all values for each key:value pairs.
-- merge two dictionaries:
-	- `z = dict(x, **y)`
-#### partition function
-- for a string `S = ‘abc&def’`, using `S.partition(‘&’)`, we can get `[abc, &, def]`
-
-
-### Attentions  
-
-#### If and while:  
-- *If* is a one-time check, what is required in the *if(requirement)* can change to any value or state in the *if block*.
-- For example:`a=2` `if(a<=3):` `while(a<6):` `a+=1`  
-	 `return a`  
-	For this part of code, the final return value would be **5**, not **3**.
-	After a one-time check (a=2\<=3), the code in the *if block* can be executed, whatever the value of *a* becomes.
-
-#### for n in list:  
-- when using `for n in list`, we can read `n` from list, but cannot assign a value for `n`.
-- For example: `for n in a:` `n=0`, this operation cannot be realized.
-
-#### ASCII
-- In ASCII table, ‘a’-‘z’ to “A” - “Z” is not successive.
-
-#### Python list `[]`:
-- python list can contain multiple types of elements
-- example: `[1,'a',[1,2,3],{3:'r'}]`
-
-### Simplify code:
-- **root.right.next = root.next and root.next.left** equals to —\> root.right.next = root.next.left **if** root.next != None
-- **`ar = [int(i) for i in raw_input().strip().split()]`**
-	convert the input **2 4 6 8 3** to `[2,3,6,8,3]`
-- Find the highest ‘price’ in a dic: **`max_price = max(item['price'] for item in dict_list)`**
-- Delete all ’s’ in a string S=’ssdwedSdfag’ :
-	**S.replace('-','')**
-- For a dictionary `dic = {a:[1,2,3],b:[6],c:[4,6]}`, print all values if the length of list larger than 1.
-	`print [x for x in dic.values() if len(x)>1] `
-- Another example: [https://github.com/JamesG3/HackerRank/blob/master/Implementation/Cut%20the%20sticks.py][12]
-- Check flag or truthiness: 
-	- `x, y, z = 0, 1, 0`
-	- `if any((x, y, z))` == `if 1 in (x, y, z) ` == `if x or y or z`
-
-
 [1]:	https://en.wikipedia.org/wiki/Catalan_number
 [2]:	https://pic4.zhimg.com/50/d8e460d4234298930d6c3af5450af673_hd.jpg "d8e460d4234298930d6c3af5450af673_hd.jpg"
 [3]:	https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 [4]:	https://zh.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0
 [7]:	https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation
-[8]:	https://en.wikipedia.org/wiki/Catalan_number
-[9]:	https://en.wikipedia.org/wiki/Catalan_number
-[10]:	https://github.com/JamesG3/HackerRank/blob/master/String/HackerRank%20in%20a%20String!.py
-[11]:	https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html
-[12]:	https://github.com/JamesG3/HackerRank/blob/master/Implementation/Cut%20the%20sticks.py
