@@ -84,8 +84,26 @@
 	- `z = dict(x, **y)`
 #### partition function
 - for a string `S = ‘abc&def’`, using `S.partition(‘&’)`, we can get `[abc, &, def]`
+#### schedule
+- run Python functions (or any other callable) periodically.[https://schedule.readthedocs.io/en/stable/?\_\_s=qfsmdzfwpufq4vxscpre][5]
+- `schedule.every(10).minutes.do(myfunc)`
+#### namedtuples
+- to defining class manually
+- Like tuples, namedtuples are immutable.
+- `from collections import namedtuple`
+	`Car = namedtup1e('Car', 'color mileage')`
+	`my_car = Car('red', 3812.4)`
+	`my_car.color`   -\>   `red`
+	`my_car.mileage`   -\>   `3812.4 `
 
-
+#### unpack tuple and dict
+- `def myfunc(x, y, z):`
+	`print(x, y, z)`
+	`tuple_vec = (1, 0, 1)`
+	`dict_vec = {'x': 1, 'y': 0, 'z': 1}`
+	`myfunc(*tuple_vec)` -\> (1, 0, 1)
+	`myfunc(*dict_vec)` -\> (‘x’, ‘y’, ‘z’)
+	`myfunc(**dict_vec)` -\> (1, 0, 1)
 ### Attentions  
 
 #### If and while:  
@@ -115,7 +133,7 @@
 	**S.replace('-','')**
 - For a dictionary `dic = {a:[1,2,3],b:[6],c:[4,6]}`, print all values if the length of list larger than 1.
 	`print [x for x in dic.values() if len(x)>1] `
-- Another example: [https://github.com/JamesG3/HackerRank/blob/master/Implementation/Cut%20the%20sticks.py][5]
+- Another example: [https://github.com/JamesG3/HackerRank/blob/master/Implementation/Cut%20the%20sticks.py][6]
 - Check flag or truthiness: 
 	- `x, y, z = 0, 1, 0`
 	- `if any((x, y, z))` == `if 1 in (x, y, z) ` == `if x or y or z`
@@ -124,4 +142,5 @@
 [2]:	https://en.wikipedia.org/wiki/Catalan_number
 [3]:	https://github.com/JamesG3/HackerRank/blob/master/String/HackerRank%20in%20a%20String!.py
 [4]:	https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html
-[5]:	https://github.com/JamesG3/HackerRank/blob/master/Implementation/Cut%20the%20sticks.py
+[5]:	https://schedule.readthedocs.io/en/stable/?__s=qfsmdzfwpufq4vxscpre
+[6]:	https://github.com/JamesG3/HackerRank/blob/master/Implementation/Cut%20the%20sticks.py
