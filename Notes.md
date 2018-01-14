@@ -99,6 +99,7 @@
 	- 240.Search a 2D Matrix II
 	- 554.Brick Wall
 	- 556.Next Greater Element III
+	- 531.Lonely Pixel I
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 	- 394.Decode String
@@ -108,6 +109,7 @@
 	- 445.Add Two Numbers II
 	- 406.Queue Reconstruction by Height
 	- 526.Beautiful Arrangement
+	- 484.Find Permutation
 - **DFS**
 	- 526.Beautiful Arrangement
 	- 690.Employee Importance
@@ -172,6 +174,8 @@
 - 77.Combinations(using of stack)
 - 445.Add Two Numbers II (stack & linked list)
 - 380.Insert Delete GetRandom O(1)
+- 369.Plus One Linked List (reverse the linked list)
+
 #### DP
 - 357.Count Numbers with Unique Digits
 - 309.Best Time to Buy and Sell Stock with Cooldown(using state machine)
@@ -207,6 +211,8 @@
 - 309.Best Time to Buy and Sell Stock with Cooldown
 - 477.Total Hamming Distance
 - 667.Beautiful Arrangement II
+- 484.Find Permutation (stack, pointers, reverse)
+
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**

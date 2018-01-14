@@ -70,6 +70,17 @@
 	- **reduce**
 		- `print reduce(lambda x, y: x + y, foo)`
 		- `139`
+	- **switch**
+		- `def dispatch_dict(operator, x, y):`
+			`return {`
+			`'add': lambda: x + y,`
+			`'sub': lambda: x - y,`
+			`'mul': lambda: x * y,`
+			`'div': lambda: x / y,`
+			`}.get(operator, lambda: None)()`
+		- `dispatch_dict('mul', 2, 8)`   -\>   16
+		- `dispatch_dict('unknown', 2, 8)`  -\>  None
+
 - sort a dictionary by value
 	- `dic = {'a': 4, 'b': 3, 'c': 2, 'd': 1}`
 	- `sorted(dic.items(), key=lambda x: x[1])`
@@ -123,6 +134,7 @@
 #### Python list `[]`:
 - python list can contain multiple types of elements
 - example: `[1,'a',[1,2,3],{3:'r'}]`
+- python list can even contain functions: `def func(a,b): return a+b`, `A=[func]`, `A[0](2,4)` -\> get 6
 
 ### Simplify code:
 - **root.right.next = root.next and root.next.left** equals to —\> root.right.next = root.next.left **if** root.next != None
