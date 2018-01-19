@@ -41,6 +41,7 @@
 	- 508.Most Frequent Subtree Sum
 	- 513.Find Bottom Left Tree Value
 	- 515.Find Largest Value in Each Tree Row
+	- 364.Nested List Weight Sum II (Similar Question)
 - **BFS**
 	- 637.Average of Levels in Binary Tree
 - **Level traversal**
@@ -122,6 +123,7 @@
 	- 609.Find Duplicate File in System
 	- 454.4Sum II
 	- 697.Degree of an Array
+	- 364.Nested List Weight Sum II
 - **Palindrome**
 	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
 	- 647.Palindromic Substrings

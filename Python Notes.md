@@ -1,7 +1,9 @@
 ## ABOUT PYTHON
 ### Useful Tools
 #### `[::-1]`  
-- For **list l**, using `l[::-1]` can return the reverse sequence of **list l**. `[::-1]` can also used in string or list like`[[1,2,3],[2,43,4],[3,4,5]]`  
+- For **list l**, using `l[::-1]` can return the reverse sequence of **list l**. `[::-1]` can also used in string or list like`[[1,2,3],[2,43,4],[3,4,5]]`
+#### Another way to reverse a List/string
+- `For item in reversed(L):    print item`
 
 #### zip  
 - a=[12, 2, 3, 3, 4], b=[1, 1, 1, 1, 1], **zip(a,b)=[(12, 1), (2, 1), (3, 1), (3, 1), (4, 1)]**
@@ -135,6 +137,10 @@
 - python list can contain multiple types of elements
 - example: `[1,'a',[1,2,3],{3:'r'}]`
 - python list can even contain functions: `def func(a,b): return a+b`, `A=[func]`, `A[0](2,4)` -\> get 6
+#### Python's built-in HTTP server
+- Python3: `python3 -m http.server`
+- Python2: `python -m SimpleHTTPServer 8000`
+
 
 ### Simplify code:
 - **root.right.next = root.next and root.next.left** equals to —\> root.right.next = root.next.left **if** root.next != None
