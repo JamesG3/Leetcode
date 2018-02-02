@@ -30,6 +30,7 @@
 - 696.Count Binary Substrings
 - 544.Output Contest Matches
 - 370.Range Addition
+- 573.Squirrel Simulation
 ### Classify
 #### Tree
 - **Using dictionary to save every level’s nodes:** 
@@ -124,6 +125,7 @@
 	- 454.4Sum II
 	- 697.Degree of an Array
 	- 364.Nested List Weight Sum II
+	- 362.Design Hit Counter
 - **Palindrome**
 	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
 	- 647.Palindromic Substrings
@@ -171,6 +173,7 @@
 - 477.Total Hamming Distance
 - 544.Output Contest Matches
 - 370.Range Addition
+- 573.Squirrel Simulation
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
@@ -214,7 +217,7 @@
 - 477.Total Hamming Distance
 - 667.Beautiful Arrangement II
 - 484.Find Permutation (stack, pointers, reverse)
-
+- 573.Squirrel Simulation
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
