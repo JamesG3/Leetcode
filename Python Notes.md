@@ -117,6 +117,37 @@
 	`myfunc(*tuple_vec)` -\> (1, 0, 1)
 	`myfunc(*dict_vec)` -\> (‘x’, ‘y’, ‘z’)
 	`myfunc(**dict_vec)` -\> (1, 0, 1)
+
+#### List Comprehensions:
+- `(values) = [(expression) for (value) in (collection)]`
+- Eg. `[x**2 for x in xrange(5)]`  -\> `[0,1,4,9,16]`
+**Filtering**
+- `[(expression) for (value) in (collection) if (condition)]`
+- E.g. `[x**2 for x in xrange(5) if x%2 == 0]` -\> `[0,4,16]`
+
+#### `__str__`:
+- Usually is mainly used in giving an easy representation of a class.
+- In class `A`, write a function called `__str__(self)`, return something
+- Then call `print A` to get that representation.
+#### `__repr__`
+- Usually should be unambiguous
+- Similar with `__str__`, but the representation can be shown by calling the `class’s name`
+	class Car:
+			def __init__(self, color, mileage):
+				self.color = color
+				self.mileage = mileage
+		def __repr__(self):
+				return '{self.__class__.__name__}({self.color}, {self.mileage})'.format(self=self)
+		def __str__(self):
+				return '{self.__class__.__name__}({self.color})'.format(self=self)
+			
+		mycar = Car('red', 3223)
+		mycar / repr(mycar)       -> gets Car(red, 3223)
+		str(mycar) / print mycar  -> gets Car(red)
+
+
+
+
 ### Attentions  
 
 #### If and while:  
@@ -137,10 +168,10 @@
 - python list can contain multiple types of elements
 - example: `[1,'a',[1,2,3],{3:'r'}]`
 - python list can even contain functions: `def func(a,b): return a+b`, `A=[func]`, `A[0](2,4)` -\> get 6
+
 #### Python's built-in HTTP server
 - Python3: `python3 -m http.server`
 - Python2: `python -m SimpleHTTPServer 8000`
-
 
 ### Simplify code:
 - **root.right.next = root.next and root.next.left** equals to —\> root.right.next = root.next.left **if** root.next != None
