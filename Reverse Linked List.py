@@ -5,20 +5,38 @@
 #         self.next = None
 
 class Solution(object):
+    # iterative solution
     def reverseList(self, head):
-        if head is None:
+
+        if not head:
             return head
         
-        count=None
+        tmp1 = None
+        
         while head:
-            tem=head
-            head=head.next
-            tem.next=count
-            count=tem
-            
-        return count
-            
+            tmp2 = head
+            head = head.next
+            tmp2.next = tmp1            
+            tmp1 = tmp2
+        return tmp2
+        
+    # recursive solution
+#     def reverseList(self, head):
+    
+#         return self.helper(head, None)
+    
+#     def helper(self, node, prev):
+#         if not node:
+#             return prev
+        
+#         tmp = node.next
+#         node.next = prev
+        
+#         return self.helper(tmp, node)
+              
+        
         """
         :type head: ListNode
         :rtype: ListNode
         """
+        
