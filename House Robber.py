@@ -8,6 +8,25 @@ class Solution(object):
             
         return current
         
+    # dp solution
+    def rob(self, nums):
+        length = len(nums)
+        if length == 0:
+            return 0
+        
+        if length < 3:
+            return max(nums)
+        
+        if length == 3:
+            return max(nums[1], nums[0]+nums[-1])
+    
+        dp = nums[:2] + [nums[0]+nums[2]]
+        
+        for i in xrange(3, length):
+            dp.append(max(nums[i] + dp[-2], nums[i] + dp[-3]))
+        
+        return max(dp[-2:])
+        
         
         """
         :type nums: List[int]
