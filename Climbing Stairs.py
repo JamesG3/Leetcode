@@ -1,3 +1,20 @@
+# dp
+class Solution(object):
+    def climbStairs(self, n):
+        res = [1,2]
+        if n == 1:
+            return 1
+        for i in xrange(2, n):
+            res.append(res[-1] + res[-2])
+    
+        return res[-1]
+        """
+        :type n: int
+        :rtype: int
+        """
+
+
+
 from operator import mul
 
 class Solution(object):
