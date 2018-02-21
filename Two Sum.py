@@ -7,7 +7,20 @@ class Solution(object):
             else:
                 return [min(i,tem[num]),max(i,tem[num])]    #picking up number according to the value
 
-
+            
+            
+class Solution(object):
+    def twoSum(self, nums, target):
+        dic = {}
+        i = 0
+        for n in nums:
+            if target-n in dic:
+                return [dic[target-n][0] ,i]
+            
+            dic[n] = [i, target-n]
+            i += 1
+         
+        
         
         """
         :type nums: List[int]
