@@ -14,7 +14,7 @@
 - 232.Implement Queue using Stacks: using 2 stack to implement Queue
 - 234.Palindrome Linked List: turn **1234321** to **1231234**, then compare two parts. 
 - 114.Flatten Binary Tree to Linked List **(reverse pre-order traversal)**
-- 142.Linked List Cycle II(find where the cycle starts)
+- 142.Linked List Cycle II(find where the cycle starts `2x speed` )
 - 168.Excel Sheet Column Title
 - 257.Binary Tree Paths
 - 394.Decode String
@@ -174,6 +174,7 @@
 - 544.Output Contest Matches
 - 370.Range Addition
 - 573.Squirrel Simulation
+- 338.Counting Bits
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
@@ -184,6 +185,12 @@
 #### DP
 - 357.Count Numbers with Unique Digits
 - 309.Best Time to Buy and Sell Stock with Cooldown(using state machine)
+- 712.Minimum ASCII Delete Sum for Two Strings
+- 70.Climbing Stairs
+- 746.Min Cost Climbing Stairs
+- 198.House Robber
+- 256.Paint House
+- 338.Counting Bits
 ### Marked questions
 - 172.Factorial Trailing Zeroes
 - Battleship in a Board: checking head horizontally and vertically.
@@ -218,6 +225,7 @@
 - 667.Beautiful Arrangement II
 - 484.Find Permutation (stack, pointers, reverse)
 - 573.Squirrel Simulation
+- 712.Minimum ASCII Delete Sum for Two Strings
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**

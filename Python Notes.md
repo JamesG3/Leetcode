@@ -106,17 +106,18 @@
 - `from collections import namedtuple`
 	`Car = namedtup1e('Car', 'color mileage')`
 	`my_car = Car('red', 3812.4)`
-	`my_car.color`   -\>   `red`
-	`my_car.mileage`   -\>   `3812.4 `
+	`my_car.color`   \>\>   `red`
+	`my_car.mileage`   \>\>   `3812.4 `
 
-#### unpack tuple and dict
+#### unpack operator for tuple and dict
 - `def myfunc(x, y, z):`
 	`print(x, y, z)`
 	`tuple_vec = (1, 0, 1)`
 	`dict_vec = {'x': 1, 'y': 0, 'z': 1}`
-	`myfunc(*tuple_vec)` -\> (1, 0, 1)
-	`myfunc(*dict_vec)` -\> (‘x’, ‘y’, ‘z’)
-	`myfunc(**dict_vec)` -\> (1, 0, 1)
+	`myfunc(*tuple_vec)` \>\> (1, 0, 1)
+	`myfunc(*dict_vec)` \>\> (‘x’, ‘y’, ‘z’)
+	`myfunc(**dict_vec)` \>\> (1, 0, 1)
+- Because the dict has ”random” order, using dict value unpack operator usually comes with key matching, which is `myfunc(*dict_vec)`
 
 #### List Comprehensions:
 - `(values) = [(expression) for (value) in (collection)]`
@@ -133,20 +134,44 @@
 - Usually should be unambiguous
 - Similar with `__str__`, but the representation can be shown by calling the `class’s name`
 	class Car:
-			def __init__(self, color, mileage):
-				self.color = color
-				self.mileage = mileage
+		    def __init__(self, color, mileage):
+		        self.color = color
+		        self.mileage = mileage
 		def __repr__(self):
-				return '{self.__class__.__name__}({self.color}, {self.mileage})'.format(self=self)
+		        return '{self.__class__.__name__}({self.color}, {self.mileage})'.format(self=self)
 		def __str__(self):
-				return '{self.__class__.__name__}({self.color})'.format(self=self)
-			
+		        return '{self.__class__.__name__}({self.color})'.format(self=self)
+		
 		mycar = Car('red', 3223)
 		mycar / repr(mycar)       -> gets Car(red, 3223)
 		str(mycar) / print mycar  -> gets Car(red)
+#### Switch-case emulating
+	def calculate(operator, x, y):
+	        return{
+	            'add': lambda: x+y,
+	            'sub': lambda" x-y,
+	            'mul': lambda: x*y,
+	            'div': labmbda:x/y,
+	        }.get(operator, lambda: None)()
+- use dictionary to simulate Switch
+- If operator doesn’t exist, return None
+#### Finding the most common elements in an iteration
+	import collections
+	c = collections.Counter('hithere')
+	c    ->     Counter({'h':2, 'i':1, 't':1, 'r':1, 'e':2})
+	c.most_common(2)   ->    [('h', 2), ('e', 2)]
 
 
-
+#### permutations
+	import itertools
+	for p in itertools.permutations('123'):
+		print p
+	>> ('1', '2', '3')
+	>> ('1', '3', '2')
+	>> ('2', '1', '3')
+	>> ('2', '3', '1')
+	>> ('3', '1', '2')
+	>> ('3', '2', '1')
 
 ### Attentions  
 
