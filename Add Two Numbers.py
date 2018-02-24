@@ -5,41 +5,64 @@
 #         self.next = None
 
 class Solution(object):
+    
+    # simple solution
     def addTwoNumbers(self, l1, l2):
-        head = l1
-        t = l1
-        while l1 != None and l2 != None:
-            l1.val = l1.val + l2.val
-            if l1.val >= 10:
-                l1.val = l1.val % 10
-                if l1.next != None:         #if next digit should add 1, judge which situation.
-                    l1.next.val +=1
-                else:                       #one more listnode should be added
-                    tem=ListNode(1)
-                    l1.next = tem
-            
-            if l1.next is None and l2.next is not None:     #if l2 is longer, add l2.next to l1.next, link them together.
-                l1.next = l2.next
-                break
-            
-            elif l1.next is not None and l2.next is None:   #if l1 is longer, judge whether next digit should be added 1.
-                while l1 is not None:                   #check all rest part of l1, to find if there is a digit need to add.
-                    
-                    if l1.val >= 10:
-                        l1.val = l1.val % 10
-                        if l1.next != None:
-                            l1.next.val +=1
-                            
-                        else:
-                            tem=ListNode(1)
-                            l1.next = tem
-                    l1=l1.next
-                    
-            else:                       #corresponding with the first if
-                l1 = l1.next
-                l2 = l2.next
+        head = ListNode(0)
+        p = head
+        carry = 0
         
-        return head
+        while l1 or l2 or carry:
+            if l1:
+                carry += l1.val
+                l1 = l1.next
+                
+            if l2:
+                carry += l2.val
+                l2 = l2.next
+                
+            p.next = ListNode(carry%10)
+            p = p.next
+            carry /= 10
+        return head.next
+    
+    
+    
+#     def addTwoNumbers(self, l1, l2):
+#         head = l1
+#         t = l1
+#         while l1 != None and l2 != None:
+#             l1.val = l1.val + l2.val
+#             if l1.val >= 10:
+#                 l1.val = l1.val % 10
+#                 if l1.next != None:         #if next digit should add 1, judge which situation.
+#                     l1.next.val +=1
+#                 else:                       #one more listnode should be added
+#                     tem=ListNode(1)
+#                     l1.next = tem
+            
+#             if l1.next is None and l2.next is not None:     #if l2 is longer, add l2.next to l1.next, link them together.
+#                 l1.next = l2.next
+#                 break
+            
+#             elif l1.next is not None and l2.next is None:   #if l1 is longer, judge whether next digit should be added 1.
+#                 while l1 is not None:                   #check all rest part of l1, to find if there is a digit need to add.
+                    
+#                     if l1.val >= 10:
+#                         l1.val = l1.val % 10
+#                         if l1.next != None:
+#                             l1.next.val +=1
+                            
+#                         else:
+#                             tem=ListNode(1)
+#                             l1.next = tem
+#                     l1=l1.next
+                    
+#             else:                       #corresponding with the first if
+#                 l1 = l1.next
+#                 l2 = l2.next
+        
+#         return head
             
         """
         :type l1: ListNodet
