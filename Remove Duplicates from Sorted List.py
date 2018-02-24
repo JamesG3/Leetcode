@@ -5,6 +5,26 @@
 #         self.next = None
 
 class Solution(object):
+    # two pointers solution
+    def deleteDuplicates(self, head):
+        fast, slow = head, head
+        
+        if not head or not head.next:
+            return head
+        
+        fast = fast.next
+        
+        while fast:
+            if slow.val == fast.val:
+                slow.next = fast.next
+            else:
+                slow = slow.next
+            fast = fast.next
+            
+        return head
+    
+    
+    # recursive solution
     def deleteDuplicates(self, head):
         tem=head
         if tem == None:
@@ -19,7 +39,6 @@ class Solution(object):
         if t != None and t.next != None:
             if t.val == t.next.val:
                 t.next = t.next.next
-                print t.val
                 
                 if t != None and t.next != None:
                     if t.val == t.next.val:
