@@ -5,6 +5,30 @@
 #         self.next = None
 
 class Solution(object):
+
+    # single pass solution with two pointers
+    def removeNthFromEnd(self, head, n):
+        if not head.next:
+            return None
+        
+        slow = head
+        fast = head
+        
+        for i in xrange(n+1):
+            if not fast:            # delete the first element
+                return head.next
+            fast = fast.next
+            
+        while fast:
+            fast = fast.next
+            slow = slow.next
+            
+        slow.next = slow.next.next
+        
+        return head
+        
+    
+    # 2 pass solution
     def removeNthFromEnd(self, head, n):
         count=0
         tem1=head
