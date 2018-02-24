@@ -85,6 +85,11 @@
 - 334.Increasing Triplet Subsequence
 
 #### Array and List
+- **Linked List - two pointers**
+	- 237.Delete Node in a Linked List
+	- 141.Linked List Cycle
+	- 19.Remove Nth Node From End of List
+	- 83.Remove Duplicates from Sorted List
 - **Construct Binary Tree**
 	- 105.Construct Binary Tree from Preorder and Inorder Traversal
 - **Binary Search**
