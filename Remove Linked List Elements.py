@@ -6,21 +6,25 @@
 
 class Solution(object):
     def removeElements(self, head, val):
-        while head is not None and head.val == val:     #remove the first several elements
-            head = head.next
-        if head is None:                #if the LinkList is empty, return head
-            return head
-            
-        fast = head.next                #if not Empty, set a fast and a slow pointer
-        slow = head
+        if not head:
+            return
         
-        while fast != None:             #traverse the Linklist and remove all the elements have value val
+        while head and head.val == val:
+            head = head.next
+        
+        if not head:
+            return 
+        fast, slow = head, head
+        
+        fast = fast.next
+        
+        while fast:
             if fast.val == val:
-                fast = fast.next
-                slow.next = slow.next.next
+                slow.next = fast.next
             else:
-                fast = fast.next
                 slow = slow.next
+            fast = fast.next
+            
         return head
             
         
