@@ -1,5 +1,12 @@
 class Solution(object):
-
+    # recursive solution
+    def reverseStr(self, s, k):
+        if s:
+            return s[:k][::-1] + s[k:2*k] + self.reverseStr(s[2*k:], k)
+        else:
+            return ""
+    
+    
     # two pointers solution
     def reverseStr(self, s, k):
         s = list(s)
