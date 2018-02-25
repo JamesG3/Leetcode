@@ -1,4 +1,5 @@
 class Solution(object):
+    # two pointers solution
     def reverseVowels(self, s):
         Vow="aeiouAEIOU"                #list the possible vowels as a string
         ls=list(s)                      #convert s into list for convenience
@@ -12,8 +13,28 @@ class Solution(object):
         m=0
         while len(tem)!=0:              #replace vowels in increase order with decrease items in tem
             if ls[m]=="aa":
-                ls[m]=tem[-1]
-                del tem[-1]
+                ls[m]=tem.pop()
+                
+            m+=1
+        
+        return "".join(ls)
+    
+    
+    # stack solution
+    def reverseVowels(self, s):
+        Vow="aeiouAEIOU"                #list the possible vowels as a string
+        ls=list(s)                      #convert s into list for convenience
+        tem=[]                          #create a empty list for storage move out vowels
+        n=0                             #index for ls
+        while n!= len(ls):              #read through ls and find vowels out, save them into tem
+            if ls[n] in Vow:
+                tem.append(ls[n])
+                ls[n]="aa"              #and replace them with double characters
+            n+=1
+        m=0
+        while len(tem)!=0:              #replace vowels in increase order with decrease items in tem
+            if ls[m]=="aa":
+                ls[m]=tem.pop()
             m+=1
         
         return "".join(ls)
