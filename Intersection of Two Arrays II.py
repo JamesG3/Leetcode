@@ -1,12 +1,24 @@
 class Solution(object):
+    
+    # two pointers solution
     def intersect(self, nums1, nums2):
-        ans=[]
-        while len(nums1) != 0 and len(nums2) != 0:
-            if nums1[0] in nums2:
-                ans.append(nums1[0])
-                del nums2[nums2.index(nums1[0])]
-            del nums1[0]
-        return ans
+        nums1.sort()
+        nums2.sort()
+        
+        res = []
+        m, n = len(nums1), len(nums2)
+        i, j = 0, 0
+        
+        while i<m and j<n:
+            if nums1[i] == nums2[j]:
+                res.append(nums1[i])
+                i += 1
+                j += 1
+            elif nums1[i] > nums2[j]:
+                j+=1
+            else:
+                i+=1
+        return res
                 
             
         #using del to check every number in the nums1, if there is a same one in the nums2, then append it to ans and delete both of them from nums1 and nums2
