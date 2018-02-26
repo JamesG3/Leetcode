@@ -1,4 +1,23 @@
 class Solution(object):
+    # sliding window 2
+    def lengthOfLongestSubstring(self, s):
+        dic = {}
+        i, j, length = 0, 0, len(s)
+        mxlen = 0
+        
+        while j<length:
+            if s[j] in dic:
+                i = max(i, dic[s[j]])
+                
+            
+            mxlen = max(mxlen, j-i+1)
+            dic[s[j]] = j+1
+            j += 1
+            
+        return mxlen
+    
+    
+    # sliding window
     def lengthOfLongestSubstring(self, s):
         st=""
         tem=""
