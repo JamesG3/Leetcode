@@ -70,6 +70,8 @@
 	- 508.Most Frequent Subtree Sum
 	- 617.dMerge Two Binary Trees
 	- 544.Output Contest Matches
+	- 541.Reverse String II
+
 - **Global variable**
 	- 129.Sum Root to Leaf Numbers
 - **concepts about tree**
@@ -83,6 +85,8 @@
 - 198.House Robber
 - 213.House Robber II
 - 334.Increasing Triplet Subsequence
+#### Sliding Window
+- 3.Longest Substring Without Repeating Characters
 
 #### Array and List
 - **Linked List - two pointers**
@@ -90,6 +94,7 @@
 	- 141.Linked List Cycle
 	- 19.Remove Nth Node From End of List
 	- 83.Remove Duplicates from Sorted List
+	- 203.Remove Linked List Elements
 - **Construct Binary Tree**
 	- 105.Construct Binary Tree from Preorder and Inorder Traversal
 - **Binary Search**
@@ -117,6 +122,7 @@
 	- 406.Queue Reconstruction by Height
 	- 526.Beautiful Arrangement
 	- 484.Find Permutation
+	- 20.Valid Parentheses (stack)
 - **DFS**
 	- 526.Beautiful Arrangement
 	- 690.Employee Importance
@@ -180,6 +186,8 @@
 - 370.Range Addition
 - 573.Squirrel Simulation
 - 338.Counting Bits
+- 728.Self Dividing Numbers
+
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)

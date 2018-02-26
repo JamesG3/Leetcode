@@ -51,6 +51,10 @@
 #### isalnum()
 - `a.isalnum()`
 - if a is alphanumeric characters, return True, else return False.
+#### divmod()
+- divmoid(m, n) returns a tuple (m/n, m%10)
+- e.g. divmoid(342, 10)   \>\>    (34, 2)
+- e.g. Leetcode 728
 
 #### enumerate
 - can be used for getting the *index* and the *corresponding element* of a list.
@@ -165,7 +169,7 @@
 #### permutations
 	import itertools
 	for p in itertools.permutations('123'):
-		print p
+	    print p
 	>> ('1', '2', '3')
 	>> ('1', '3', '2')
 	>> ('2', '1', '3')
