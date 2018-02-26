@@ -1,23 +1,31 @@
 class Solution(object):
     def isValid(self, s):
-            L = ["[", "{", "("]
-            R = ["]", "}", ")"]
-            stack = []
-            
-            for c in s:
-                if c in L:                                              #if c is [ { (, keep append stack
+        stack = []
+        for c in s:
+            if not stack:
+                stack.append(c)
+            else:
+                if c == '}':
+                    if stack[-1] == '{':
+                        stack.pop()
+                    else:
+                        return False
+                    
+                elif c == ')':
+                    if stack[-1] == '(':
+                        stack.pop()
+                    else:
+                        return False
+                    
+                elif c == ']':
+                    if stack[-1] == '[':
+                        stack.pop()
+                    else:
+                        return False
+                else:
                     stack.append(c)
-                
-                if c in R:
-                    if len(stack) == 0:
-                        return False
-                    if(L.index(stack.pop()) != R.index(c)):             #compare the left part and the right part,and pop the right elements
-                        return False
-                        
-            if len(stack) > 0:                                          #if there is still element left in the stack,false
-                return False
-                
-            return True
+        
+        return len(stack) == 0
 
 
 
