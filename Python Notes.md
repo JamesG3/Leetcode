@@ -177,6 +177,30 @@
 	>> ('3', '1', '2')
 	>> ('3', '2', '1')
 
+#### arg and kwargs
+	def foo(required, *args, **kwargs):
+			print required
+			if args:
+				print args
+			if kwargs:
+				print kwargs
+	foo('hi')               >>           hi
+	foo('hi',1,2,3)         >>           hi       tuple(1,2,3)
+	foo('hi',1,2, key1 = 'w', key2 = '4')
+	>> hi    (1,2)    {'key1':'w', 'key2':'4'}
+
+- can be used to override a class / wrap a function and forward arguments
+	class Car:
+			def __init__(self, color, mileage):
+				self.color = color
+				self.mileage = mileage
+
+	class AlwaysBlueCar(Car):
+			def __init__(self, *args, **kwargs):
+				super().__init__(*args, **kwargs)
+				self.color = 'blue'
+
+
 ### Attentions  
 
 #### If and while:  

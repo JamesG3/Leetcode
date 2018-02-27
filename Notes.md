@@ -187,7 +187,7 @@
 - 573.Squirrel Simulation
 - 338.Counting Bits
 - 728.Self Dividing Numbers
-
+- 136. Single Number
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
