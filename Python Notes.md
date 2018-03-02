@@ -179,11 +179,11 @@
 
 #### arg and kwargs
 	def foo(required, *args, **kwargs):
-			print required
-			if args:
-				print args
-			if kwargs:
-				print kwargs
+	        print required
+	        if args:
+	            print args
+	        if kwargs:
+	            print kwargs
 	foo('hi')               >>           hi
 	foo('hi',1,2,3)         >>           hi       tuple(1,2,3)
 	foo('hi',1,2, key1 = 'w', key2 = '4')
@@ -191,15 +191,22 @@
 
 - can be used to override a class / wrap a function and forward arguments
 	class Car:
-			def __init__(self, color, mileage):
-				self.color = color
-				self.mileage = mileage
+		    def __init__(self, color, mileage):
+		        self.color = color
+		        self.mileage = mileage
 
 	class AlwaysBlueCar(Car):
-			def __init__(self, *args, **kwargs):
-				super().__init__(*args, **kwargs)
-				self.color = 'blue'
+		    def __init__(self, *args, **kwargs):
+		        super().__init__(*args, **kwargs)
+		        self.color = 'blue'
 
+#### virtual environment
+- `which pip`/`which pip3` tells where the models are installed
+- `python3 -m venv ./venv` creates a folder with python packages under current path.
+- `source ./venv/bin/activate` activates the virtual environment.
+- then the result of `which pip3/pip` turns into `./venv/bin/pip or pip3`
+- `pip3 list` list all the installed modules in venv.
+- `deactivate` to deactivate the virtual environment.
 
 ### Attentions  
 

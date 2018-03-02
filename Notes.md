@@ -141,6 +141,8 @@
 	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
 	- 647.Palindromic Substrings
 	- 266.Palindrome Permutation
+	- Longest Palindromic Substring
+
 - **Sort**
 	- 280.Wiggle Sort (in-place sort)
 
@@ -204,6 +206,7 @@
 - 198.House Robber
 - 256.Paint House
 - 338.Counting Bits
+- 303.Range Sum Query - Immutable
 ### Marked questions
 - 172.Factorial Trailing Zeroes
 - Battleship in a Board: checking head horizontally and vertically.
