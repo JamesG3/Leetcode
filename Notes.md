@@ -71,6 +71,7 @@
 	- 617.dMerge Two Binary Trees
 	- 544.Output Contest Matches
 	- 541.Reverse String II
+	- 687.Longest Univalue Path
 
 - **Global variable**
 	- 129.Sum Root to Leaf Numbers
@@ -87,6 +88,7 @@
 - 334.Increasing Triplet Subsequence
 #### Sliding Window
 - 3.Longest Substring Without Repeating Characters
+- 683.K Empty Slots
 
 #### Array and List
 - **Linked List - two pointers**
@@ -163,9 +165,12 @@
 	- 461.Hamming Distance
 	- 482.License Key Formatting
 	- 481.Magical String
+	- 686.Repeated String Match
 #### Simulation
 - 498.Diagonal Traverse
 - 495.Teemo Attacking
+- 681.Next Closest Time
+
 #### HASH
 - 535.Encode and Decode TinyURL
 - 347.Top K Frequent Elements
@@ -242,6 +247,7 @@
 - 484.Find Permutation (stack, pointers, reverse)
 - 573.Squirrel Simulation
 - 712.Minimum ASCII Delete Sum for Two Strings
+- 683.K Empty Slots
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
