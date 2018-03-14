@@ -27,7 +27,7 @@ class LRUCache(object):
             return -1
         
         node = self.LRU[key]
-        self.remove(node)
+        self.remove(node)               # update the current node by moving it to the end of linked list
         self.add(node)
         return node.val
         
@@ -42,7 +42,7 @@ class LRUCache(object):
         
         if key not in self.LRU:
             # if len(self.LRU) == self.capacity:
-            if self.currsize == self.capacity:
+            if self.currsize == self.capacity:    # if reach capacity, del from linked list and LRU dict, then insert new element
                 node = self.head.next
                 del self.LRU[node.key]
                 self.remove(node)
@@ -61,12 +61,12 @@ class LRUCache(object):
             self.add(node)
             self.LRU[key] = node
         
-    def remove(self, node):
+    def remove(self, node):             # remove node head.next
         node.prev.next = node.next
         node.next.prev = node.prev
         
         
-    def add(self, node):
+    def add(self, node):                # insert node to tail.prev
         pre = self.tail.prev
         pre.next  = node
         node.prev = pre
