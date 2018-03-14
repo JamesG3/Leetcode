@@ -1,4 +1,22 @@
 class Solution(object):
+    # join list solution, beats 77% solution
+    class Solution(object):
+    def licenseKeyFormatting(self, S, K):
+        
+        S = S.replace("-","").upper()
+        length = len(S)
+        i = length % K
+        
+        ans = [S[:i]] if i!=0 else []
+        
+        for j in xrange(length/K):
+            ans.append(S[i:i+K])
+            i+=K
+            
+        return "-".join(ans)
+        
+    
+    # brute force, TLE error
     def licenseKeyFormatting(self, S, K):
         tem = S.upper().replace('-','')
         
