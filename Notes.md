@@ -72,6 +72,7 @@
 	- 544.Output Contest Matches
 	- 541.Reverse String II
 	- 687.Longest Univalue Path
+	- 298.Binary Tree Longest Consecutive Sequence (Backtracking)
 
 - **Global variable**
 	- 129.Sum Root to Leaf Numbers
@@ -97,6 +98,8 @@
 	- 19.Remove Nth Node From End of List
 	- 83.Remove Duplicates from Sorted List
 	- 203.Remove Linked List Elements
+- **Double linked list**
+	- 146. LRU Cache
 - **Construct Binary Tree**
 	- 105.Construct Binary Tree from Preorder and Inorder Traversal
 - **Binary Search**
@@ -131,6 +134,7 @@
 	- 695.Max Area of Island
 	- 339.Nested List Weight Sum
 	- 366.Find Leaves of Binary Tree
+	- 388.Longest Absolute File Path
 - **Using dictionary**
 	- 447.Number of Boomerangs
 	- 506.Relative Ranks
@@ -139,6 +143,9 @@
 	- 697.Degree of an Array
 	- 364.Nested List Weight Sum II
 	- 362.Design Hit Counter
+	- 340.Longest Substring with At Most K Distinct Characters
+- **Two pointers**
+	- 340.Longest Substring with At Most K Distinct Characters
 - **Palindrome**
 	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
 	- 647.Palindromic Substrings
@@ -156,6 +163,7 @@
 	- 451.Sort Characters By Frequency(using two lists as dictionary)
 	- 609.Find Duplicate File in System
 	- 676.Implement Magic Dictionary
+	- 388. Longest Absolute File Path
 - **Using mark/State machine**
 	- 434.Number of Segments in a String
 	- 500.Keyboard Row
@@ -195,6 +203,7 @@
 - 338.Counting Bits
 - 728.Self Dividing Numbers
 - 136. Single Number
+- 418. Sentence Screen Fitting
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
@@ -248,6 +257,8 @@
 - 573.Squirrel Simulation
 - 712.Minimum ASCII Delete Sum for Two Strings
 - 683.K Empty Slots
+- 418. Sentence Screen Fitting
+
 ### Questions
 - 382 Linked List Random Node: what are the test cases like? Why sometimes the result is *Wrong* when i submit a right answer?
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**

@@ -99,6 +99,7 @@
 	- for a dictionary, we can use `for x in dic.values()` to traverse all values for each key:value pairs.
 - merge two dictionaries:
 	- `z = dict(x, **y)`
+- `dict.get(key, 0)` If key in dict, return the key’s value, if not, return 0.
 #### partition function
 - for a string `S = ‘abc&def’`, using `S.partition(‘&’)`, we can get `[abc, &, def]`
 #### schedule
@@ -246,6 +247,7 @@
 - Check flag or truthiness: 
 	- `x, y, z = 0, 1, 0`
 	- `if any((x, y, z))` == `if 1 in (x, y, z) ` == `if x or y or z`
+- `dict.get(key, 0)` If key in dict, return the key’s value, if not, return 0. `dict[key] = dict.get(key, 0) + 1`
 
 [1]:	https://en.wikipedia.org/wiki/Catalan_number
 [2]:	https://en.wikipedia.org/wiki/Catalan_number
