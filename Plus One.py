@@ -1,14 +1,18 @@
 class Solution(object):
     def plusOne(self, digits):
-        n=-1
-        while n != -len(digits)-1 and digits[n]+1 >= 10:
-            digits[n] = (digits[n]+1)%10
-            n-=1
-        if n != -len(digits)-1:
-            digits[n]+=1
+        carry = 1
+            
+        for i in xrange(len(digits)-1, -1, -1):
+            if digits[i] + carry == 10:
+                digits[i] = 0
+            else:
+                digits[i] = digits[i] + carry
+                carry = 0
+                
+        if carry == 1:
+            return [1] + digits
         else:
-            digits=[1]+digits
-        return digits
+            return digits
             
         """
         :type digits: List[int]
