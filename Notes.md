@@ -117,6 +117,8 @@
 	- 554.Brick Wall
 	- 556.Next Greater Element III
 	- 531.Lonely Pixel I
+	- 163.Missing Ranges
+
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 	- 394.Decode String
@@ -144,8 +146,11 @@
 	- 364.Nested List Weight Sum II
 	- 362.Design Hit Counter
 	- 340.Longest Substring with At Most K Distinct Characters
+	- 325. Maximum Size Subarray Sum Equals k
 - **Two pointers**
 	- 340.Longest Substring with At Most K Distinct Characters
+	- 31. Next Permutation
+	- 42. Trapping Rain Water
 - **Palindrome**
 	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
 	- 647.Palindromic Substrings
@@ -204,12 +209,16 @@
 - 728.Self Dividing Numbers
 - 136. Single Number
 - 418. Sentence Screen Fitting
+- 325. Maximum Size Subarray Sum Equals k
+- 31. Next Permutation
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
 - 445.Add Two Numbers II (stack & linked list)
 - 380.Insert Delete GetRandom O(1)
 - 369.Plus One Linked List (reverse the linked list)
+- 138.Copy List with Random Pointer (Deep copy)
+- 208. Implement Trie (Prefix Tree)
 
 #### DP
 - 357.Count Numbers with Unique Digits
