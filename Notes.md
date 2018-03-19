@@ -130,6 +130,8 @@
 	- 526.Beautiful Arrangement
 	- 484.Find Permutation
 	- 20.Valid Parentheses (stack)
+	- 281. Zigzag Iterator (queue)
+
 - **DFS**
 	- 526.Beautiful Arrangement
 	- 690.Employee Importance
@@ -183,10 +185,11 @@
 - 498.Diagonal Traverse
 - 495.Teemo Attacking
 - 681.Next Closest Time
-
+- 281. Zigzag Iterator
 #### HASH
 - 535.Encode and Decode TinyURL
 - 347.Top K Frequent Elements
+- 734. Sentence Similarity
 #### Mathematics
 - 172.Factorial Trailing Zeroes
 - 168.Excel Sheet Column Title

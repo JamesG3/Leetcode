@@ -56,7 +56,7 @@
 - e.g. divmoid(342, 10)   \>\>    (34, 2)
 - e.g. Leetcode 728
 
-#### enumerate
+#### enumerate (useful generator)
 - can be used for getting the *index* and the *corresponding element* of a list.
 - For example: `*A=["a","b"]*` is a list.  `for i,element in enumerate(a): print i; print element`
 - Then we can get: `0 "a"   &    0 "b"`
