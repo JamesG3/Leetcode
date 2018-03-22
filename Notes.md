@@ -87,6 +87,7 @@
 - 198.House Robber
 - 213.House Robber II
 - 334.Increasing Triplet Subsequence
+- 134.Gas Station
 #### Sliding Window
 - 3.Longest Substring Without Repeating Characters
 - 683.K Empty Slots
@@ -118,7 +119,7 @@
 	- 556.Next Greater Element III
 	- 531.Lonely Pixel I
 	- 163.Missing Ranges
-
+	- 766. Toeplitz Matrix
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 	- 394.Decode String
@@ -181,6 +182,8 @@
 	- 482.License Key Formatting
 	- 481.Magical String
 	- 686.Repeated String Match
+	- 520. Detect Capital (Upper & lower)
+	- 247. Strobogrammatic Number II (update current list recursively)
 #### Simulation
 - 498.Diagonal Traverse
 - 495.Teemo Attacking
@@ -199,6 +202,7 @@
 - 504.Base 7
 - 319.Bulb Switcher
 - 260.Single Number III(bit manipulation)
+- 268. Missing Number (bit manipulation)
 - 343.Integer Break
 - 357.Count Numbers with Unique Digits
 - 318.Maximum Product of Word Lengths(Bit Map)
@@ -214,6 +218,7 @@
 - 418. Sentence Screen Fitting
 - 325. Maximum Size Subarray Sum Equals k
 - 31. Next Permutation
+- 276. Paint Fence
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
@@ -233,6 +238,7 @@
 - 256.Paint House
 - 338.Counting Bits
 - 303.Range Sum Query - Immutable
+- 276. Paint Fence
 ### Marked questions
 - 172.Factorial Trailing Zeroes
 - Battleship in a Board: checking head horizontally and vertically.
@@ -248,7 +254,7 @@
 - 116.Populating Next Right Pointers in Each Node
 - 142.Linked List Cycle II
 - 168.Excel Sheet Column Title
-- 198.House Robber: Greddy
+- 198.House Robber: Greedy
 - 257.Binary Tree Paths: Nice Grammar!!
 - 394.Decode String: using stack
 - 506.Relative Ranks(version: same score supported)
