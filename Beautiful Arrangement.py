@@ -1,5 +1,21 @@
 
 class Solution(object):
+    
+    # downwards recursive solution, fast
+    def countArrangement(self, N):
+        self.counter = 0
+        
+        def helper(i, X):
+            if i==1:
+                self.counter += 1
+                return
+            for x in X:
+                if x%i == 0 or i%x == 0:
+                    helper(i-1, X-{x})
+                    
+        helper(N, set(range(1, N+1)))
+        return self.counter
+    
 
     # backtracking solution, TLE on N=15
     def countArrangement(self, N):
@@ -22,7 +38,7 @@ class Solution(object):
     
     
     
-    
+    # BFS solution, TLE on N = 14
     def countArrangement(self, N):
         counter = 0
         queue = []
