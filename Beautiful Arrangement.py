@@ -1,5 +1,28 @@
 
 class Solution(object):
+
+    # backtracking solution, TLE on N=15
+    def countArrangement(self, N):
+        self.counter = 0
+        
+        def helper(N, visted, length):
+            if length == N:
+                self.counter += 1
+                return
+            for i in xrange(1, N+1):
+                if visted[i-1]==0 and (i % (length+1)==0 or (length+1) % i == 0):
+                    visted[i-1] = 1
+                    helper(N, visted, length+1)
+                    visted[i-1] = 0
+                    
+        helper(N, [0 for i in xrange(N)], 0)
+        return self.counter
+    
+    
+    
+    
+    
+    
     def countArrangement(self, N):
         counter = 0
         queue = []
