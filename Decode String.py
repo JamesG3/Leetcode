@@ -1,32 +1,24 @@
 class Solution(object):
+    # stack solution
     def decodeString(self, s):
-        mult = 0
-        curr = ''
         stack = []
+        curr, num = '', ''
         
-        for n in s:
-            #print stack
-            if n.isdigit():
-                mult = mult*10 + int(n)
-                
-            elif 97<=ord(n)<=122:           #if n is a letter
-                curr+=n
-                
-            elif n == '[':
-                stack.append(curr)
-                stack.append(mult)
-                curr = ''
-                mult = 0
-                
-            #the number of '[' is same as ']', so the the stack will be empty in the end
-            
-            elif n == ']':
-                num = stack.pop()
-                prestring = stack.pop()
-                curr = prestring + num*curr
-                
+        for c in s:
+            if c.isdigit():
+                num += c
+            elif c == '[':
+                stack.append([curr, int(num)])
+                curr, num = '', ''
+            elif c == ']':
+                prev, n = stack.pop()
+                curr = prev + curr*n
+            else:
+                curr+=c
         return curr
                 
+                
+        
         
         """
         :type s: str
