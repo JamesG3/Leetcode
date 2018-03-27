@@ -1,13 +1,31 @@
 class Solution(object):
-    ans =[0]
+    
+    # BFS
     def numSquares(self, n):
-        if len(self.ans)<= n:
-            perfectSqr= []
-            for v in xrange(1, int(math.sqrt(n))+ 1):
-                perfectSqr.append(v**2)
-            for i in xrange(len(self.ans), n+1):
-                self.ans.append(min(1 + self.ans[i-sqr] for sqr in perfectSqr if sqr <= i))
-        return self.ans[n]  
+        if n<2:
+            return n
+        
+        sqr = []
+        for i in xrange(1, int(math.sqrt(n))+1):
+            sqr.append(i**2)
+            
+        res = 0
+        dic = {n}
+                                        # BFS, using set to store all possible numbers after minus each perfect square number
+        while dic:                      # repeat until a perfect square number appears in the dic
+            res+=1
+            tmp = set()
+            for x in dic:
+                for y in sqr:
+                    if x == y:
+                        return res
+                    if x < y:
+                        break
+                    tmp.add(x-y)
+                dic = tmp
+        return res
+       
+        
         """
         :type n: int
         :rtype: int
