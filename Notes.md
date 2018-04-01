@@ -45,6 +45,8 @@
 	- 364.Nested List Weight Sum II (Similar Question)
 - **BFS**
 	- 637.Average of Levels in Binary Tree
+	- 279. Perfect Squares
+
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
 - **Binary Search Tree**
@@ -140,6 +142,9 @@
 	- 339.Nested List Weight Sum
 	- 366.Find Leaves of Binary Tree
 	- 388.Longest Absolute File Path
+	- 737. Sentence Similarity II
+- **Union Find**
+	- 737. Sentence Similarity II
 - **Using dictionary**
 	- 447.Number of Boomerangs
 	- 506.Relative Ranks
@@ -162,6 +167,9 @@
 
 - **Sort**
 	- 280.Wiggle Sort (in-place sort)
+	- 436.Find Right Interval (bucket sort)
+
+
 
 #### deal with String
 - **Using dictionary**
@@ -184,6 +192,8 @@
 	- 686.Repeated String Match
 	- 520. Detect Capital (Upper & lower)
 	- 247. Strobogrammatic Number II (update current list recursively)
+	- 521.Longest Uncommon Subsequence I
+	- 777. Swap Adjacent in LR String
 #### Simulation
 - 498.Diagonal Traverse
 - 495.Teemo Attacking
@@ -203,6 +213,7 @@
 - 319.Bulb Switcher
 - 260.Single Number III(bit manipulation)
 - 268. Missing Number (bit manipulation)
+- 191. Number of 1 Bits (bit manipulation)
 - 343.Integer Break
 - 357.Count Numbers with Unique Digits
 - 318.Maximum Product of Word Lengths(Bit Map)
@@ -239,6 +250,7 @@
 - 338.Counting Bits
 - 303.Range Sum Query - Immutable
 - 276. Paint Fence
+- 361. Bomb Enemy
 ### Marked questions
 - 172.Factorial Trailing Zeroes
 - Battleship in a Board: checking head horizontally and vertically.

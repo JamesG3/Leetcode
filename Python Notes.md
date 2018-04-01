@@ -208,6 +208,8 @@
 - then the result of `which pip3/pip` turns into `./venv/bin/pip or pip3`
 - `pip3 list` list all the installed modules in venv.
 - `deactivate` to deactivate the virtual environment.
+#### globals() and locals()
+- Calling these two function can return a dict which includes all global/local variables in the current scope.
 
 ### Attentions  
 
