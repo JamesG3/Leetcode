@@ -1,4 +1,16 @@
 class Solution(object):
+    # math solution (mod) O(1)
+    def isPowerOfTwo(self, n):
+        if n <= 0:
+            return False
+
+        return not (2**31 % n)
+    
+    
+    
+    
+    
+    # string solution, O(n)
     def isPowerOfTwo(self, n):
         """
         :type n: int
