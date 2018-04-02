@@ -107,6 +107,8 @@
 	- 105.Construct Binary Tree from Preorder and Inorder Traversal
 - **Binary Search**
 	- 540.Single Element in a Sorted Array
+	- 162. Find Peak Element
+
 - **Traverse & marking**
 	- 448.Find All Numbers Disappeared in an Array
 	- 204.Count Primes ([Sieve of Eratosthenes][3])
@@ -122,6 +124,7 @@
 	- 531.Lonely Pixel I
 	- 163.Missing Ranges
 	- 766. Toeplitz Matrix
+	- 665. Non-decreasing Array
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 	- 394.Decode String
@@ -194,6 +197,7 @@
 	- 247. Strobogrammatic Number II (update current list recursively)
 	- 521.Longest Uncommon Subsequence I
 	- 777. Swap Adjacent in LR String
+	- 408. Valid Word Abbreviation
 #### Simulation
 - 498.Diagonal Traverse
 - 495.Teemo Attacking
@@ -230,6 +234,9 @@
 - 325. Maximum Size Subarray Sum Equals k
 - 31. Next Permutation
 - 276. Paint Fence
+- 231. Power of Two
+- 326. Power of Three
+- 342. Power of Four
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
