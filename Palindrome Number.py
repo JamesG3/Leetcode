@@ -1,20 +1,22 @@
 class Solution(object):
     def isPalindrome(self, x):
-        st=str(x)
-        count=0
-        while(count<len(st)/2):                                 #convert number into string and count the same numbers
-            if(st[count]==st[len(st)-count-1]):
-                count+=1
-            else:
-                break
-        if(count==len(st)/2):                                  #To check if this number is a palindrome number
-            return True
-        else:
+        if x < 0:
             return False
+        
+        num = 0
+        tmp = x
+        while tmp > 0:
+            num = num*10 + tmp%10
+            tmp /= 10
             
+        return num == x
+        
+        
         """
         :type x: int
         :rtype: bool
         """
-        #Determine whether an integer is a palindrome. Do this without extra space.
         
+        # Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+        # Coud you solve it without converting the integer to a string?
+
