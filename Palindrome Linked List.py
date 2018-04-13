@@ -6,44 +6,35 @@
 
 class Solution(object):
     def isPalindrome(self, head):
-        fast = head
-        slow = head
+        slow = fast = head
         
-        if head is None:
-            return True
-        
-        while fast and fast.next:
+        while fast and fast.next:           # find mid point
+            slow = slow.next
             fast = fast.next.next
+            
+        if fast:                    # if odd length, move mid point
             slow = slow.next
             
-        count = 0               #a counter used for count the length of each part
-        original_head = head    #start of right part of Palindrome  
-                                #head will be the start of left part
-        while slow.next != None:    #move numbers to head using reverse order
-            tem = slow.next         #make left part and right part in same order
-            slow.next = slow.next.next
-            tem.next = head
-            head = tem
-            count+=1
+        tmp1 = None
+        
+        while slow:             # reverse second part
+            tmp2 = slow
+            slow = slow.next
+            tmp2.next = tmp1
+            tmp1 = tmp2
             
-        for n in xrange(count):     #compare every number to check if the corresponding numbers are same
-            if head.val != original_head.val:   #if not, then it's not a Palindrome
+        while tmp1:             # compare two parts of the linked list
+            if tmp1.val != head.val:
                 return False
-            else:
-                head = head.next
-                original_head = original_head.next
-                
-        if original_head.next == None:  #if there is only one number in the middle, then it's a Palindrome
-            return True
-        else:                           #if there are two numbers in the middle
-            if original_head.val == original_head.next.val:     #if this two numbers are same, then it's a Palindrome
-                return True
-            else:                       #if different, False 
-                return False
+            tmp1, head = tmp1.next, head.next
             
+        return True
+        
+        
         """
         :type head: ListNode
         :rtype: bool
         """
-        #Given a singly linked list, determine if it is a palindrome.
-        #Could you do it in O(n) time and O(1) space?
+        # Given a singly linked list, determine if it is a palindrome.
+        # Could you do it in O(n) time and O(1) space?
+
