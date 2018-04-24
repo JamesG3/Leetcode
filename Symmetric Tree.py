@@ -7,26 +7,27 @@
 
 class Solution(object):
     def isSymmetric(self, root):
-        if root == None:                                        # For situation []
+        if not root or (not root.left and not root.right):
             return True
-        return self.recursive(root.left, root.right)
+            
+        return self.helper(root.left, root.right)
         
         
-    def recursive(self, left, right):
-        if left != None and right != None:
-            if left.val == right.val:
-                return self.recursive(left.left, right.right) and self.recursive(left.right, right.left)    # check all points from start to leaves
-            else:
-                return False
-        else:
-            if left == right:                                   # check if left and right are both null
-                return True
-            else:
-                return False
+    def helper(self, node1, node2):
+        if not node1 and not node2:
+            return True
+        
+        if not node1 or not node2:
+            return False
+        
+        return node1.val == node2.val and self.helper(node1.left, node2.right) and self.helper(node1.right, node2.left)
+        
+        
         """
         :type root: TreeNode
         :rtype: bool
-        
-        Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
         """
         
+        
+        # Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
+
