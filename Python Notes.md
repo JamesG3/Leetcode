@@ -211,6 +211,18 @@
 #### globals() and locals()
 - Calling these two function can return a dict which includes all global/local variables in the current scope.
 
+
+#### else branch for ‘for’ and ‘while’ loop
+- Python’s **‘for’** and **‘while’** loops support an **‘else’** clause that executes only if the loops terminates without hitting a ‘break’ statement.
+	def contains(haystack, needle):
+		for item in haystack:
+			if item == needle:
+				break
+		else:
+			raise ValueError('Needle not found')
+
+
+
 ### Attentions  
 
 #### If and while:  

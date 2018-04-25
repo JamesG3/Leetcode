@@ -162,11 +162,17 @@
 	- 340.Longest Substring with At Most K Distinct Characters
 	- 31. Next Permutation
 	- 42. Trapping Rain Water
+	- 26. Remove Duplicates from Sorted Array
+	- 27. Remove Element
+	- 28. Implement strStr()
+	- 161. One Edit Distance
+
 - **Palindrome**
-	- 234.Palindrome Linked List(*O(2n)* and *O(1)* space)
 	- 647.Palindromic Substrings
 	- 266.Palindrome Permutation
-	- Longest Palindromic Substring
+	- 5.Longest Palindromic Substring
+	- 234. Palindrome Linked List
+
 
 - **Sort**
 	- 280.Wiggle Sort (in-place sort)
@@ -233,6 +239,7 @@
 - 418. Sentence Screen Fitting
 - 325. Maximum Size Subarray Sum Equals k
 - 31. Next Permutation
+- 29. Divide Two Integers
 - 276. Paint Fence
 - 231. Power of Two
 - 326. Power of Three
@@ -258,6 +265,10 @@
 - 303.Range Sum Query - Immutable
 - 276. Paint Fence
 - 361. Bomb Enemy
+- 718. Maximum Length of Repeated Subarray
+- 72.Edit Distance
+- 161. One Edit Distance
+- 583. Delete Operation for Two Strings
 ### Marked questions
 - 172.Factorial Trailing Zeroes
 - Battleship in a Board: checking head horizontally and vertically.
