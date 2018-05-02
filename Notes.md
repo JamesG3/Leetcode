@@ -146,6 +146,8 @@
 	- 366.Find Leaves of Binary Tree
 	- 388.Longest Absolute File Path
 	- 737. Sentence Similarity II
+	- 22. Generate Parentheses
+	- 17. Letter Combinations of a Phone Number
 - **Union Find**
 	- 737. Sentence Similarity II
 - **Using dictionary**
@@ -224,6 +226,7 @@
 - 260.Single Number III(bit manipulation)
 - 268. Missing Number (bit manipulation)
 - 191. Number of 1 Bits (bit manipulation)
+- 67. Add Binary (bit manipulation)
 - 343.Integer Break
 - 357.Count Numbers with Unique Digits
 - 318.Maximum Product of Word Lengths(Bit Map)
