@@ -1,26 +1,30 @@
 class Solution(object):
+    
+    
+    # backtracking solution, DFS
     def generateParenthesis(self, n):
+        res = []
         
-        ans=[]
-        
-        def generate(n,count,String):                       #recursive function
-            if count>0:                                     
-                generate(n,count-1,String + ")")
-            if n>0:
-                generate(n-1,count+1,String + "(")
-            elif n==0 and count==0:                         #append string to ans when a result generated
-                ans.append(String)
-        
-        generate(n,0,"")
-        
-        return ans[::-1]
+        def helper(Length, left, right, S):
+            if Length == 2*n:
+                res.append(S)
+                return
+            if left < n:
+                helper(Length+1, left+1, right, S+'(')
+            if right < left:
+                helper(Length+1, left, right+1, S+')')
                 
+        helper(0, 0, 0, '')
+        return res
+            
+        
         """
         :type n: int
         :rtype: List[str]
-        
-        Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
-        For example, given n = 3, a solution set is:
-        ["((()))","(()())","(())()","()(())","()()()"]
         """
+        
+        
+        # Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+        # 3
+        # ["((()))","(()())","(())()","()(())","()()()"]
         
