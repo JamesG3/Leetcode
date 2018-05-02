@@ -1,37 +1,25 @@
 class Solution(object):
+    
+    # DFS solution
     def letterCombinations(self, digits):
-        dic={"1":"*", "2":"abc", "3":"def", "4":"ghi", "5":"jkl", "6":"mno", "7":"pqrs", "8":"tuv", "9":"wxyz", "0":" "}
-        numbers=list(digits)
-        global ans
-        ans=[]
-        self.Combination(numbers, dic)
-        return ans
+        dic = {'2':['a', 'b', 'c'], '3':['d', 'e', 'f'], '4':['g', 'h', 'i'], '5':['j', 'k', 'l'], '6':['m', 'n', 'o'], '7':['p','q','r','s'], '8':['t','u','v'], '9':['w','x','y','z']}
         
         
-    def Combination(self, numbers, dic):
-        global ans
-        while len(numbers) != 0:
-            if len(ans)==0:
-                ans=list(dic[numbers[0]])
-                numbers=numbers[1:]             #delete the first element
-            else:
-                possible=len(dic[numbers[0]])
-                grouplen=len(ans)               #orignal length
-                ans*=possible                   #new comination possibilities, expand orignal list
-                index=0
-                counter=0
-                n=0
-                while n != len(ans):
+        if digits == "":
+            return []
+        
+        elif len(digits) == 1:
+            return dic[digits]
+        
+        else:
+            res = []
+            for n in dic[digits[0]]:
+                for m in self.letterCombinations(digits[1:]):
+                    res.append(n+m)
                     
-                    if counter!=grouplen:
-                        ans[n]+=dic[numbers[0]][index]
-                        counter+=1
-                        n+=1
-                    elif counter==grouplen:
-                        counter=0           #reset counter
-                        index+=1
-                numbers=numbers[1:]
-                        
+            return res
+                    
+              
                 
         """
         :type digits: str
