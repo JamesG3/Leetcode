@@ -1,4 +1,24 @@
 class Solution(object):
+    # hash set solution (sliding window)
+    def containsNearbyDuplicate(self, nums, k):
+        length = len(nums)
+        s = set()
+        
+        for i in xrange(length):
+            if nums[i] in s:
+                    return True
+        
+            s.add(nums[i])
+            if len(s) > k:
+                s.remove(nums[i-k])
+                
+        return False
+    
+    
+    
+    
+    
+    # dictionary solution
     def containsNearbyDuplicate(self, nums, k):
         dic = {}                              # Init a dictionary,using hash
         tem = 0
