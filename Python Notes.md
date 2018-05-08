@@ -191,12 +191,12 @@
 	>> hi    (1,2)    {'key1':'w', 'key2':'4'}
 
 - can be used to override a class / wrap a function and forward arguments
-	class Car:
+		class Car:
 		    def __init__(self, color, mileage):
 		        self.color = color
 		        self.mileage = mileage
 
-	class AlwaysBlueCar(Car):
+		class AlwaysBlueCar(Car):
 		    def __init__(self, *args, **kwargs):
 		        super().__init__(*args, **kwargs)
 		        self.color = 'blue'
@@ -216,10 +216,10 @@
 - Python’s **‘for’** and **‘while’** loops support an **‘else’** clause that executes only if the loops terminates without hitting a ‘break’ statement.
 	def contains(haystack, needle):
 		for item in haystack:
-			if item == needle:
-				break
+		    if item == needle:
+		        break
 		else:
-			raise ValueError('Needle not found')
+		    raise ValueError('Needle not found')
 
 
 

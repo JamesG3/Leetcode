@@ -74,7 +74,9 @@
 	- 544.Output Contest Matches
 	- 541.Reverse String II
 	- 687.Longest Univalue Path
-	- 298.Binary Tree Longest Consecutive Sequence (Backtracking)
+- **Backtracking**
+	- 298.Binary Tree Longest Consecutive Sequence 
+	- 46. Permutations
 
 - **Global variable**
 	- 129.Sum Root to Leaf Numbers
