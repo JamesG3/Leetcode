@@ -5,6 +5,36 @@
 #         self.left = None
 #         self.right = None
 
+
+
+# queue solution
+class Solution(object):
+    def levelOrder(self, root):
+        q = [root]
+        ans = []
+        
+        def traverse(q):
+            while q:
+                tmp = q
+                q = []
+                curlevel = []
+                for node in tmp:
+                    curlevel.append(node.val)
+                    if node.left:
+                        q.append(node.left)
+                    if node.right:
+                        q.append(node.right)
+                ans.append(curlevel)
+                
+        if not root:
+            return []
+        traverse(q)
+        
+        return ans
+
+
+
+# in order traverse solution
 class Solution(object):
     def levelOrder(self, root):
         res=[]
