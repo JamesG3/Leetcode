@@ -5,6 +5,42 @@
 #         self.left = None
 #         self.right = None
 
+# stack solution
+class Solution(object):
+    def levelOrderBottom(self, root):
+        if not root:
+            return []
+        
+        stack = [[root]]
+        ans = []
+        
+        while True:                 # store all node in the order of level
+            tmp = stack[-1]
+            curlevel = []
+            for node in tmp:
+                if node.left:
+                    curlevel.append(node.left)
+                if node.right:
+                    curlevel.append(node.right)
+                    
+            if not curlevel:
+                break
+            stack.append(curlevel)
+            
+        
+        while stack:                # read all nodes in traverse order, get value
+            curnums = []
+            curlevel = stack.pop()
+            for node in curlevel:
+                curnums.append(node.val)
+            ans.append(curnums)
+            
+        return ans
+
+
+
+
+# in-order traversal solution
 class Solution(object):
     def levelOrderBottom(self, root):
         dic={}              #create a dic to save node from every number
