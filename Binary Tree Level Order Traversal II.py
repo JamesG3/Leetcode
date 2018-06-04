@@ -28,7 +28,7 @@ class Solution(object):
             stack.append(curlevel)
             
         
-        while stack:                # read all nodes in traverse order, get value
+        while stack:                # read all nodes in reverse order, get value
             curnums = []
             curlevel = stack.pop()
             for node in curlevel:
