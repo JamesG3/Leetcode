@@ -52,6 +52,7 @@
 - **Binary Search Tree**
 	- 669.Trim a Binary Search Tree
 	- 501.Find Mode in Binary Search Tree
+	- 653. Two Sum IV - Input is a BST
 - **Tree Traversal**
 	- 94.Binary Tree Inorder Traversal
 	- 98.Validate Binary Search Tree
@@ -64,7 +65,7 @@
 	- 530.Minimum Absolute Difference in BST
 	- 543.Diameter of Binary Tree
 	- 538.Convert BST to Greater Tree
-	- 617.Merge Two Binary Trees
+	- 617.Mergeq Two Binary Trees
 	- 655.Print Binary Tree
 - **recursive**
 	- 257.Binary Tree Paths
@@ -127,6 +128,8 @@
 	- 163.Missing Ranges
 	- 766. Toeplitz Matrix
 	- 665. Non-decreasing Array
+	- 628. Maximum Product of Three Numbers
+
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 	- 394.Decode String
@@ -139,7 +142,9 @@
 	- 484.Find Permutation
 	- 20.Valid Parentheses (stack)
 	- 281. Zigzag Iterator (queue)
-
+	- 102.Binary Tree Level Order Traversal
+	- 103. Binary Tree Zigzag Level Order Traversal
+	- 107. Binary Tree Level Order Traversal II
 - **DFS**
 	- 526.Beautiful Arrangement
 	- 690.Employee Importance
@@ -249,6 +254,8 @@
 - 231. Power of Two
 - 326. Power of Three
 - 342. Power of Four
+- 628. Maximum Product of Three Numbers
+
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
