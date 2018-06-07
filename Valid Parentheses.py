@@ -1,31 +1,18 @@
 class Solution(object):
     def isValid(self, s):
+        dic = {')':'(', ']': '[', '}': '{'}
         stack = []
+        
         for c in s:
-            if not stack:
+            if c in ('(', '[', '{'):
                 stack.append(c)
             else:
-                if c == '}':
-                    if stack[-1] == '{':
-                        stack.pop()
-                    else:
-                        return False
-                    
-                elif c == ')':
-                    if stack[-1] == '(':
-                        stack.pop()
-                    else:
-                        return False
-                    
-                elif c == ']':
-                    if stack[-1] == '[':
-                        stack.pop()
-                    else:
-                        return False
+                if stack and stack[-1] == dic[c]:
+                    stack.pop()
                 else:
-                    stack.append(c)
-        
-        return len(stack) == 0
+                    return False
+                
+        return stack == []
 
 
 
