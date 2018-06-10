@@ -1,4 +1,23 @@
 class Solution(object):
+    # count element solution O(n * m)
+    def groupAnagrams(self, strs):
+        dic = {}
+        
+        for s in strs:
+            k = [0 for _ in xrange(26)]
+            for c in s:
+                k[ord(c) - 97] += 1
+            k = tuple(k)
+            if k in dic:
+                dic[k].append(s)
+            else:
+                dic[k] = [s]
+        return dic.values()
+        
+    
+    
+    
+    # sort solution, O(n * mlog(m))
     def groupAnagrams(self, strs):
         dic={}
         res=[]
