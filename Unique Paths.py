@@ -1,3 +1,19 @@
+# dp solution, O(m*n)
+class Solution(object):
+    def uniquePaths(self, m, n):
+        dp = [[0 for _ in xrange(m)] for _ in xrange(n)]
+        
+        dp[0] = [1 for _ in xrange(m)]
+        for i in xrange(n):
+            dp[i][0] = 1
+            
+        for i in xrange(1, n):
+            for j in xrange(1, m):
+                dp[i][j] = dp[i-1][j] + dp[i][j-1]
+        return dp[-1][-1]
+
+
+# math solution
 class Solution(object):
     def uniquePaths(self, m, n):
         return math.factorial(m+n-2)/( math.factorial(m-1) * math.factorial(n-1) )
