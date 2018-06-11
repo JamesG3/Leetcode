@@ -1,3 +1,4 @@
+# dp solution
 class Solution(object):
     def uniquePathsWithObstacles(self, obstacleGrid):
         m, n = len(obstacleGrid[0]), len(obstacleGrid)
