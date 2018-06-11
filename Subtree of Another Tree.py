@@ -23,33 +23,28 @@ class Solution(object):
         return traverse(s, t)
 
 
-# tree traversal solution, string solution
+# string solution, pre-order traversal
 class Solution(object):
-
+    def __init__(self):
+        self.s_str = ""
+        self.tmp = ""
+    
     def isSubtree(self, s, t):
-        global Tem
-        Tem = ""
+        self.traversal(s)
+        self.s_str = self.tmp
+        self.tmp = ""
+        self.traversal(t)
+        # print self.tmp, self.s_str
+        return self.tmp in self.s_str
         
-        self.helper(s)
-        S = Tem
+    def traversal(self, node):
+        if not node:
+            self.tmp += " "
+            return
+        self.tmp += "*" + str(node.val)     # add a special character before each node
+        self.traversal(node.left)           # pre-order traversal works!
+        self.traversal(node.right)
         
-        Tem = ""
-        self.helper(t)
-        T = Tem
-
-        return T in S
-        
-        
-        
-    def helper(self, root):
-        global Tem
-        if root is None:
-            Tem += "n"
-        
-        else:
-            Tem+=str(root.val)
-            self.helper(root.left)
-            self.helper(root.right)
         
         """
         :type s: TreeNode
