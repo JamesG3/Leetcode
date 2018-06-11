@@ -23,7 +23,7 @@ class Solution(object):
         return traverse(s, t)
 
 
-# string solution, pre-order traversal
+# string solution, pre-order traversal, super fast!
 class Solution(object):
     def __init__(self):
         self.s_str = ""
