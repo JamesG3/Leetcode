@@ -5,7 +5,27 @@
 #         self.left = None
 #         self.right = None
 
+
+# subtree compare solution, O(n*m) time and O(n) space
 class Solution(object):
+    def isSubtree(self, s, t):
+    
+        def compare(t1, t2):
+            if not t1 and not t2:
+                return True
+            elif (t1==None or t2==None):
+                return False
+            return (t1.val == t2.val and compare(t1.left, t2.left) and compare(t1.right, t2.right))
+        
+        def traverse(s, t):
+            return s is not None and (compare(s, t) or traverse(s.left, t) or traverse(s.right, t))
+        
+        return traverse(s, t)
+
+
+# tree traversal solution, string solution
+class Solution(object):
+
     def isSubtree(self, s, t):
         global Tem
         Tem = ""
@@ -16,9 +36,7 @@ class Solution(object):
         Tem = ""
         self.helper(t)
         T = Tem
-        
-        print S
-        print T
+
         return T in S
         
         
