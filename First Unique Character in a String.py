@@ -1,18 +1,27 @@
 class Solution(object):
+    
+    # hashtable solution, O(n)
     def firstUniqChar(self, s):
-        d={}
-        for n in s:
-            if n in d:
-                d[n]+=1
+        dic = {}
+        
+        for i, c in enumerate(s):
+            if c in dic:
+                dic[c].append(i)
             else:
-                d[n]=1
-        for x in s:
-            if d[x]==1:
-                return s.find(x)
-        return -1
+                dic[c] = [i]
+        
+        ans = float('Inf')
+        for c in dic:
+            if len(dic[c]) == 1:
+                ans = min(ans, dic[c][0])
                 
-                
+        return ans if ans != float('Inf') else -1
+            
+        
         """
         :type s: str
         :rtype: int
         """
+        
+        # Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
+
