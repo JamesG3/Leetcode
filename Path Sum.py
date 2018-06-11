@@ -5,7 +5,7 @@
 #         self.left = None
 #         self.right = None
 
-# itrative solution
+# itrative solution DFS
 class Solution(object):
     def hasPathSum(self, root, sum):
         if not root:
@@ -36,7 +36,7 @@ class Solution(object):
 
 
 
-# recursive solution
+# recursive solution, DFS
 class Solution(object):
     def hasPathSum(self, root, sum):
         if root is None:
