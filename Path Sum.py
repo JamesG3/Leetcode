@@ -5,6 +5,38 @@
 #         self.left = None
 #         self.right = None
 
+# itrative solution
+class Solution(object):
+    def hasPathSum(self, root, sum):
+        if not root:
+            return False
+        
+        s = [root]
+        while True:
+            tmps = []
+            if not s:
+                break
+                
+            while s:
+                node = s.pop()
+                if not node.left and not node.right:
+                    if node.val == sum:
+                        return True
+
+                if node.left:
+                    node.left.val += node.val
+                    tmps.append(node.left)
+                if node.right:
+                    node.right.val += node.val
+                    tmps.append(node.right)
+            s = tmps
+
+        return False
+            
+
+
+
+# recursive solution
 class Solution(object):
     def hasPathSum(self, root, sum):
         if root is None:
