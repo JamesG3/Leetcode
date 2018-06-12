@@ -129,6 +129,7 @@
 	- 766. Toeplitz Matrix
 	- 665. Non-decreasing Array
 	- 628. Maximum Product of Three Numbers
+	- 56. Merge Intervals
 
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
@@ -175,7 +176,7 @@
 	- 27. Remove Element
 	- 28. Implement strStr()
 	- 161. One Edit Distance
-
+	- 125. Valid Palindrome
 - **Palindrome**
 	- 647.Palindromic Substrings
 	- 266.Palindrome Permutation
@@ -222,6 +223,7 @@
 - 535.Encode and Decode TinyURL
 - 347.Top K Frequent Elements
 - 734. Sentence Similarity
+- 387. First Unique Character in a String
 #### Mathematics
 - 172.Factorial Trailing Zeroes
 - 168.Excel Sheet Column Title
@@ -255,6 +257,7 @@
 - 326. Power of Three
 - 342. Power of Four
 - 628. Maximum Product of Three Numbers
+- 69. Sqrt(x) - Newton's method[https://en.wikipedia.org/wiki/Integer\_square\_root#Algorithm\_using\_Newton's\_method][4]
 
 #### Data Structures
 - 225.Implement Stack using Queues
@@ -264,7 +267,7 @@
 - 369.Plus One Linked List (reverse the linked list)
 - 138.Copy List with Random Pointer (Deep copy)
 - 208. Implement Trie (Prefix Tree)
-
+- 155. Min Stack
 #### DP
 - 357.Count Numbers with Unique Digits
 - 309.Best Time to Buy and Sell Stock with Cooldown(using state machine)
@@ -281,6 +284,10 @@
 - 72.Edit Distance
 - 161. One Edit Distance
 - 583. Delete Operation for Two Strings
+- 62. Unique Paths
+- 63. Unique Paths II
+- 463. Island Perimeter
+
 ### Marked questions
 - 172.Factorial Trailing Zeroes
 - Battleship in a Board: checking head horizontally and vertically.
@@ -289,7 +296,7 @@
 - Invert Binary Tree: build an Invert function and a Traversal function to swap every node
 - Convert Sorted Array to Binary Search Tree: insert recursively
 - H-Index: how to calculate a H-Index.
-	- [https://zh.wikipedia.org/wiki/H指数][4]
+	- [https://zh.wikipedia.org/wiki/H指数][5]
 - 448.Find All Numbers Disappeared in an Array
 - 120.Triangle
 - 232.Implement Queue using Stacks: using 2 stack to implement Queue
@@ -324,11 +331,12 @@
 	- **GUESS: Maybe they run a testcase for several times, and check if the output is random like (if the output is same, then the solution may be wrong)**
 - 435 Non-overlapping Intervals: When i test [[1,2]() , [2,3]()] using Run Code, it pass with a result 0. However, when i click Submit Solution, the result is Wrong Answer, and it shows my result is 1, not 0. Is there someone knows whats wrong with the code or test case?
 	- **Because Intervals.sort() sort this intervals by the address.**
-- 142.Linked List Cycle II: why the result is the start of cycle? **MATHEMATICAL** explanation: [https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation][7]
+- 142.Linked List Cycle II: why the result is the start of cycle? **MATHEMATICAL** explanation: [https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation][8]
 - 36.Valid Sudoku: How to solve this using a simple solution?
 
 [1]:	https://en.wikipedia.org/wiki/Catalan_number
 [2]:	https://pic4.zhimg.com/50/d8e460d4234298930d6c3af5450af673_hd.jpg "d8e460d4234298930d6c3af5450af673_hd.jpg"
 [3]:	https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
-[4]:	https://zh.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0
-[7]:	https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation
+[4]:	https://en.wikipedia.org/wiki/Integer_square_root#Algorithm_using_Newton's_method
+[5]:	https://zh.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0
+[8]:	https://discuss.leetcode.com/topic/43858/python-o-n-no-extra-space-with-mathematical-explanation
