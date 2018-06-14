@@ -6,6 +6,9 @@
 #         self.right = None
 #         self.next = None
 
+
+
+# O(1) space, O(n) time
 class Solution:
     # @param root, a tree link node
     # @return nothing
