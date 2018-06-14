@@ -7,30 +7,22 @@
 
 class Solution(object):
     def kthSmallest(self, root, k):
-        global res                  #using global varibale to return the final result
-        global count                #using global variable, more easy to pass variable between functions
-        count=0
+        self.k = k
+        self.res = None
+        self.traverse(root)
+        return self.res
         
-        self.Traversal(root,k)
-        return res
         
-    def Traversal(self, root, k):   #in order tree-walk
-        global res
-        global count
-        if root==None:
+    def traverse(self, node):
+        if not node:
             return
-
-        if k==count:                    #check if count equals to k before walk to left
-            res=root.val
-            return
-            
-        self.Traversal(root.left, k)
-        count+=1
-        if k==count:
-            res=root.val
-            return        
         
-        self.Traversal(root.right, k)
+        self.traverse(node.left)
+        self.k -= 1
+        if self.k == 0:
+            self.res = node.val
+            return
+        self.traverse(node.right)
         
         """
         :type root: TreeNode
@@ -38,4 +30,7 @@ class Solution(object):
         :rtype: int
         """
         
-        #Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
+        
+        # Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
+        # You may assume k is always valid, 1 ≤ k ≤ BST's total elements.
+
