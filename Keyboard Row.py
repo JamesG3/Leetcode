@@ -1,38 +1,32 @@
 class Solution(object):
     def findWords(self, words):
-        line1 = list('qwertyuiopQWERTYUIOP')
-        line2 = list('ASDFGHJKLasdfghjkl')
-        line3 = list('zxcvbnmZXCVBNM')
-        dic = {1:line1,2:line2,3:line3}
-        
-        ans = []
-        
+        """
+        :type words: List[str]
+        :rtype: List[str]
+        """
+        dic = {}
+        res = []
+        for c in 'QWERTYUIOP':
+            dic[c] = 1
+        for c in 'ASDFGHJKL':
+            dic[c] = 2
+        for c in 'ZXCVBNM':
+            dic[c] = 3
+            
         for word in words:
-            length = len(word)
-            i = 0
-            mark = 0                # mark where the last letter belongs to
-            while i != length:
-                if word[i] in line1:
-                    if mark == 0:
-                        mark = 1
-                    elif mark != 1:
+            tmp = 0
+            flag = 0
+            for c in word:
+                if not tmp:
+                    tmp = dic[c.upper()]
+                else:
+                    if tmp != dic[c.upper()]:
+                        flag = 1
                         break
-                elif word[i] in line2:
-                    if mark == 0:
-                        mark = 2
-                    elif mark != 2:
-                        break
-                elif word[i] in line3:
-                    if mark == 0:
-                        mark = 3
-                    elif mark != 3:
-                        break
-                i += 1
+            if flag == 0:
+                res.append(word)
                 
-            if i == length:
-                ans.append(word)
-        return ans
-
+        return res
                 
                     
         """
