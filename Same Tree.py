@@ -12,11 +12,12 @@ class Solution(object):
         :type q: TreeNode
         :rtype: bool
         """
-        if not q and not p:
-            return True
-        elif q and p and q.val==p.val:
+        if p is not None and q is not None and p.val == q.val:
             return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
         else:
-            return False
+            return p == q
+            # return True if p == q == None else False
+            
+        
 
 #Given two binary trees, write a function to check if they are equal or not. 
