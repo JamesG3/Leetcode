@@ -22,3 +22,7 @@ class Solution(object):
                 
         # one line solution
         return " ".join(s.split()[::-1])
+
+    
+    
+        # Given an input string, reverse the string word by word.
