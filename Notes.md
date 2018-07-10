@@ -53,6 +53,9 @@
 	- 669.Trim a Binary Search Tree
 	- 501.Find Mode in Binary Search Tree
 	- 653. Two Sum IV - Input is a BST
+	- 230. Kth Smallest Element in a BST
+	- 98. Validate Binary Search Tree
+
 - **Tree Traversal**
 	- 94.Binary Tree Inorder Traversal
 	- 98.Validate Binary Search Tree
@@ -75,6 +78,7 @@
 	- 544.Output Contest Matches
 	- 541.Reverse String II
 	- 687.Longest Univalue Path
+	- 100.Same Tree
 - **Backtracking**
 	- 298.Binary Tree Longest Consecutive Sequence 
 	- 46. Permutations
@@ -156,6 +160,9 @@
 	- 737. Sentence Similarity II
 	- 22. Generate Parentheses
 	- 17. Letter Combinations of a Phone Number
+	- 113. Path Sum II
+	- 437. Path Sum III
+	- 100. Same Tree
 - **Union Find**
 	- 737. Sentence Similarity II
 - **Using dictionary**
@@ -177,6 +184,8 @@
 	- 28. Implement strStr()
 	- 161. One Edit Distance
 	- 125. Valid Palindrome
+	- 151. Reverse Words in a String
+	- 443. String Compression
 - **Palindrome**
 	- 647.Palindromic Substrings
 	- 266.Palindrome Permutation
@@ -187,6 +196,7 @@
 - **Sort**
 	- 280.Wiggle Sort (in-place sort)
 	- 436.Find Right Interval (bucket sort)
+	- 386. Lexicographical Numbers
 
 
 
@@ -258,7 +268,7 @@
 - 342. Power of Four
 - 628. Maximum Product of Three Numbers
 - 69. Sqrt(x) - Newton's method[https://en.wikipedia.org/wiki/Integer\_square\_root#Algorithm\_using\_Newton's\_method][4]
-
+- 258. Add Digitsr
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
@@ -268,6 +278,9 @@
 - 138.Copy List with Random Pointer (Deep copy)
 - 208. Implement Trie (Prefix Tree)
 - 155. Min Stack
+- 116. Populating Next Right Pointers in Each Node
+- 117. Populating Next Right Pointers in Each Node II
+
 #### DP
 - 357.Count Numbers with Unique Digits
 - 309.Best Time to Buy and Sell Stock with Cooldown(using state machine)

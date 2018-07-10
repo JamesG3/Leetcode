@@ -42,7 +42,9 @@
 - *arr.sort(key=lambda x:x[1][1])* means sort using the first key of arr
 - *arr.sort(key=lambda x:x[1][2],reverse=True)* means a reverse sort using the first key of arr
 - *intervals.sort(key=lambda x:x.start)* means sort using the first key of intervals
-
+#### sorted() function
+- Want to sort a integer list `L` Lexicographically? 
+	- `sorted(L, key = str)`
 #### iter  
 - Turning a non-iterator object into a iterator object, and return the head of it.
 - Including dictionary, list, string, etc.
@@ -195,7 +197,7 @@
 		    def __init__(self, color, mileage):
 		        self.color = color
 		        self.mileage = mileage
-
+		
 		class AlwaysBlueCar(Car):
 		    def __init__(self, *args, **kwargs):
 		        super().__init__(*args, **kwargs)
