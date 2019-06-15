@@ -1,4 +1,8 @@
 class Solution(object):
+    """
+    :type s: str
+    :rtype: bool
+    """
     def isValid(self, s):
         dic = {')':'(', ']': '[', '}': '{'}
         stack = []
