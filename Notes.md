@@ -82,6 +82,8 @@
 - **Backtracking**
 	- 298.Binary Tree Longest Consecutive Sequence 
 	- 46. Permutations
+	- 93.Restore IP Addresses
+
 
 - **Global variable**
 	- 129.Sum Root to Leaf Numbers
@@ -134,6 +136,7 @@
 	- 665. Non-decreasing Array
 	- 628. Maximum Product of Three Numbers
 	- 56. Merge Intervals
+	- 6.ZigZag Conversion
 
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
@@ -150,6 +153,7 @@
 	- 102.Binary Tree Level Order Traversal
 	- 103. Binary Tree Zigzag Level Order Traversal
 	- 107. Binary Tree Level Order Traversal II
+	- 32.Longest Valid Parentheses
 - **DFS**
 	- 526.Beautiful Arrangement
 	- 690.Employee Importance
@@ -209,11 +213,13 @@
 	- 609.Find Duplicate File in System
 	- 676.Implement Magic Dictionary
 	- 388. Longest Absolute File Path
+	- 13.Roman to Integer
 - **Using mark/State machine**
 	- 434.Number of Segments in a String
 	- 500.Keyboard Row
 	- 442.Find All Duplicates in an Array
 	- 696.Count Binary Substrings
+	- 6.ZigZag Conversion
 - **Others**
 	- 461.Hamming Distance
 	- 482.License Key Formatting
@@ -269,6 +275,7 @@
 - 628. Maximum Product of Three Numbers
 - 69. Sqrt(x) - Newton's method[https://en.wikipedia.org/wiki/Integer\_square\_root#Algorithm\_using\_Newton's\_method][4]
 - 258. Add Digitsr
+- 13.Roman to Integer
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
