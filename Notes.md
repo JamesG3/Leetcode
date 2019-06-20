@@ -83,6 +83,7 @@
 	- 298.Binary Tree Longest Consecutive Sequence 
 	- 46. Permutations
 	- 93.Restore IP Addresses
+	- 78.Subsets
 
 
 - **Global variable**
@@ -110,6 +111,19 @@
 	- 19.Remove Nth Node From End of List
 	- 83.Remove Duplicates from Sorted List
 	- 203.Remove Linked List Elements
+- **Two pointers**
+	- 340.Longest Substring with At Most K Distinct Characters
+	- 31. Next Permutation
+	- 42. Trapping Rain Water
+	- 26. Remove Duplicates from Sorted Array
+	- 27. Remove Element
+	- 28. Implement strStr()
+	- 161. One Edit Distance
+	- 125. Valid Palindrome
+	- 151. Reverse Words in a String
+	- 443. String Compression
+	- 16.3Sum Closest
+	- 832.Flipping an Image
 - **Double linked list**
 	- 146. LRU Cache
 - **Construct Binary Tree**
@@ -154,6 +168,7 @@
 	- 103. Binary Tree Zigzag Level Order Traversal
 	- 107. Binary Tree Level Order Traversal II
 	- 32.Longest Valid Parentheses
+	- 1021.Remove Outermost Parentheses (stack)
 - **DFS**
 	- 526.Beautiful Arrangement
 	- 690.Employee Importance
@@ -167,6 +182,8 @@
 	- 113. Path Sum II
 	- 437. Path Sum III
 	- 100. Same Tree
+	- 78.Subsets
+	- 90.Subsets II
 - **Union Find**
 	- 737. Sentence Similarity II
 - **Using dictionary**
@@ -179,17 +196,6 @@
 	- 362.Design Hit Counter
 	- 340.Longest Substring with At Most K Distinct Characters
 	- 325. Maximum Size Subarray Sum Equals k
-- **Two pointers**
-	- 340.Longest Substring with At Most K Distinct Characters
-	- 31. Next Permutation
-	- 42. Trapping Rain Water
-	- 26. Remove Duplicates from Sorted Array
-	- 27. Remove Element
-	- 28. Implement strStr()
-	- 161. One Edit Distance
-	- 125. Valid Palindrome
-	- 151. Reverse Words in a String
-	- 443. String Compression
 - **Palindrome**
 	- 647.Palindromic Substrings
 	- 266.Palindrome Permutation
@@ -276,6 +282,7 @@
 - 69. Sqrt(x) - Newton's method[https://en.wikipedia.org/wiki/Integer\_square\_root#Algorithm\_using\_Newton's\_method][4]
 - 258. Add Digitsr
 - 13.Roman to Integer
+- 15.3Sum.py
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
