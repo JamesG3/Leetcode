@@ -7,31 +7,36 @@
 
 class Solution(object):
     def rightSideView(self, root):
-        dic={}
-        key=0
-        res=[]
-        self.helper(root, key, dic)
-        for n in range(len(dic)):       #read the last element in every key's list(right view)
-            res.append(dic[n][-1])
-        return res
-        
-        
-    def helper(self, root, key, dic):       #recursion, walk the tree, and save the node into dic, using key as index
-        if root==None:
-            return
-        if key in dic:
-            dic[key].append(root.val)
-        else:
-            dic[key]=[root.val]
-        self.helper(root.left,key+1,dic)
-        self.helper(root.right,key+1,dic)
         """
         :type root: TreeNode
         :rtype: List[int]
+        Solution: level traverse (BFS)
+        Time: O(n)
+        Space: O(n)
         """
+        q = []
+        res = []
         
-        #Given a binary tree, imagine yourself standing on the right side of it, 
-        #return the values of the nodes you can see ordered from top to bottom.
+        if not root:
+            return res
         
-        #For every level, the most right node is what we can see in the right side, so using a dictionary to collect all node's value,
-        #Then return the right node from top to bottom
+        res.append(root.val)
+        q.append(root)
+        
+        while True:
+            tmp = []
+            for node in q:
+                if node.left:
+                    tmp.append(node.left)
+                if node.right:
+                    tmp.append(node.right)
+            if not tmp:
+                break
+                
+            res.append(tmp[-1].val)
+            q = tmp
+            
+        return res
+                    
+# Given a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.    
+        
