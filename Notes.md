@@ -55,6 +55,7 @@
 	- 653. Two Sum IV - Input is a BST
 	- 230. Kth Smallest Element in a BST
 	- 98. Validate Binary Search Tree
+	- 701.Insert into a Binary Search Tree
 
 - **Tree Traversal**
 	- 94.Binary Tree Inorder Traversal
@@ -100,6 +101,10 @@
 - 213.House Robber II
 - 334.Increasing Triplet Subsequence
 - 134.Gas Station
+- 55.Jump Game
+- 45.Jump Game II
+- 455.Assign Cookies
+- 763.Partition Labels
 #### Sliding Window
 - 3.Longest Substring Without Repeating Characters
 - 683.K Empty Slots
@@ -124,6 +129,7 @@
 	- 443. String Compression
 	- 16.3Sum Closest
 	- 832.Flipping an Image
+	- 942.DI String Match
 - **Double linked list**
 	- 146. LRU Cache
 - **Construct Binary Tree**
@@ -151,7 +157,7 @@
 	- 628. Maximum Product of Three Numbers
 	- 56. Merge Intervals
 	- 6.ZigZag Conversion
-
+	- 48.Rotate Image
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 	- 394.Decode String
@@ -169,6 +175,8 @@
 	- 107. Binary Tree Level Order Traversal II
 	- 32.Longest Valid Parentheses
 	- 1021.Remove Outermost Parentheses (stack)
+	- 921.Minimum Add to Make Parentheses Valid (stack)
+	- 739.Daily Temperatures (stack)
 - **DFS**
 	- 526.Beautiful Arrangement
 	- 690.Employee Importance
@@ -186,6 +194,7 @@
 	- 90.Subsets II
 - **Union Find**
 	- 737. Sentence Similarity II
+	- 200.Number of Islands
 - **Using dictionary**
 	- 447.Number of Boomerangs
 	- 506.Relative Ranks
@@ -283,6 +292,8 @@
 - 258. Add Digitsr
 - 13.Roman to Integer
 - 15.3Sum.py
+- 509.Fibonacci Number
+- 204.Count Primes
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
