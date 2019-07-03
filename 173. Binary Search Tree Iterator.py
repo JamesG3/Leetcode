@@ -14,6 +14,9 @@ class BSTIterator(object):
             
         """
         :type root: TreeNode
+        Solution: Stack
+        Time: O(1) sometimes O(h)
+        Spacce: O(h)
         """
         
 
