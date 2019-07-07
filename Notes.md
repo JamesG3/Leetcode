@@ -71,6 +71,8 @@
 	- 538.Convert BST to Greater Tree
 	- 617.Mergeq Two Binary Trees
 	- 655.Print Binary Tree
+	- 1038.Binary Search Tree to Greater Sum Tree
+	- 814.Binary Tree Pruning
 - **recursive**
 	- 257.Binary Tree Paths
 	- 129.Sum Root to Leaf Numbers
@@ -216,6 +218,8 @@
 	- 280.Wiggle Sort (in-place sort)
 	- 436.Find Right Interval (bucket sort)
 	- 386. Lexicographical Numbers
+	- 973.K Closest Points to Origin
+
 
 
 
@@ -255,6 +259,7 @@
 - 347.Top K Frequent Elements
 - 734. Sentence Similarity
 - 387. First Unique Character in a String
+- 205.Isomorphic Strings
 #### Mathematics
 - 172.Factorial Trailing Zeroes
 - 168.Excel Sheet Column Title
