@@ -9,7 +9,6 @@ class Solution(object):
         Solution: Bitwise operation, using ctypes to force float32
         """
         if b == 0:
-            print a
             return a
         
         else:
