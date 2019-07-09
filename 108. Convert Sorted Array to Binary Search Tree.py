@@ -7,6 +7,13 @@
 
 class Solution(object):
     def sortedArrayToBST(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: TreeNode
+        Solution: Recursive DFS
+        Time: O(n)
+        Space: O(h)
+        """
         if len(nums) == 0:
             return None
         
@@ -17,10 +24,7 @@ class Solution(object):
         root.right = self.sortedArrayToBST(nums[mid+1:])
         
         return root
-        """
-        :type nums: List[int]
-        :rtype: TreeNode
-        """
         
-        #Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
-                
+Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
+
+# For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.                
