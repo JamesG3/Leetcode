@@ -93,6 +93,13 @@
 	- `dic = {'a': 4, 'b': 3, 'c': 2, 'd': 1}`
 	- `sorted(dic.items(), key=lambda x: x[1])`
 	- get: `[('d', 1), ('c', 2), ('b', 3), ('a', 4)]`
+- sort a list by self defined comparison function
+	- Using **cmp**
+	- `l = ['12', '34', '1', '96', '30']`
+	- `sorted(nums, cmp = lambda x, y: 1 if x+y < y+x else -1)`
+	- `['96', '34', '30', '12', '1']`
+	- See Leetcode Question: _179. Largest Number_
+
 #### regex (Regular expression)
 - **Search pattern** example:[https://github.com/JamesG3/HackerRank/blob/master/String/HackerRank%20in%20a%20String!.py][3]
 - More information: [https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html][4]

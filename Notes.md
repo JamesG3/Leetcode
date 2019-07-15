@@ -110,7 +110,8 @@
 #### Sliding Window
 - 3.Longest Substring Without Repeating Characters
 - 683.K Empty Slots
-
+#### Graph
+- 277.Find the Celebrity
 #### Array and List
 - **Linked List - two pointers**
 	- 237.Delete Node in a Linked List
@@ -272,6 +273,8 @@
 - 268. Missing Number (bit manipulation)
 - 191. Number of 1 Bits (bit manipulation)
 - 67. Add Binary (bit manipulation)
+- 371.Sum of Two Integers (bit manipulation)
+- 190.Reverse Bits (bit manipulation)
 - 343.Integer Break
 - 357.Count Numbers with Unique Digits
 - 318.Maximum Product of Word Lengths(Bit Map)
@@ -299,6 +302,7 @@
 - 15.3Sum.py
 - 509.Fibonacci Number
 - 204.Count Primes
+- 202.Happy Number
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
