@@ -195,6 +195,7 @@
 	- 100. Same Tree
 	- 78.Subsets
 	- 90.Subsets II
+	- 654.Maximum Binary Tree
 - **Union Find**
 	- 737. Sentence Similarity II
 	- 200.Number of Islands
