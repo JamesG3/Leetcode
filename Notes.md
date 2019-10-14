@@ -94,6 +94,8 @@
 - **concepts about tree**
 	- 331.Verify Preorder Serialization of a Binary Tree
 	- 173.Binary Search Tree Iterator
+- **Segment Tree**
+	- 307.Range Sum Query - Mutable
 
 #### Greedy
 - 121.Best Time to Buy and Sell Stock
