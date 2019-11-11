@@ -74,21 +74,21 @@
 	- 1038.Binary Search Tree to Greater Sum Tree
 	- 814.Binary Tree Pruning
 - **recursive**
-	- 257.Binary Tree Paths
-	- 129.Sum Root to Leaf Numbers
-	- 508.Most Frequent Subtree Sum
-	- 617.dMerge Two Binary Trees
-	- 544.Output Contest Matches
-	- 541.Reverse String II
-	- 687.Longest Univalue Path
 	- 100.Same Tree
+	 - 129.Sum Root to Leaf Numbers
+	- 226.Invert Binary Tree
+	- 257.Binary Tree Paths
+	- 508.Most Frequent Subtree Sum
+	- 541.Reverse String II
+	- 543.Diameter of Binary Tree
+	- 544.Output Contest Matches
+	- 617.dMerge Two Binary Trees
+	- 687.Longest Univalue Path
 - **Backtracking**
 	- 298.Binary Tree Longest Consecutive Sequence 
 	- 46. Permutations
 	- 93.Restore IP Addresses
 	- 78.Subsets
-
-
 - **Global variable**
 	- 129.Sum Root to Leaf Numbers
 - **concepts about tree**
@@ -122,17 +122,18 @@
 	- 83.Remove Duplicates from Sorted List
 	- 203.Remove Linked List Elements
 - **Two pointers**
-	- 340.Longest Substring with At Most K Distinct Characters
-	- 31. Next Permutation
-	- 42. Trapping Rain Water
+	- 16.3Sum Closest	
 	- 26. Remove Duplicates from Sorted Array
 	- 27. Remove Element
 	- 28. Implement strStr()
-	- 161. One Edit Distance
+	- 31. Next Permutation
+	- 42. Trapping Rain Water
 	- 125. Valid Palindrome
 	- 151. Reverse Words in a String
+	- 161. One Edit Distance
+	- 287.Find the Duplicate Number
+	- 340.Longest Substring with At Most K Distinct Characters
 	- 443. String Compression
-	- 16.3Sum Closest
 	- 832.Flipping an Image
 	- 942.DI String Match
 - **Double linked list**
