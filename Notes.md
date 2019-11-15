@@ -116,13 +116,14 @@
 - 277.Find the Celebrity
 #### Array and List
 - **Linked List - two pointers**
-	- 237.Delete Node in a Linked List
-	- 141.Linked List Cycle
 	- 19.Remove Nth Node From End of List
+	- 24.Swap Nodes in Pairs
 	- 83.Remove Duplicates from Sorted List
+	- 141.Linked List Cycle
 	- 203.Remove Linked List Elements
+	- 237.Delete Node in a Linked List
 - **Two pointers**
-	- 16.3Sum Closest	
+	- 16.3Sum Closest   
 	- 26. Remove Duplicates from Sorted Array
 	- 27. Remove Element
 	- 28. Implement strStr()
@@ -145,25 +146,26 @@
 	- 162. Find Peak Element
 
 - **Traverse & marking**
-	- 448.Find All Numbers Disappeared in an Array
-	- 204.Count Primes ([Sieve of Eratosthenes][3])
-	- 376.Wiggle Subsequence
-	- 485.Max Consecutive Ones
-	- 475.Heaters
-	- 203.Remove Linked List Elements
-	- 167.Two Sum II - Input array is sorted
-	- 525.Contiguous Array
-	- 240.Search a 2D Matrix II
-	- 554.Brick Wall
-	- 556.Next Greater Element III
-	- 531.Lonely Pixel I
-	- 163.Missing Ranges
-	- 766. Toeplitz Matrix
-	- 665. Non-decreasing Array
-	- 628. Maximum Product of Three Numbers
-	- 56. Merge Intervals
 	- 6.ZigZag Conversion
 	- 48.Rotate Image
+	- 56. Merge Intervals
+	- 163.Missing Ranges
+	- 167.Two Sum II - Input array is sorted    
+	- 203.Remove Linked List Elements
+	 - 204.Count Primes ([Sieve of Eratosthenes][3])
+	- 240.Search a 2D Matrix II
+	 - 299.Bulls and Cows
+	 - 376.Wiggle Subsequence
+	- 448.Find All Numbers Disappeared in an Array
+	- 475.Heaters
+	- 485.Max Consecutive Ones
+	- 525.Contiguous Array
+	- 531.Lonely Pixel I
+	- 554.Brick Wall
+	- 556.Next Greater Element III
+	- 628. Maximum Product of Three Numbers
+	- 665. Non-decreasing Array
+	- 766. Toeplitz Matrix
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 	- 394.Decode String
@@ -184,21 +186,22 @@
 	- 921.Minimum Add to Make Parentheses Valid (stack)
 	- 739.Daily Temperatures (stack)
 - **DFS**
-	- 526.Beautiful Arrangement
-	- 690.Employee Importance
-	- 695.Max Area of Island
+	- 17. Letter Combinations of a Phone Number
+	- 22. Generate Parentheses
+	- 78.Subsets
+	- 90.Subsets II
+	- 100. Same Tree
+	- 111.Minimum Depth of Binary Tree
+	- 113. Path Sum II
 	- 339.Nested List Weight Sum
 	- 366.Find Leaves of Binary Tree
 	- 388.Longest Absolute File Path
-	- 737. Sentence Similarity II
-	- 22. Generate Parentheses
-	- 17. Letter Combinations of a Phone Number
-	- 113. Path Sum II
 	- 437. Path Sum III
-	- 100. Same Tree
-	- 78.Subsets
-	- 90.Subsets II
+	- 526.Beautiful Arrangement
+	- 690.Employee Importance
+	- 695.Max Area of Island
 	- 654.Maximum Binary Tree
+	- 737. Sentence Similarity II
 - **Union Find**
 	- 737. Sentence Similarity II
 	- 200.Number of Islands
