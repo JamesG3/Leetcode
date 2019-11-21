@@ -129,6 +129,7 @@
 	- 28. Implement strStr()
 	- 31. Next Permutation
 	- 42. Trapping Rain Water
+	- 75.Sort Colors
 	- 125. Valid Palindrome
 	- 151. Reverse Words in a String
 	- 161. One Edit Distance
@@ -142,9 +143,9 @@
 - **Construct Binary Tree**
 	- 105.Construct Binary Tree from Preorder and Inorder Traversal
 - **Binary Search**
-	- 540.Single Element in a Sorted Array
+	- 33.Search in Rotated Sorted Array
 	- 162. Find Peak Element
-
+	- 540.Single Element in a Sorted Array
 - **Traverse & marking**
 	- 6.ZigZag Conversion
 	- 48.Rotate Image
@@ -269,47 +270,49 @@
 - 387. First Unique Character in a String
 - 205.Isomorphic Strings
 #### Mathematics
-- 172.Factorial Trailing Zeroes
-- 168.Excel Sheet Column Title
-- 476.Number Complement
-- 171.Excel Sheet Column Number
-- 492.Construct the Rectangle
-- 504.Base 7
-- 319.Bulb Switcher
-- 260.Single Number III(bit manipulation)
-- 268. Missing Number (bit manipulation)
-- 191. Number of 1 Bits (bit manipulation)
-- 67. Add Binary (bit manipulation)
-- 371.Sum of Two Integers (bit manipulation)
-- 190.Reverse Bits (bit manipulation)
-- 343.Integer Break
-- 357.Count Numbers with Unique Digits
-- 318.Maximum Product of Word Lengths(Bit Map)
-- 553.Optimal Division
-- 462.Minimum Moves to Equal Array Elements II
-- 477.Total Hamming Distance
-- 544.Output Contest Matches
-- 370.Range Addition
-- 573.Squirrel Simulation
-- 338.Counting Bits
-- 728.Self Dividing Numbers
-- 136. Single Number
-- 418. Sentence Screen Fitting
-- 325. Maximum Size Subarray Sum Equals k
-- 31. Next Permutation
-- 29. Divide Two Integers
-- 276. Paint Fence
-- 231. Power of Two
-- 326. Power of Three
-- 342. Power of Four
-- 628. Maximum Product of Three Numbers
-- 69. Sqrt(x) - Newton's method[https://en.wikipedia.org/wiki/Integer\_square\_root#Algorithm\_using\_Newton's\_method][4]
-- 258. Add Digitsr
 - 13.Roman to Integer
 - 15.3Sum.py
-- 509.Fibonacci Number
+- 29. Divide Two Integers
+- 31. Next Permutation
+- 43.Multiply Strings
+- 67. Add Binary (bit manipulation)
+- 69. Sqrt(x) - Newton's method[https://en.wikipedia.org/wiki/Integer\_square\_root#Algorithm\_using\_Newton's\_method][4]
+ - 136. Single Number
+- 168.Excel Sheet Column Title
+- 171.Excel Sheet Column Number
+- 172.Factorial Trailing Zeroes
+ - 190.Reverse Bits (bit manipulation)
+- 191. Number of 1 Bits (bit manipulation)
+ - 202.Happy Number
 - 204.Count Primes
-- 202.Happy Number
+- 231. Power of Two
+- 258. Add Digitsr
+- 260.Single Number III(bit manipulation)
+- 268. Missing Number (bit manipulation)
+ - 276. Paint Fence
+- 318.Maximum Product of Word Lengths(Bit Map)
+- 319.Bulb Switcher
+ - 325. Maximum Size Subarray Sum Equals k
+ - 326. Power of Three
+- 338.Counting Bits
+ - 342. Power of Four
+- 343.Integer Break
+- 357.Count Numbers with Unique Digits
+ - 370.Range Addition
+- 371.Sum of Two Integers (bit manipulation)
+- 418. Sentence Screen Fitting
+- 462.Minimum Moves to Equal Array Elements II
+- 476.Number Complement
+- 477.Total Hamming Distance
+- 492.Construct the Rectangle
+- 504.Base 7
+- 509.Fibonacci Number
+- 544.Output Contest Matches
+- 553.Optimal Division
+- 573.Squirrel Simulation
+- 628. Maximum Product of Three Numbers
+- 728.Self Dividing Numbers
+
 #### Data Structures
 - 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
