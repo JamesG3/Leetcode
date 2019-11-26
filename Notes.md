@@ -113,6 +113,8 @@
 - 3.Longest Substring Without Repeating Characters
 - 683.K Empty Slots
 #### Graph
+- **loop detection**
+	- 207.Course Schedule
 - 277.Find the Celebrity
 #### Array and List
 - **Linked List - two pointers**
