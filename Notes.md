@@ -46,17 +46,15 @@
 - **BFS**
 	- 637.Average of Levels in Binary Tree
 	- 279. Perfect Squares
-
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
 - **Binary Search Tree**
-	- 669.Trim a Binary Search Tree
+	- 98.Validate Binary Search Tree
+	- 230.Kth Smallest Element in a BST
 	- 501.Find Mode in Binary Search Tree
-	- 653. Two Sum IV - Input is a BST
-	- 230. Kth Smallest Element in a BST
-	- 98. Validate Binary Search Tree
+	- 653.Two Sum IV - Input is a BST
+	- 669.Trim a Binary Search Tree
 	- 701.Insert into a Binary Search Tree
-
 - **Tree Traversal**
 	- 94.Binary Tree Inorder Traversal
 	- 98.Validate Binary Search Tree
@@ -148,12 +146,13 @@
 - **Binary Search**
 	- 33.Search in Rotated Sorted Array
 	- 34.Find First and Last Position of Element in Sorted Array
-	- 162. Find Peak Element
+	- 74.Search a 2D Matrix
+	- 162.Find Peak Element
 	- 540.Single Element in a Sorted Array
 - **Traverse & marking**
 	- 6.ZigZag Conversion
 	- 48.Rotate Image
-	- 56. Merge Intervals
+	- 56.Merge Intervals
 	- 163.Missing Ranges
 	- 167.Two Sum II - Input array is sorted    
 	- 203.Remove Linked List Elements
@@ -168,9 +167,10 @@
 	- 531.Lonely Pixel I
 	- 554.Brick Wall
 	- 556.Next Greater Element III
-	- 628. Maximum Product of Three Numbers
-	- 665. Non-decreasing Array
-	- 766. Toeplitz Matrix
+	- 628.Maximum Product of Three Numbers
+	- 665.Non-decreasing Array
+	- 766.Toeplitz Matrix
+	- 1198.Find Smallest Common Element in All Rows
 - **Stack and Queue**
 	- 232.Implement Queue using Stacks
 	- 394.Decode String
