@@ -113,9 +113,10 @@
 - 3.Longest Substring Without Repeating Characters
 - 683.K Empty Slots
 #### Graph
-- **loop detection**
+- **Loop Detection / DFS**
+	- 79.Word Search
 	- 207.Course Schedule
-- 277.Find the Celebrity
+- 277.Find the Celebritbin ry
 #### Array and List
 - **Linked List - two pointers**
 	- 19.Remove Nth Node From End of List
@@ -146,6 +147,7 @@
 	- 105.Construct Binary Tree from Preorder and Inorder Traversal
 - **Binary Search**
 	- 33.Search in Rotated Sorted Array
+	- 34.Find First and Last Position of Element in Sorted Array
 	- 162. Find Peak Element
 	- 540.Single Element in a Sorted Array
 - **Traverse & marking**
