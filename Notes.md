@@ -149,10 +149,13 @@
 	- 74.Search a 2D Matrix
 	- 153.Find Minimum in Rotated Sorted Array
 	- 162.Find Peak Element
+	- 240.Search a 2D Matrix II
+	- 275.H-Index II
 	- 278.First Bad Version
 	- 367.Valid Perfect Square
 	- 540.Single Element in a Sorted Array
 	- 704.Binary Search
+	- 744.Find Smallest Letter Greater Than Target
 - **Traverse & marking**
 	- 6.ZigZag Conversion
 	- 48.Rotate Image
