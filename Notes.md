@@ -179,24 +179,28 @@
 	- 766.Toeplitz Matrix
 	- 1198.Find Smallest Common Element in All Rows
 - **Stack and Queue**
-	- 232.Implement Queue using Stacks
-	- 394.Decode String
-	- 503.Next Greater Element II
-	- 77.Combinations
-	- 173.Binary Search Tree Iterator
-	- 445.Add Two Numbers II
-	- 406.Queue Reconstruction by Height
-	- 526.Beautiful Arrangement
-	- 484.Find Permutation
 	- 20.Valid Parentheses (stack)
-	- 281. Zigzag Iterator (queue)
+	- 32.Longest Valid Parentheses (stack)
+	- 71.Simplify Path
+	- 77.Combinations
 	- 102.Binary Tree Level Order Traversal
-	- 103. Binary Tree Zigzag Level Order Traversal
-	- 107. Binary Tree Level Order Traversal II
-	- 32.Longest Valid Parentheses
-	- 1021.Remove Outermost Parentheses (stack)
-	- 921.Minimum Add to Make Parentheses Valid (stack)
+	- 103.Binary Tree Zigzag Level Order Traversal
+	- 107.Binary Tree Level Order Traversal II
+	- 173.Binary Search Tree Iterator
+	- 232.Implement Queue using Stacks
+	- 281.Zigzag Iterator (queue)
+	- 394.Decode String
+	- 406.Queue Reconstruction by Height
+	- 445.Add Two Numbers II
+	- 484.Find Permutation
+	- 496.Next Greater Element I (stack)
+	- 503.Next Greater Element II (stack)
+	- 526.Beautiful Arrangement
 	- 739.Daily Temperatures (stack)
+	- 844.Backspace String Compare (stack)
+	- 921.Minimum Add to Make Parentheses Valid (stack)
+	- 1021.Remove Outermost Parentheses (stack)
+	- 1047.Remove All Adjacent Duplicates In String (stack)
 - **DFS**
 	- 17. Letter Combinations of a Phone Number
 	- 22. Generate Parentheses
