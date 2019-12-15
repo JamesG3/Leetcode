@@ -156,7 +156,7 @@
 	- 540.Single Element in a Sorted Array
 	- 704.Binary Search
 	- 744.Find Smallest Letter Greater Than Target
-- **Traverse & marking**
+- **Traverse & mark**
 	- 6.ZigZag Conversion
 	- 48.Rotate Image
 	- 56.Merge Intervals
@@ -166,6 +166,7 @@
 	 - 204.Count Primes ([Sieve of Eratosthenes][3])
 	- 240.Search a 2D Matrix II
 	 - 299.Bulls and Cows
+	 - 341.Flatten Nested List Iterator
 	 - 376.Wiggle Subsequence
 	- 448.Find All Numbers Disappeared in an Array
 	- 475.Heaters
@@ -186,6 +187,9 @@
 	- 102.Binary Tree Level Order Traversal
 	- 103.Binary Tree Zigzag Level Order Traversal
 	- 107.Binary Tree Level Order Traversal II
+	- 144.Binary Tree Preorder Traversal (stack)
+	- 145.Binary Tree Postorder Traversal (stack)
+	- 150.Evaluate Reverse Polish Notation (stack)
 	- 173.Binary Search Tree Iterator
 	- 232.Implement Queue using Stacks
 	- 281.Zigzag Iterator (queue)
