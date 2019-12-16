@@ -123,6 +123,7 @@
 	- 141.Linked List Cycle
 	- 203.Remove Linked List Elements
 	- 237.Delete Node in a Linked List
+	
 - **Two pointers**
 	- 16.3Sum Closest   
 	- 26. Remove Duplicates from Sorted Array
@@ -139,10 +140,15 @@
 	- 443. String Compression
 	- 832.Flipping an Image
 	- 942.DI String Match
+	
 - **Double linked list**
+	
 	- 146. LRU Cache
+	
 - **Construct Binary Tree**
+	
 	- 105.Construct Binary Tree from Preorder and Inorder Traversal
+	
 - **Binary Search**
 	- 33.Search in Rotated Sorted Array
 	- 34.Find First and Last Position of Element in Sorted Array
@@ -156,6 +162,7 @@
 	- 540.Single Element in a Sorted Array
 	- 704.Binary Search
 	- 744.Find Smallest Letter Greater Than Target
+	
 - **Traverse & mark**
 	- 6.ZigZag Conversion
 	- 48.Rotate Image
@@ -179,11 +186,13 @@
 	- 665.Non-decreasing Array
 	- 766.Toeplitz Matrix
 	- 1198.Find Smallest Common Element in All Rows
+	
 - **Stack and Queue**
 	- 20.Valid Parentheses (stack)
 	- 32.Longest Valid Parentheses (stack)
 	- 71.Simplify Path
 	- 77.Combinations
+	- 84.Largest Rectangle in Histogram (stack)
 	- 102.Binary Tree Level Order Traversal
 	- 103.Binary Tree Zigzag Level Order Traversal
 	- 107.Binary Tree Level Order Traversal II
@@ -193,6 +202,7 @@
 	- 173.Binary Search Tree Iterator
 	- 232.Implement Queue using Stacks
 	- 281.Zigzag Iterator (queue)
+	- 316.Remove Duplicate Letters (stack)
 	- 394.Decode String
 	- 406.Queue Reconstruction by Height
 	- 445.Add Two Numbers II
@@ -205,47 +215,55 @@
 	- 921.Minimum Add to Make Parentheses Valid (stack)
 	- 1021.Remove Outermost Parentheses (stack)
 	- 1047.Remove All Adjacent Duplicates In String (stack)
+	
 - **DFS**
-	- 17. Letter Combinations of a Phone Number
-	- 22. Generate Parentheses
+	
+	- 17.Letter Combinations of a Phone Number
+	- 22.Generate Parentheses
 	- 78.Subsets
 	- 90.Subsets II
-	- 100. Same Tree
+	- 100.Same Tree
 	- 111.Minimum Depth of Binary Tree
-	- 113. Path Sum II
+	- 113.Path Sum II
 	- 339.Nested List Weight Sum
 	- 366.Find Leaves of Binary Tree
 	- 388.Longest Absolute File Path
-	- 437. Path Sum III
+	- 437.Path Sum III
 	- 526.Beautiful Arrangement
 	- 690.Employee Importance
 	- 695.Max Area of Island
 	- 654.Maximum Binary Tree
-	- 737. Sentence Similarity II
+	- 737.Sentence Similarity II
+	
 - **Union Find**
-	- 737. Sentence Similarity II
+	- 737.Sentence Similarity II
 	- 200.Number of Islands
-- **Using dictionary**
+	
+- **Using dictionary (hash table)**
+	
+	- 15.3Sum
+	- 325.Maximum Size Subarray Sum Equals k
+	- 340.Longest Substring with At Most K Distinct Characters
+	- 362.Design Hit Counter
+	- 364.Nested List Weight Sum II
+	
 	- 447.Number of Boomerangs
+	- 454.4Sum II
 	- 506.Relative Ranks
 	- 609.Find Duplicate File in System
-	- 454.4Sum II
 	- 697.Degree of an Array
-	- 364.Nested List Weight Sum II
-	- 362.Design Hit Counter
-	- 340.Longest Substring with At Most K Distinct Characters
-	- 325. Maximum Size Subarray Sum Equals k
+	
 - **Palindrome**
 	- 647.Palindromic Substrings
 	- 266.Palindrome Permutation
 	- 5.Longest Palindromic Substring
-	- 234. Palindrome Linked List
+	- 234.Palindrome Linked List
 
 
 - **Sort**
 	- 280.Wiggle Sort (in-place sort)
 	- 436.Find Right Interval (bucket sort)
-	- 386. Lexicographical Numbers
+	- 386.Lexicographical Numbers
 	- 973.K Closest Points to Origin
 
 
@@ -259,7 +277,7 @@
 	- 451.Sort Characters By Frequency(using two lists as dictionary)
 	- 609.Find Duplicate File in System
 	- 676.Implement Magic Dictionary
-	- 388. Longest Absolute File Path
+	- 388.Longest Absolute File Path
 	- 13.Roman to Integer
 - **Using mark/State machine**
 	- 434.Number of Segments in a String
