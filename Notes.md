@@ -81,6 +81,7 @@
 	- 543.Diameter of Binary Tree
 	- 544.Output Contest Matches
 	- 617.dMerge Two Binary Trees
+	- 606.Construct String from Binary Tree
 	- 687.Longest Univalue Path
 - **Backtracking**
 	- 298.Binary Tree Longest Consecutive Sequence 
@@ -125,6 +126,7 @@
 	- 237.Delete Node in a Linked List
 	
 - **Two pointers**
+	
 	- 16.3Sum Closest   
 	- 26. Remove Duplicates from Sorted Array
 	- 27. Remove Element
@@ -212,6 +214,7 @@
 	- 526.Beautiful Arrangement
 	- 739.Daily Temperatures (stack)
 	- 844.Backspace String Compare (stack)
+	- 917.Reverse Only Letters (stack)
 	- 921.Minimum Add to Make Parentheses Valid (stack)
 	- 1021.Remove Outermost Parentheses (stack)
 	- 1047.Remove All Adjacent Duplicates In String (stack)
