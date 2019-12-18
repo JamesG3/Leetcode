@@ -120,7 +120,10 @@
 - **Linked List - two pointers**
 	- 19.Remove Nth Node From End of List
 	- 24.Swap Nodes in Pairs
+	- 61.Rotate List
+	- 80.Remove Duplicates from Sorted Array II
 	- 83.Remove Duplicates from Sorted List
+	- 86.Partition List
 	- 141.Linked List Cycle
 	- 203.Remove Linked List Elements
 	- 237.Delete Node in a Linked List
