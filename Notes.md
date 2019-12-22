@@ -131,18 +131,20 @@
 - **Two pointers**
 	
 	- 16.3Sum Closest   
-	- 26. Remove Duplicates from Sorted Array
-	- 27. Remove Element
-	- 28. Implement strStr()
-	- 31. Next Permutation
-	- 42. Trapping Rain Water
+	- 26.Remove Duplicates from Sorted Array
+	- 27.Remove Element
+	- 28.Implement strStr()
+	- 31.Next Permutation
+	- 42.Trapping Rain Water
 	- 75.Sort Colors
-	- 125. Valid Palindrome
-	- 151. Reverse Words in a String
-	- 161. One Edit Distance
+	- 125.Valid Palindrome
+	- 151.Reverse Words in a String
+	- 159.Longest Substring with At Most Two Distinct Characters
+	- 161.One Edit Distance
+	- 209.Minimum Size Subarray Sum
 	- 287.Find the Duplicate Number
 	- 340.Longest Substring with At Most K Distinct Characters
-	- 443. String Compression
+	- 443.String Compression
 	- 832.Flipping an Image
 	- 942.DI String Match
 	
