@@ -250,11 +250,13 @@
 - **Using dictionary (hash table)**
 	
 	- 15.3Sum
+	- 170.Two Sum III - Data structure design
 	- 325.Maximum Size Subarray Sum Equals k
 	- 340.Longest Substring with At Most K Distinct Characters
+	- 355.Design Twitter
 	- 362.Design Hit Counter
 	- 364.Nested List Weight Sum II
-	
+	- 409.Longest Palindrome
 	- 447.Number of Boomerangs
 	- 454.4Sum II
 	- 506.Relative Ranks
@@ -279,73 +281,73 @@
 
 #### deal with String
 - **Using dictionary**
+	- 13.Roman to Integer
 	- 17.Letter Combinations of a Phone Number
 	- 290.Word Pattern
+	- 388.Longest Absolute File Path
 	- 409.Longest Palindrome
 	- 451.Sort Characters By Frequency(using two lists as dictionary)
 	- 609.Find Duplicate File in System
 	- 676.Implement Magic Dictionary
-	- 388.Longest Absolute File Path
-	- 13.Roman to Integer
 - **Using mark/State machine**
+	- 6.ZigZag Conversion
+	- 442.Find All Duplicates in an Array
 	- 434.Number of Segments in a String
 	- 500.Keyboard Row
-	- 442.Find All Duplicates in an Array
 	- 696.Count Binary Substrings
-	- 6.ZigZag Conversion
 - **Others**
+	- 247.Strobogrammatic Number II (update current list recursively)
+	- 408.Valid Word Abbreviation
 	- 461.Hamming Distance
-	- 482.License Key Formatting
 	- 481.Magical String
-	- 686.Repeated String Match
-	- 520. Detect Capital (Upper & lower)
-	- 247. Strobogrammatic Number II (update current list recursively)
+	- 482.License Key Formatting
+	- 520.Detect Capital (Upper & lower)
 	- 521.Longest Uncommon Subsequence I
-	- 777. Swap Adjacent in LR String
-	- 408. Valid Word Abbreviation
+	- 686.Repeated String Match
+	- 777.Swap Adjacent in LR String
 #### Simulation
-- 498.Diagonal Traverse
+- 281.Zigzag Iterator
 - 495.Teemo Attacking
+- 498.Diagonal Traverse
 - 681.Next Closest Time
-- 281. Zigzag Iterator
 #### HASH
-- 535.Encode and Decode TinyURL
-- 347.Top K Frequent Elements
-- 734. Sentence Similarity
-- 387. First Unique Character in a String
 - 205.Isomorphic Strings
+- 347.Top K Frequent Elements
+- 387.First Unique Character in a String
+- 535.Encode and Decode TinyURL
+- 734.Sentence Similarity
 #### Mathematics
 - 13.Roman to Integer
 - 15.3Sum.py
-- 29. Divide Two Integers
-- 31. Next Permutation
+- 29.Divide Two Integers
+- 31.Next Permutation
 - 43.Multiply Strings
-- 67. Add Binary (bit manipulation)
-- 69. Sqrt(x) - Newton's method[https://en.wikipedia.org/wiki/Integer\_square\_root#Algorithm\_using\_Newton's\_method][4]
- - 136. Single Number
+- 67.Add Binary (bit manipulation)
+- 69.Sqrt(x) - Newton's method[https://en.wikipedia.org/wiki/Integer\_square\_root#Algorithm\_using\_Newton's\_method][4]
+ - 136.Single Number
 - 168.Excel Sheet Column Title
 - 171.Excel Sheet Column Number
 - 172.Factorial Trailing Zeroes
  - 190.Reverse Bits (bit manipulation)
-- 191. Number of 1 Bits (bit manipulation)
+- 191.Number of 1 Bits (bit manipulation)
  - 202.Happy Number
 - 204.Count Primes
-- 231. Power of Two
-- 258. Add Digitsr
+- 231.Power of Two
+- 258.Add Digitsr
 - 260.Single Number III(bit manipulation)
-- 268. Missing Number (bit manipulation)
- - 276. Paint Fence
+- 268.Missing Number (bit manipulation)
+ - 276.Paint Fence
 - 318.Maximum Product of Word Lengths(Bit Map)
 - 319.Bulb Switcher
- - 325. Maximum Size Subarray Sum Equals k
- - 326. Power of Three
+ - 325.Maximum Size Subarray Sum Equals k
+ - 326.Power of Three
 - 338.Counting Bits
- - 342. Power of Four
+ - 342.Power of Four
 - 343.Integer Break
 - 357.Count Numbers with Unique Digits
  - 370.Range Addition
 - 371.Sum of Two Integers (bit manipulation)
-- 418. Sentence Screen Fitting
+- 418.Sentence Screen Fitting
 - 462.Minimum Moves to Equal Array Elements II
 - 476.Number Complement
 - 477.Total Hamming Distance
@@ -355,7 +357,7 @@
 - 544.Output Contest Matches
 - 553.Optimal Division
 - 573.Squirrel Simulation
-- 628. Maximum Product of Three Numbers
+- 628.Maximum Product of Three Numbers
 - 728.Self Dividing Numbers
 
 #### Data Structures
