@@ -251,6 +251,8 @@
 	
 	- 15.3Sum
 	- 170.Two Sum III - Data structure design
+	- 288.Unique Word Abbreviation
+	- 290.Word Pattern
 	- 325.Maximum Size Subarray Sum Equals k
 	- 340.Longest Substring with At Most K Distinct Characters
 	- 355.Design Twitter
@@ -283,7 +285,6 @@
 - **Using dictionary**
 	- 13.Roman to Integer
 	- 17.Letter Combinations of a Phone Number
-	- 290.Word Pattern
 	- 388.Longest Absolute File Path
 	- 409.Longest Palindrome
 	- 451.Sort Characters By Frequency(using two lists as dictionary)
