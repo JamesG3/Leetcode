@@ -260,10 +260,13 @@
 	- 362.Design Hit Counter
 	- 364.Nested List Weight Sum II
 	- 409.Longest Palindrome
+	- 438.Find All Anagrams in a String
 	- 447.Number of Boomerangs
+	- 451.Sort Characters By Frequency
 	- 454.4Sum II
 	- 506.Relative Ranks
 	- 525.Contiguous Array
+	- 560.Subarray Sum Equals K
 	- 575.Distribute Candies
 	- 609.Find Duplicate File in System
 	- 697.Degree of an Array
@@ -291,7 +294,6 @@
 	- 17.Letter Combinations of a Phone Number
 	- 388.Longest Absolute File Path
 	- 409.Longest Palindrome
-	- 451.Sort Characters By Frequency(using two lists as dictionary)
 	- 609.Find Duplicate File in System
 	- 676.Implement Magic Dictionary
 - **Using mark/State machine**
