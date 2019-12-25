@@ -251,6 +251,7 @@
 	
 	- 15.3Sum
 	- 170.Two Sum III - Data structure design
+	- 187.Repeated DNA Sequences
 	- 288.Unique Word Abbreviation
 	- 290.Word Pattern
 	- 325.Maximum Size Subarray Sum Equals k
@@ -262,8 +263,11 @@
 	- 447.Number of Boomerangs
 	- 454.4Sum II
 	- 506.Relative Ranks
+	- 525.Contiguous Array
+	- 575.Distribute Candies
 	- 609.Find Duplicate File in System
 	- 697.Degree of an Array
+	- 811.Subdomain Visit Count
 	
 - **Palindrome**
 	- 647.Palindromic Substrings
