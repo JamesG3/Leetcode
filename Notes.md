@@ -97,15 +97,18 @@
 	- 307.Range Sum Query - Mutable
 
 #### Greedy
+- 45.Jump Game II
+- 55.Jump Game
 - 121.Best Time to Buy and Sell Stock
 - 122.Best Time to Buy and Sell Stock II
-- 475.Heaters
+- 134.Gas Station
 - 198.House Robber
 - 213.House Robber II
+- 253.Meeting Rooms II
 - 334.Increasing Triplet Subsequence
-- 134.Gas Station
-- 55.Jump Game
-- 45.Jump Game II
+- 392.Is Subsequence
+- 402.Remove K Digits
+- 475.Heaters
 - 455.Assign Cookies
 - 763.Partition Labels
 #### Sliding Window
@@ -211,6 +214,7 @@
 	- 281.Zigzag Iterator (queue)
 	- 316.Remove Duplicate Letters (stack)
 	- 394.Decode String
+	- 402.Remove K Digits (stack)
 	- 406.Queue Reconstruction by Height
 	- 445.Add Two Numbers II
 	- 484.Find Permutation
