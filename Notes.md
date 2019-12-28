@@ -55,22 +55,24 @@
 	- 653.Two Sum IV - Input is a BST
 	- 669.Trim a Binary Search Tree
 	- 701.Insert into a Binary Search Tree
+	- 1038.Binary Search Tree to Greater Sum Tree
+	- 1214.Two Sum BSTs
 - **Tree Traversal**
 	- 94.Binary Tree Inorder Traversal
 	- 98.Validate Binary Search Tree
+	- 114.Flatten Binary Tree to Linked List (reverse pre-order traversal)
 	- 144.Binary Tree Preorder Traversal
 	- 145.Binary Tree Postorder Traversal
 	- 230.Kth Smallest Element in a BST
-	- 114.Flatten Binary Tree to Linked List (reverse pre-order traversal)
 	- 501.Find Mode in Binary Search Tree
 	- 508.Most Frequent Subtree Sum
 	- 530.Minimum Absolute Difference in BST
-	- 543.Diameter of Binary Tree
 	- 538.Convert BST to Greater Tree
+	- 543.Diameter of Binary Tree
 	- 617.Mergeq Two Binary Trees
 	- 655.Print Binary Tree
-	- 1038.Binary Search Tree to Greater Sum Tree
 	- 814.Binary Tree Pruning
+	- 1038.Binary Search Tree to Greater Sum Tree
 - **recursive**
 	- 100.Same Tree
 	 - 129.Sum Root to Leaf Numbers
@@ -150,6 +152,7 @@
 	- 443.String Compression
 	- 832.Flipping an Image
 	- 942.DI String Match
+	- 1214.Two Sum BSTs
 	
 - **Double linked list**
 	
