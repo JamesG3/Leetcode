@@ -31,7 +31,7 @@
 - 544.Output Contest Matches
 - 370.Range Addition
 - 573.Squirrel Simulation
-### Classify
+### Problem Tags
 #### Tree
 - **Using dictionary to save every level’s nodes:** 
 	- 103.Binary Tree Zigzag Level Order Traversal
@@ -44,12 +44,17 @@
 	- 515.Find Largest Value in Each Tree Row
 	- 364.Nested List Weight Sum II (Similar Question)
 - **BFS**
+	- 279.Perfect Squares
 	- 637.Average of Levels in Binary Tree
-	- 279. Perfect Squares
+
+- **DFS**
+  - 129.Sum Root to Leaf Numbers
+
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
 - **Binary Search Tree**
 	- 98.Validate Binary Search Tree
+	- 109.Convert Sorted List to Binary Search Tree
 	- 230.Kth Smallest Element in a BST
 	- 501.Find Mode in Binary Search Tree
 	- 653.Two Sum IV - Input is a BST
@@ -60,6 +65,7 @@
 - **Tree Traversal**
 	- 94.Binary Tree Inorder Traversal
 	- 98.Validate Binary Search Tree
+	- 106.Construct Binary Tree from Inorder and Postorder Traversal
 	- 114.Flatten Binary Tree to Linked List (reverse pre-order traversal)
 	- 144.Binary Tree Preorder Traversal
 	- 145.Binary Tree Postorder Traversal
@@ -90,8 +96,6 @@
 	- 46. Permutations
 	- 93.Restore IP Addresses
 	- 78.Subsets
-- **Global variable**
-	- 129.Sum Root to Leaf Numbers
 - **concepts about tree**
 	- 331.Verify Preorder Serialization of a Binary Tree
 	- 173.Binary Search Tree Iterator
@@ -119,6 +123,7 @@
 #### Graph
 - **Loop Detection / DFS**
 	- 79.Word Search
+	- 133.Clone Graph
 	- 207.Course Schedule
 - 277.Find the Celebritbin ry
 #### Array and List
@@ -209,6 +214,7 @@
 	- 102.Binary Tree Level Order Traversal
 	- 103.Binary Tree Zigzag Level Order Traversal
 	- 107.Binary Tree Level Order Traversal II
+	- 129.Sum Root to Leaf Numbers (stack)
 	- 144.Binary Tree Preorder Traversal (stack)
 	- 145.Binary Tree Postorder Traversal (stack)
 	- 150.Evaluate Reverse Polish Notation (stack)
