@@ -37,7 +37,6 @@
 	- 103.Binary Tree Zigzag Level Order Traversal
 	- 107.Binary Tree Level Order Traversal II
 	- 199.Binary Tree Right Side View
-	- 337.House Robber III
 	- 501.Find Mode in Binary Search Tree
 	- 508.Most Frequent Subtree Sum
 	- 513.Find Bottom Left Tree Value
@@ -46,14 +45,17 @@
 - **BFS**
 	- 279.Perfect Squares
 	- 637.Average of Levels in Binary Tree 
+	- 1302.Deepest Leaves Sum
 
 - **DFS**
   - 129.Sum Root to Leaf Numbers
   - 130.Surrounded Regions
   - 210.Course Schedule II
+  - 337.House Robber III
 
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
+	- 1302.Deepest Leaves Sum
 - **Binary Search Tree**
 	- 98.Validate Binary Search Tree
 	- 109.Convert Sorted List to Binary Search Tree
@@ -114,6 +116,7 @@
 - 213.House Robber II
 - 253.Meeting Rooms II
 - 334.Increasing Triplet Subsequence
+- 337.House Robber III
 - 392.Is Subsequence
 - 402.Remove K Digits
 - 475.Heaters
