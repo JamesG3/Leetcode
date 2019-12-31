@@ -45,10 +45,12 @@
 	- 364.Nested List Weight Sum II (Similar Question)
 - **BFS**
 	- 279.Perfect Squares
-	- 637.Average of Levels in Binary Tree
+	- 637.Average of Levels in Binary Tree 
 
 - **DFS**
   - 129.Sum Root to Leaf Numbers
+  - 130.Surrounded Regions
+  - 210.Course Schedule II
 
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
@@ -124,7 +126,9 @@
 - **Loop Detection / DFS**
 	- 79.Word Search
 	- 133.Clone Graph
+	- 130.Surrounded Regions
 	- 207.Course Schedule
+	- 210.Course Schedule II
 - 277.Find the Celebritbin ry
 #### Array and List
 - **Linked List - two pointers**
@@ -263,8 +267,10 @@
 - **Using dictionary (hash table)**
 	
 	- 15.3Sum
+	- 130.Surrounded Regions
 	- 170.Two Sum III - Data structure design
 	- 187.Repeated DNA Sequences
+	- 210.Course Schedule II
 	- 288.Unique Word Abbreviation
 	- 290.Word Pattern
 	- 325.Maximum Size Subarray Sum Equals k
@@ -311,6 +317,7 @@
 	- 676.Implement Magic Dictionary
 - **Using mark/State machine**
 	- 6.ZigZag Conversion
+	- 210.Course Schedule II
 	- 442.Find All Duplicates in an Array
 	- 434.Number of Segments in a String
 	- 500.Keyboard Row
