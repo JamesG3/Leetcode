@@ -64,6 +64,7 @@
 	- 653.Two Sum IV - Input is a BST
 	- 669.Trim a Binary Search Tree
 	- 701.Insert into a Binary Search Tree
+	- 897.Increasing Order Search Tree
 	- 1038.Binary Search Tree to Greater Sum Tree
 	- 1214.Two Sum BSTs
 - **Tree Traversal**
@@ -82,6 +83,7 @@
 	- 617.Mergeq Two Binary Trees
 	- 655.Print Binary Tree
 	- 814.Binary Tree Pruning
+	- 897.Increasing Order Search Tree
 	- 1038.Binary Search Tree to Greater Sum Tree
 - **recursive**
 	- 100.Same Tree
@@ -92,17 +94,17 @@
 	- 541.Reverse String II
 	- 543.Diameter of Binary Tree
 	- 544.Output Contest Matches
-	- 617.dMerge Two Binary Trees
 	- 606.Construct String from Binary Tree
+	- 617.dMerge Two Binary Trees
 	- 687.Longest Univalue Path
 - **Backtracking**
-	- 298.Binary Tree Longest Consecutive Sequence 
-	- 46. Permutations
-	- 93.Restore IP Addresses
+	- 46.Permutations
 	- 78.Subsets
+	- 93.Restore IP Addresses
+	- 298.Binary Tree Longest Consecutive Sequence 
 - **concepts about tree**
-	- 331.Verify Preorder Serialization of a Binary Tree
 	- 173.Binary Search Tree Iterator
+	- 331.Verify Preorder Serialization of a Binary Tree
 - **Segment Tree**
 	- 307.Range Sum Query - Mutable
 
@@ -237,6 +239,7 @@
 	- 496.Next Greater Element I (stack)
 	- 503.Next Greater Element II (stack)
 	- 526.Beautiful Arrangement
+	- 529.Minesweeper (stack)
 	- 739.Daily Temperatures (stack)
 	- 844.Backspace String Compare (stack)
 	- 917.Reverse Only Letters (stack)
@@ -258,10 +261,12 @@
 	- 388.Longest Absolute File Path
 	- 437.Path Sum III
 	- 526.Beautiful Arrangement
+	- 529.Minesweeper
 	- 690.Employee Importance
 	- 695.Max Area of Island
 	- 654.Maximum Binary Tree
 	- 737.Sentence Similarity II
+	- 841.Keys and Rooms
 	
 - **Union Find**
 	- 737.Sentence Similarity II
@@ -339,6 +344,7 @@
 - 281.Zigzag Iterator
 - 495.Teemo Attacking
 - 498.Diagonal Traverse
+- 529.Minesweeper
 - 681.Next Closest Time
 #### HASH
 - 205.Isomorphic Strings
@@ -403,24 +409,25 @@
 - 117. Populating Next Right Pointers in Each Node II
 
 #### DP
-- 357.Count Numbers with Unique Digits
-- 309.Best Time to Buy and Sell Stock with Cooldown(using state machine)
-- 712.Minimum ASCII Delete Sum for Two Strings
+- 62.Unique Paths
+- 63.Unique Paths II
 - 70.Climbing Stairs
-- 746.Min Cost Climbing Stairs
-- 198.House Robber
-- 256.Paint House
-- 338.Counting Bits
-- 303.Range Sum Query - Immutable
-- 276. Paint Fence
-- 361. Bomb Enemy
-- 718. Maximum Length of Repeated Subarray
 - 72.Edit Distance
-- 161. One Edit Distance
-- 583. Delete Operation for Two Strings
-- 62. Unique Paths
-- 63. Unique Paths II
-- 463. Island Perimeter
+- 161.One Edit Distance
+- 198.House Robber
+- 213.House Robber II
+- 256.Paint House
+- 276.Paint Fence
+- 303.Range Sum Query - Immutable
+- 309.Best Time to Buy and Sell Stock with Cooldown(using state machine)
+- 357.Count Numbers with Unique Digits
+- 338.Counting Bits
+- 361.Bomb Enemy
+- 463.Island Perimeter
+- 583.Delete Operation for Two Strings
+- 712.Minimum ASCII Delete Sum for Two Strings
+- 718.Maximum Length of Repeated Subarray
+- 746.Min Cost Climbing Stairs
 
 ### Marked questions
 - 172.Factorial Trailing Zeroes
@@ -437,7 +444,6 @@
 - 116.Populating Next Right Pointers in Each Node
 - 142.Linked List Cycle II
 - 168.Excel Sheet Column Title
-- 198.House Robber: Greedy
 - 257.Binary Tree Paths: Nice Grammar!!
 - 394.Decode String: using stack
 - 506.Relative Ranks(version: same score supported)
