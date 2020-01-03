@@ -39,11 +39,11 @@
 	- 199.Binary Tree Right Side View
 	- 501.Find Mode in Binary Search Tree
 	- 508.Most Frequent Subtree Sum
-	- 513.Find Bottom Left Tree Value
 	- 515.Find Largest Value in Each Tree Row
 	- 364.Nested List Weight Sum II (Similar Question)
 - **BFS**
 	- 279.Perfect Squares
+	- 513.Find Bottom Left Tree Value
 	- 637.Average of Levels in Binary Tree 
 	- 1302.Deepest Leaves Sum
 
@@ -83,6 +83,7 @@
 	- 617.Mergeq Two Binary Trees
 	- 655.Print Binary Tree
 	- 814.Binary Tree Pruning
+	- 872.Leaf-Similar Trees
 	- 897.Increasing Order Search Tree
 	- 1038.Binary Search Tree to Greater Sum Tree
 - **recursive**
@@ -97,6 +98,7 @@
 	- 606.Construct String from Binary Tree
 	- 617.dMerge Two Binary Trees
 	- 687.Longest Univalue Path
+	- 872.Leaf-Similar Trees (**recursion using yield generator**)
 - **Backtracking**
 	- 46.Permutations
 	- 78.Subsets
@@ -262,6 +264,7 @@
 	- 437.Path Sum III
 	- 526.Beautiful Arrangement
 	- 529.Minesweeper
+	- 559.Maximum Depth of N-ary Tree
 	- 690.Employee Importance
 	- 695.Max Area of Island
 	- 654.Maximum Binary Tree
