@@ -39,11 +39,12 @@
 	- 199.Binary Tree Right Side View
 	- 501.Find Mode in Binary Search Tree
 	- 508.Most Frequent Subtree Sum
-	- 515.Find Largest Value in Each Tree Row
 	- 364.Nested List Weight Sum II (Similar Question)
 - **BFS**
 	- 279.Perfect Squares
+	- 286.Walls and Gates
 	- 513.Find Bottom Left Tree Value
+	- 515.Find Largest Value in Each Tree Row
 	- 637.Average of Levels in Binary Tree 
 	- 1302.Deepest Leaves Sum
 
@@ -55,6 +56,7 @@
 
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
+	- 515.Find Largest Value in Each Tree Row
 	- 1302.Deepest Leaves Sum
 - **Binary Search Tree**
 	- 98.Validate Binary Search Tree
