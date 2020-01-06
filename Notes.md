@@ -45,7 +45,9 @@
 	- 286.Walls and Gates
 	- 513.Find Bottom Left Tree Value
 	- 515.Find Largest Value in Each Tree Row
+	- 542.01 Matrix
 	- 637.Average of Levels in Binary Tree 
+	- 934.Shortest Bridge
 	- 1302.Deepest Leaves Sum
 
 - **DFS**
