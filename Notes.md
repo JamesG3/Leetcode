@@ -47,6 +47,7 @@
 	- 515.Find Largest Value in Each Tree Row
 	- 542.01 Matrix
 	- 637.Average of Levels in Binary Tree 
+	- 752.Open the Lock
 	- 934.Shortest Bridge
 	- 1302.Deepest Leaves Sum
 
@@ -305,6 +306,7 @@
 	- 609.Find Duplicate File in System
 	- 697.Degree of an Array
 	- 811.Subdomain Visit Count
+	- 997.Find the Town Judge
 	
 - **Palindrome**
 	- 647.Palindromic Substrings
