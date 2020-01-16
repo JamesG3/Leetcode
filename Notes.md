@@ -49,8 +49,9 @@
 	- 637.Average of Levels in Binary Tree 
 	- 752.Open the Lock
 	- 934.Shortest Bridge
-	- 1302.Deepest Leaves Sum
-
+	- 1161.Maximum Level Sum of a Binary Tree
+- 1302.Deepest Leaves Sum
+	
 - **DFS**
   - 129.Sum Root to Leaf Numbers
   - 130.Surrounded Regions
@@ -60,6 +61,7 @@
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
 	- 515.Find Largest Value in Each Tree Row
+	- 1161.Maximum Level Sum of a Binary Tree
 	- 1302.Deepest Leaves Sum
 - **Binary Search Tree**
 	- 98.Validate Binary Search Tree
