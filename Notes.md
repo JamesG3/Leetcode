@@ -142,6 +142,8 @@
 	- 207.Course Schedule
 	- 210.Course Schedule II
 - 277.Find the Celebritbin ry
+- **Dijkstra's Algorithm**
+  - 743.Network Delay Time
 #### Array and List
 - **Linked List - two pointers**
 	- 19.Remove Nth Node From End of List
