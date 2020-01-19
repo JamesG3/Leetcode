@@ -56,8 +56,9 @@
   - 129.Sum Root to Leaf Numbers
   - 130.Surrounded Regions
   - 210.Course Schedule II
-  - 337.House Robber III
-
+  - 261.Graph Valid Tree
+- 337.House Robber III
+  
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
 	- 515.Find Largest Value in Each Tree Row
@@ -143,9 +144,13 @@
 	- 130.Surrounded Regions
 	- 207.Course Schedule
 	- 210.Course Schedule II
+	- 261.Graph Valid Tree
+	- 323.Number of Connected Components in an Undirected Graph
 - 277.Find the Celebritbin ry
 - **Dijkstra's Algorithm**
   - 743.Network Delay Time
+- **Graph**
+  - 310.Minimum Height Trees
 #### Array and List
 - **Linked List - two pointers**
 	- 19.Remove Nth Node From End of List
@@ -424,6 +429,7 @@
 #### DP
 - 62.Unique Paths
 - 63.Unique Paths II
+- 64.Minimum Path Sum
 - 70.Climbing Stairs
 - 72.Edit Distance
 - 161.One Edit Distance
