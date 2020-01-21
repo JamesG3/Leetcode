@@ -55,6 +55,7 @@
 - **DFS**
   - 129.Sum Root to Leaf Numbers
   - 130.Surrounded Regions
+  - 139.Word Break
   - 210.Course Schedule II
   - 261.Graph Valid Tree
 - 337.House Robber III
@@ -378,6 +379,7 @@
 - 43.Multiply Strings
 - 67.Add Binary (bit manipulation)
 - 69.Sqrt(x) - Newton's method[https://en.wikipedia.org/wiki/Integer\_square\_root#Algorithm\_using\_Newton's\_method][4]
+- 96.Unique Binary Search Trees
  - 136.Single Number
 - 168.Excel Sheet Column Title
 - 171.Excel Sheet Column Number
@@ -432,6 +434,9 @@
 - 64.Minimum Path Sum
 - 70.Climbing Stairs
 - 72.Edit Distance
+- 96.Unique Binary Search Trees
+- 95.Unique Binary Search Trees II
+- 120.Triangle
 - 161.One Edit Distance
 - 198.House Robber
 - 213.House Robber II
@@ -458,7 +463,6 @@
 - H-Index: how to calculate a H-Index.
 	- [https://zh.wikipedia.org/wiki/H指数][5]
 - 448.Find All Numbers Disappeared in an Array
-- 120.Triangle
 - 232.Implement Queue using Stacks: using 2 stack to implement Queue
 - 116.Populating Next Right Pointers in Each Node
 - 142.Linked List Cycle II
