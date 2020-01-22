@@ -72,6 +72,7 @@
 	- 501.Find Mode in Binary Search Tree
 	- 653.Two Sum IV - Input is a BST
 	- 669.Trim a Binary Search Tree
+	- 700.Search in a Binary Search Tree
 	- 701.Insert into a Binary Search Tree
 	- 897.Increasing Order Search Tree
 	- 1038.Binary Search Tree to Greater Sum Tree
@@ -293,6 +294,7 @@
 - **Using dictionary (hash table)**
 	
 	- 15.3Sum
+	- 18.4Sum
 	- 130.Surrounded Regions
 	- 170.Two Sum III - Data structure design
 	- 187.Repeated DNA Sequences
