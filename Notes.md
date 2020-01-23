@@ -393,6 +393,7 @@
 - 231.Power of Two
 - 258.Add Digitsr
 - 260.Single Number III(bit manipulation)
+- 263.Ugly Number
 - 268.Missing Number (bit manipulation)
  - 276.Paint Fence
 - 318.Maximum Product of Word Lengths(Bit Map)
@@ -419,16 +420,16 @@
 - 728.Self Dividing Numbers
 
 #### Data Structures
-- 225.Implement Stack using Queues
 - 77.Combinations(using of stack)
-- 445.Add Two Numbers II (stack & linked list)
-- 380.Insert Delete GetRandom O(1)
-- 369.Plus One Linked List (reverse the linked list)
+- 116.Populating Next Right Pointers in Each Node
+- 117.Populating Next Right Pointers in Each Node II
 - 138.Copy List with Random Pointer (Deep copy)
-- 208. Implement Trie (Prefix Tree)
-- 155. Min Stack
-- 116. Populating Next Right Pointers in Each Node
-- 117. Populating Next Right Pointers in Each Node II
+- 155.Min Stack
+- 208.Implement Trie (Prefix Tree)
+- 225.Implement Stack using Queues
+- 369.Plus One Linked List (reverse the linked list)
+- 380.Insert Delete GetRandom O(1)
+- 445.Add Two Numbers II (stack & linked list)
 
 #### DP
 - 62.Unique Paths
@@ -443,6 +444,7 @@
 - 198.House Robber
 - 213.House Robber II
 - 256.Paint House
+- 264.Ugly Number II
 - 276.Paint Fence
 - 303.Range Sum Query - Immutable
 - 309.Best Time to Buy and Sell Stock with Cooldown(using state machine)
