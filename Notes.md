@@ -126,6 +126,7 @@
 - 121.Best Time to Buy and Sell Stock
 - 122.Best Time to Buy and Sell Stock II
 - 134.Gas Station
+- 152.Maximum Product Subarray
 - 198.House Robber
 - 213.House Robber II
 - 253.Meeting Rooms II
@@ -317,6 +318,7 @@
 	- 575.Distribute Candies
 	- 609.Find Duplicate File in System
 	- 697.Degree of an Array
+	- 750.Number Of Corner Rectangles
 	- 811.Subdomain Visit Count
 	- 997.Find the Town Judge
 	
@@ -418,6 +420,7 @@
 - 573.Squirrel Simulation
 - 628.Maximum Product of Three Numbers
 - 728.Self Dividing Numbers
+- 750.Number Of Corner Rectangles
 
 #### Data Structures
 - 77.Combinations(using of stack)
@@ -443,6 +446,7 @@
 - 161.One Edit Distance
 - 198.House Robber
 - 213.House Robber II
+- 221.Maximal Square
 - 256.Paint House
 - 264.Ugly Number II
 - 276.Paint Fence
