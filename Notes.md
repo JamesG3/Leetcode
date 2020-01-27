@@ -196,6 +196,7 @@
 	- 105.Construct Binary Tree from Preorder and Inorder Traversal
 	
 - **Binary Search**
+	- 4. Median of Two Sorted Arrays
 	- 33.Search in Rotated Sorted Array
 	- 34.Find First and Last Position of Element in Sorted Array
 	- 74.Search a 2D Matrix
