@@ -155,6 +155,8 @@
 - **Graph**
   - 310.Minimum Height Trees
 #### Array and List
+- **Sorting**
+	- 937.Reorder Data in Log Files
 - **Linked List - two pointers**
 	- 19.Remove Nth Node From End of List
 	- 24.Swap Nodes in Pairs
