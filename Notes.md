@@ -367,6 +367,7 @@
 	- 686.Repeated String Match
 	- 777.Swap Adjacent in LR String
 #### Simulation
+- 54.Spiral Matrix
 - 281.Zigzag Iterator
 - 495.Teemo Attacking
 - 498.Diagonal Traverse
