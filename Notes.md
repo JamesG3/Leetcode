@@ -156,6 +156,7 @@
   - 310.Minimum Height Trees
 #### Array and List
 - **Sorting**
+	- 539.Minimum Time Difference
 	- 937.Reorder Data in Log Files
 - **Linked List - two pointers**
 	- 19.Remove Nth Node From End of List
