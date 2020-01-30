@@ -50,7 +50,7 @@
 	- 752.Open the Lock
 	- 934.Shortest Bridge
 	- 1161.Maximum Level Sum of a Binary Tree
-- 1302.Deepest Leaves Sum
+	- 1302.Deepest Leaves Sum
 	
 - **DFS**
   - 129.Sum Root to Leaf Numbers
@@ -58,7 +58,7 @@
   - 139.Word Break
   - 210.Course Schedule II
   - 261.Graph Valid Tree
-- 337.House Robber III
+  - 337.House Robber III
   
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
@@ -149,7 +149,10 @@
 	- 210.Course Schedule II
 	- 261.Graph Valid Tree
 	- 323.Number of Connected Components in an Undirected Graph
-- 277.Find the Celebritbin ry
+	- 547.Friend Circles
+	- 277.Find the Celebritbin ry
+- **BFS**
+  - 127.Word Ladder
 - **Dijkstra's Algorithm**
   - 743.Network Delay Time
 - **Graph**
@@ -251,6 +254,8 @@
 	- 145.Binary Tree Postorder Traversal (stack)
 	- 150.Evaluate Reverse Polish Notation (stack)
 	- 173.Binary Search Tree Iterator
+	- 224.Basic Calculator (stack)
+	- 227.Basic Calculator II (stack)
 	- 232.Implement Queue using Stacks
 	- 281.Zigzag Iterator (queue)
 	- 316.Remove Duplicate Letters (stack)
@@ -397,6 +402,8 @@
 - 191.Number of 1 Bits (bit manipulation)
  - 202.Happy Number
 - 204.Count Primes
+- 224.Basic Calculator
+- 227.Basic Calculator II
 - 231.Power of Two
 - 258.Add Digitsr
 - 260.Single Number III(bit manipulation)
