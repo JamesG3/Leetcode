@@ -153,6 +153,7 @@
 	- 277.Find the Celebritbin ry
 - **BFS**
   - 127.Word Ladder
+  - 994.Rotting Oranges
 - **Dijkstra's Algorithm**
   - 743.Network Delay Time
 - **Graph**
@@ -355,6 +356,7 @@
 	- 409.Longest Palindrome
 	- 609.Find Duplicate File in System
 	- 676.Implement Magic Dictionary
+	- 819.Most Common Word
 - **Using mark/State machine**
 	- 6.ZigZag Conversion
 	- 210.Course Schedule II
