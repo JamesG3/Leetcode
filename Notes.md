@@ -48,6 +48,7 @@
 	- 542.01 Matrix
 	- 637.Average of Levels in Binary Tree 
 	- 752.Open the Lock
+	- 314.Binary Tree Vertical Order Traversal
 	- 934.Shortest Bridge
 	- 1161.Maximum Level Sum of a Binary Tree
 	- 1302.Deepest Leaves Sum
@@ -57,6 +58,7 @@
   - 130.Surrounded Regions
   - 139.Word Break
   - 210.Course Schedule II
+  - 236.Lowest Common Ancestor of a Binary Tree
   - 261.Graph Valid Tree
   - 337.House Robber III
   
