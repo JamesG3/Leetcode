@@ -49,6 +49,7 @@
 	- 637.Average of Levels in Binary Tree 
 	- 752.Open the Lock
 	- 314.Binary Tree Vertical Order Traversal
+	- 863.All Nodes Distance K in Binary Tree
 	- 934.Shortest Bridge
 	- 1161.Maximum Level Sum of a Binary Tree
 	- 1302.Deepest Leaves Sum
@@ -172,6 +173,7 @@
 	- 83.Remove Duplicates from Sorted List
 	- 86.Partition List
 	- 141.Linked List Cycle
+	- 143.Reorder List
 	- 203.Remove Linked List Elements
 	- 237.Delete Node in a Linked List
 	
@@ -437,6 +439,7 @@
 - 628.Maximum Product of Three Numbers
 - 728.Self Dividing Numbers
 - 750.Number Of Corner Rectangles
+- 836.Rectangle Overlap
 
 #### Data Structures
 - 77.Combinations(using of stack)
