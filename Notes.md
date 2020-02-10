@@ -191,6 +191,9 @@
 	- 159.Longest Substring with At Most Two Distinct Characters
 	- 161.One Edit Distance
 	- 209.Minimum Size Subarray Sum
+	- 243.Shortest Word Distance
+	- 244.Shortest Word Distance II
+	- 245.Shortest Word Distance III
 	- 287.Find the Duplicate Number
 	- 340.Longest Substring with At Most K Distinct Characters
 	- 443.String Compression
@@ -234,6 +237,7 @@
 	 - 341.Flatten Nested List Iterator
 	 - 376.Wiggle Subsequence
 	- 448.Find All Numbers Disappeared in an Array
+	- 456.132 Pattern
 	- 475.Heaters
 	- 485.Max Consecutive Ones
 	- 525.Contiguous Array
@@ -268,6 +272,7 @@
 	- 402.Remove K Digits (stack)
 	- 406.Queue Reconstruction by Height
 	- 445.Add Two Numbers II
+	- 456.132 Pattern (stack)
 	- 484.Find Permutation
 	- 496.Next Greater Element I (stack)
 	- 503.Next Greater Element II (stack)
@@ -314,6 +319,9 @@
 	- 170.Two Sum III - Data structure design
 	- 187.Repeated DNA Sequences
 	- 210.Course Schedule II
+	- 243.Shortest Word Distance
+	- 244.Shortest Word Distance II
+	- 245.Shortest Word Distance III
 	- 288.Unique Word Abbreviation
 	- 290.Word Pattern
 	- 325.Maximum Size Subarray Sum Equals k
@@ -327,6 +335,7 @@
 	- 451.Sort Characters By Frequency
 	- 454.4Sum II
 	- 506.Relative Ranks
+	- 523.Continuous Subarray Sum
 	- 525.Contiguous Array
 	- 560.Subarray Sum Equals K
 	- 575.Distribute Candies
@@ -380,11 +389,13 @@
 	- 777.Swap Adjacent in LR String
 #### Simulation
 - 54.Spiral Matrix
+- 59.Spiral Matrix II
 - 281.Zigzag Iterator
 - 495.Teemo Attacking
 - 498.Diagonal Traverse
 - 529.Minesweeper
 - 681.Next Closest Time
+- 885.Spiral Matrix III
 #### HASH
 - 205.Isomorphic Strings
 - 347.Top K Frequent Elements
@@ -433,6 +444,7 @@
 - 492.Construct the Rectangle
 - 504.Base 7
 - 509.Fibonacci Number
+- 523.Continuous Subarray Sum
 - 544.Output Contest Matches
 - 553.Optimal Division
 - 573.Squirrel Simulation
