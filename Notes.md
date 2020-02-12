@@ -41,14 +41,16 @@
 	- 508.Most Frequent Subtree Sum
 	- 364.Nested List Weight Sum II (Similar Question)
 - **BFS**
+	- 211.Add and Search Word - Data structure design
 	- 279.Perfect Squares
 	- 286.Walls and Gates
+	- 314.Binary Tree Vertical Order Traversal
 	- 513.Find Bottom Left Tree Value
 	- 515.Find Largest Value in Each Tree Row
 	- 542.01 Matrix
 	- 637.Average of Levels in Binary Tree 
+	- 677.Map Sum Pairs
 	- 752.Open the Lock
-	- 314.Binary Tree Vertical Order Traversal
 	- 863.All Nodes Distance K in Binary Tree
 	- 934.Shortest Bridge
 	- 1161.Maximum Level Sum of a Binary Tree
@@ -460,10 +462,13 @@
 - 138.Copy List with Random Pointer (Deep copy)
 - 155.Min Stack
 - 208.Implement Trie (Prefix Tree)
+- 211.Add and Search Word - Data structure design (Prefix Tree)
 - 225.Implement Stack using Queues
 - 369.Plus One Linked List (reverse the linked list)
 - 380.Insert Delete GetRandom O(1)
 - 445.Add Two Numbers II (stack & linked list)
+- 677.Map Sum Pairs (Prefix Tree)
+- 720.Longest Word in Dictionary (Prefix Tree)
 
 #### DP
 - 62.Unique Paths
