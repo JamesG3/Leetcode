@@ -142,6 +142,7 @@
 - 475.Heaters
 - 455.Assign Cookies
 - 763.Partition Labels
+- 1007.Minimum Domino Rotations For Equal Row
 #### Sliding Window
 - 3.Longest Substring Without Repeating Characters
 - 683.K Empty Slots
@@ -450,6 +451,7 @@
 - 544.Output Contest Matches
 - 553.Optimal Division
 - 573.Squirrel Simulation
+- 593.Valid Square
 - 628.Maximum Product of Three Numbers
 - 728.Self Dividing Numbers
 - 750.Number Of Corner Rectangles
@@ -467,6 +469,7 @@
 - 369.Plus One Linked List (reverse the linked list)
 - 380.Insert Delete GetRandom O(1)
 - 445.Add Two Numbers II (stack & linked list)
+- 648.Replace Words (Prefix Tree)
 - 677.Map Sum Pairs (Prefix Tree)
 - 720.Longest Word in Dictionary (Prefix Tree)
 
