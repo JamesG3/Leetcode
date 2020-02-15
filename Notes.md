@@ -159,6 +159,7 @@
 	- 277.Find the Celebritbin ry
 - **BFS**
   - 127.Word Ladder
+  - 430.Flatten a Multilevel Doubly Linked List
   - 994.Rotting Oranges
 - **Dijkstra's Algorithm**
   - 743.Network Delay Time
@@ -206,7 +207,8 @@
 	
 - **Double linked list**
 	
-	- 146. LRU Cache
+	- 146.LRU Cache
+	- 430.Flatten a Multilevel Doubly Linked List
 	
 - **Construct Binary Tree**
 	
@@ -347,6 +349,7 @@
 	- 750.Number Of Corner Rectangles
 	- 811.Subdomain Visit Count
 	- 997.Find the Town Judge
+	- 1170.Compare Strings by Frequency of the Smallest Character
 	
 - **Palindrome**
 	- 647.Palindromic Substrings
@@ -468,6 +471,7 @@
 - 225.Implement Stack using Queues
 - 369.Plus One Linked List (reverse the linked list)
 - 380.Insert Delete GetRandom O(1)
+- 430.Flatten a Multilevel Doubly Linked List
 - 445.Add Two Numbers II (stack & linked list)
 - 648.Replace Words (Prefix Tree)
 - 677.Map Sum Pairs (Prefix Tree)
