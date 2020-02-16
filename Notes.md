@@ -121,6 +121,7 @@
 	- 298.Binary Tree Longest Consecutive Sequence 
 - **concepts about tree**
 	- 173.Binary Search Tree Iterator
+	- 222.Count Complete Tree Nodes
 	- 331.Verify Preorder Serialization of a Binary Tree
 - **Segment Tree**
 	- 307.Range Sum Query - Mutable
@@ -143,8 +144,10 @@
 - 455.Assign Cookies
 - 763.Partition Labels
 - 1007.Minimum Domino Rotations For Equal Row
+- 1048.Longest String Chain
 #### Sliding Window
 - 3.Longest Substring Without Repeating Characters
+- 76.Minimum Window Substring
 - 683.K Empty Slots
 #### Graph
 - **Loop Detection / DFS**
@@ -190,6 +193,7 @@
 	- 31.Next Permutation
 	- 42.Trapping Rain Water
 	- 75.Sort Colors
+	- 76.Minimum Window Substring
 	- 125.Valid Palindrome
 	- 151.Reverse Words in a String
 	- 159.Longest Substring with At Most Two Distinct Characters
@@ -203,10 +207,10 @@
 	- 443.String Compression
 	- 832.Flipping an Image
 	- 942.DI String Match
+	- 1048.Longest String Chain
 	- 1214.Two Sum BSTs
 	
 - **Double linked list**
-	
 	- 146.LRU Cache
 	- 430.Flatten a Multilevel Doubly Linked List
 	
@@ -215,12 +219,13 @@
 	- 105.Construct Binary Tree from Preorder and Inorder Traversal
 	
 - **Binary Search**
-	- 4. Median of Two Sorted Arrays
+	- 4.Median of Two Sorted Arrays
 	- 33.Search in Rotated Sorted Array
 	- 34.Find First and Last Position of Element in Sorted Array
 	- 74.Search a 2D Matrix
 	- 153.Find Minimum in Rotated Sorted Array
 	- 162.Find Peak Element
+	- 222.Count Complete Tree Nodes
 	- 240.Search a 2D Matrix II
 	- 275.H-Index II
 	- 278.First Bad Version
@@ -320,6 +325,7 @@
 	
 	- 15.3Sum
 	- 18.4Sum
+	- 76.Minimum Window Substring
 	- 130.Surrounded Regions
 	- 170.Two Sum III - Data structure design
 	- 187.Repeated DNA Sequences
@@ -349,6 +355,8 @@
 	- 750.Number Of Corner Rectangles
 	- 811.Subdomain Visit Count
 	- 997.Find the Town Judge
+	- 1048.Longest String Chain
+	- 1057.Campus Bikes
 	- 1170.Compare Strings by Frequency of the Smallest Character
 	
 - **Palindrome**
@@ -468,6 +476,7 @@
 - 155.Min Stack
 - 208.Implement Trie (Prefix Tree)
 - 211.Add and Search Word - Data structure design (Prefix Tree)
+- 222.Count Complete Tree Nodes
 - 225.Implement Stack using Queues
 - 369.Plus One Linked List (reverse the linked list)
 - 380.Insert Delete GetRandom O(1)
@@ -504,6 +513,7 @@
 - 712.Minimum ASCII Delete Sum for Two Strings
 - 718.Maximum Length of Repeated Subarray
 - 746.Min Cost Climbing Stairs
+- 1048.Longest String Chain
 
 ### Marked questions
 - 172.Factorial Trailing Zeroes
