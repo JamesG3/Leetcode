@@ -114,6 +114,7 @@
 	- 617.dMerge Two Binary Trees
 	- 687.Longest Univalue Path
 	- 872.Leaf-Similar Trees (**recursion using yield generator**)
+	- 951.Flip Equivalent Binary Trees
 - **Backtracking**
 	- 46.Permutations
 	- 78.Subsets
@@ -295,8 +296,10 @@
 	- 529.Minesweeper (stack)
 	- 739.Daily Temperatures (stack)
 	- 844.Backspace String Compare (stack)
+	- 846.Hand of Straights (stack)
 	- 917.Reverse Only Letters (stack)
 	- 921.Minimum Add to Make Parentheses Valid (stack)
+	- 946.Validate Stack Sequences (stack)
 	- 1021.Remove Outermost Parentheses (stack)
 	- 1047.Remove All Adjacent Duplicates In String (stack)
 	- 1110.Delete Nodes And Return Forest (stack)
@@ -362,6 +365,7 @@
 	- 697.Degree of an Array
 	- 750.Number Of Corner Rectangles
 	- 811.Subdomain Visit Count
+	- 846.Hand of Straights
 	- 939.Minimum Area Rectangle
 	- 997.Find the Town Judge
 	- 1048.Longest String Chain
@@ -418,7 +422,9 @@
 - 498.Diagonal Traverse
 - 529.Minesweeper
 - 681.Next Closest Time
+- 846.Hand of Straights
 - 885.Spiral Matrix III
+- 946.Validate Stack Sequences
 #### HASH
 - 205.Isomorphic Strings
 - 347.Top K Frequent Elements
@@ -495,6 +501,7 @@
 - 648.Replace Words (Prefix Tree)
 - 677.Map Sum Pairs (Prefix Tree)
 - 720.Longest Word in Dictionary (Prefix Tree)
+- 946.Validate Stack Sequences (Stack)
 
 #### DP
 - 62.Unique Paths
