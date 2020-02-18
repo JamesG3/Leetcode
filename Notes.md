@@ -119,6 +119,7 @@
 	- 78.Subsets
 	- 93.Restore IP Addresses
 	- 298.Binary Tree Longest Consecutive Sequence 
+	- 489.Robot Room Cleaner
 - **concepts about tree**
 	- 173.Binary Search Tree Iterator
 	- 222.Count Complete Tree Nodes
@@ -143,6 +144,7 @@
 - 475.Heaters
 - 455.Assign Cookies
 - 763.Partition Labels
+- 939.Minimum Area Rectangle
 - 1007.Minimum Domino Rotations For Equal Row
 - 1048.Longest String Chain
 #### Sliding Window
@@ -158,6 +160,7 @@
 	- 210.Course Schedule II
 	- 261.Graph Valid Tree
 	- 323.Number of Connected Components in an Undirected Graph
+	- 489.Robot Room Cleaner
 	- 547.Friend Circles
 	- 277.Find the Celebritbin ry
 - **BFS**
@@ -208,6 +211,7 @@
 	- 832.Flipping an Image
 	- 942.DI String Match
 	- 1048.Longest String Chain
+	- 1055.Shortest Way to Form String
 	- 1214.Two Sum BSTs
 	
 - **Double linked list**
@@ -233,6 +237,7 @@
 	- 540.Single Element in a Sorted Array
 	- 704.Binary Search
 	- 744.Find Smallest Letter Greater Than Target
+	- 1011.Capacity To Ship Packages Within D Days
 	
 - **Traverse & mark**
 	- 6.ZigZag Conversion
@@ -294,6 +299,7 @@
 	- 921.Minimum Add to Make Parentheses Valid (stack)
 	- 1021.Remove Outermost Parentheses (stack)
 	- 1047.Remove All Adjacent Duplicates In String (stack)
+	- 1110.Delete Nodes And Return Forest (stack)
 	
 - **DFS**
 	
@@ -316,6 +322,7 @@
 	- 654.Maximum Binary Tree
 	- 737.Sentence Similarity II
 	- 841.Keys and Rooms
+	- 1110.Delete Nodes And Return Forest
 	
 - **Union Find**
 	- 737.Sentence Similarity II
@@ -345,6 +352,7 @@
 	- 447.Number of Boomerangs
 	- 451.Sort Characters By Frequency
 	- 454.4Sum II
+	- 489.Robot Room Cleaner
 	- 506.Relative Ranks
 	- 523.Continuous Subarray Sum
 	- 525.Contiguous Array
@@ -354,6 +362,7 @@
 	- 697.Degree of an Array
 	- 750.Number Of Corner Rectangles
 	- 811.Subdomain Visit Count
+	- 939.Minimum Area Rectangle
 	- 997.Find the Town Judge
 	- 1048.Longest String Chain
 	- 1057.Campus Bikes
@@ -467,6 +476,7 @@
 - 728.Self Dividing Numbers
 - 750.Number Of Corner Rectangles
 - 836.Rectangle Overlap
+- 939.Minimum Area Rectangle
 
 #### Data Structures
 - 77.Combinations(using of stack)
