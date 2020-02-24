@@ -63,6 +63,7 @@
   - 210.Course Schedule II
   - 236.Lowest Common Ancestor of a Binary Tree
   - 261.Graph Valid Tree
+  - 329.Longest Increasing Path in a Matrix
   - 337.House Robber III
   
 - **Level traversal**
@@ -120,6 +121,7 @@
 	- 78.Subsets
 	- 93.Restore IP Addresses
 	- 298.Binary Tree Longest Consecutive Sequence 
+	- 329.Longest Increasing Path in a Matrix
 	- 489.Robot Room Cleaner
 - **concepts about tree**
 	- 173.Binary Search Tree Iterator
@@ -333,6 +335,7 @@
 	
 - **Using dictionary (hash table)**
 	
+	- 1.Two Sum
 	- 15.3Sum
 	- 18.4Sum
 	- 76.Minimum Window Substring
@@ -362,6 +365,7 @@
 	- 560.Subarray Sum Equals K
 	- 575.Distribute Candies
 	- 609.Find Duplicate File in System
+	- 692.Top K Frequent Words
 	- 697.Degree of an Array
 	- 750.Number Of Corner Rectangles
 	- 811.Subdomain Visit Count
@@ -370,6 +374,7 @@
 	- 997.Find the Town Judge
 	- 1048.Longest String Chain
 	- 1057.Campus Bikes
+	- 1146.Snapshot Array (Data Structure Design)
 	- 1170.Compare Strings by Frequency of the Smallest Character
 	
 - **Palindrome**
@@ -502,6 +507,8 @@
 - 677.Map Sum Pairs (Prefix Tree)
 - 720.Longest Word in Dictionary (Prefix Tree)
 - 946.Validate Stack Sequences (Stack)
+- 1167.Minimum Cost to Connect Sticks (Heap)
+- 1268.Search Suggestions System (Prefix Tree)
 
 #### DP
 - 62.Unique Paths
@@ -522,6 +529,7 @@
 - 303.Range Sum Query - Immutable
 - 309.Best Time to Buy and Sell Stock with Cooldown(using state machine)
 - 322.Coin Change
+- 329.Longest Increasing Path in a Matrix
 - 357.Count Numbers with Unique Digits
 - 338.Counting Bits
 - 361.Bomb Enemy
