@@ -118,7 +118,9 @@
 	- 951.Flip Equivalent Binary Trees
 - **Backtracking**
 	- 46.Permutations
+	- 47.Permutations II
 	- 78.Subsets
+	- 91.Decode Ways
 	- 93.Restore IP Addresses
 	- 298.Binary Tree Longest Consecutive Sequence 
 	- 329.Longest Increasing Path in a Matrix
@@ -516,6 +518,7 @@
 - 64.Minimum Path Sum
 - 70.Climbing Stairs
 - 72.Edit Distance
+- 91.Decode Ways
 - 96.Unique Binary Search Trees
 - 95.Unique Binary Search Trees II
 - 120.Triangle
