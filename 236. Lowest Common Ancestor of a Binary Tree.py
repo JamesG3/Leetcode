@@ -9,29 +9,35 @@ class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         self.p = p
         self.q = q
-        return self.helper(root)
+        self.ans = None
         
+        self.helper(root)
+        return self.ans
+    
     def helper(self, node):
         if not node:
             return False
         
-        l = self.helper(node.left)
-        r = self.helper(node.right)
+        left, right = self.helper(node.left), self.helper(node.right)
+        if left == right == False and node in (self.q, self.p):
+            return True
         
-        if l and r:
-            return node
+        elif (left or right) and node in (self.q, self.p):
+            self.ans = node
+            return True
         
-        if isinstance(l, TreeNode):
-            return l
-        if isinstance(r, TreeNode):
-            return r
+        elif left and right:
+            self.ans = node
+            return True
         
-        return (node in (self.p, self.q)) or (l or r)
-            
+        else:
+            return (left or right)
+        
 '''
 Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
 According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
 Given the following binary tree:  root = [3,5,1,6,2,0,8,null,null,7,4]
 
-Solution: Tree DFS
+Solution: Recursive, backtracking
+Time: O(n)
 '''
