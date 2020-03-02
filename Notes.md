@@ -132,7 +132,12 @@
 - **Segment Tree**
 	- 307.Range Sum Query - Mutable
 
+### Priority queue, heap
+
+- 767.Reorganize String
+
 #### Greedy
+
 - 45.Jump Game II
 - 55.Jump Game
 - 121.Best Time to Buy and Sell Stock
@@ -213,6 +218,7 @@
 	- 287.Find the Duplicate Number
 	- 340.Longest Substring with At Most K Distinct Characters
 	- 443.String Compression
+	- 524.Longest Word in Dictionary through Deleting
 	- 832.Flipping an Image
 	- 942.DI String Match
 	- 1048.Longest String Chain
@@ -488,6 +494,7 @@
 - 628.Maximum Product of Three Numbers
 - 728.Self Dividing Numbers
 - 750.Number Of Corner Rectangles
+- 769.Max Chunks To Make Sorted
 - 836.Rectangle Overlap
 - 939.Minimum Area Rectangle
 
