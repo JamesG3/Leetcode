@@ -153,6 +153,7 @@
 - 402.Remove K Digits
 - 475.Heaters
 - 455.Assign Cookies
+- 659.Split Array into Consecutive Subsequences
 - 763.Partition Labels
 - 939.Minimum Area Rectangle
 - 1007.Minimum Domino Rotations For Equal Row
@@ -271,6 +272,7 @@
 	- 554.Brick Wall
 	- 556.Next Greater Element III
 	- 628.Maximum Product of Three Numbers
+	- 659.Split Array into Consecutive Subsequences
 	- 665.Non-decreasing Array
 	- 766.Toeplitz Matrix
 	- 1198.Find Smallest Common Element in All Rows
@@ -373,6 +375,7 @@
 	- 560.Subarray Sum Equals K
 	- 575.Distribute Candies
 	- 609.Find Duplicate File in System
+	- 659.Split Array into Consecutive Subsequences
 	- 692.Top K Frequent Words
 	- 697.Degree of an Array
 	- 750.Number Of Corner Rectangles
