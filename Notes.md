@@ -177,6 +177,7 @@
 - **BFS**
   - 127.Word Ladder
   - 430.Flatten a Multilevel Doubly Linked List
+  - 733.Flood Fill
   - 994.Rotting Oranges
 - **Dijkstra's Algorithm**
   - 743.Network Delay Time
@@ -539,6 +540,7 @@
 - 256.Paint House
 - 264.Ugly Number II
 - 276.Paint Fence
+- 300.Longest Increasing Subsequence
 - 303.Range Sum Query - Immutable
 - 309.Best Time to Buy and Sell Stock with Cooldown(using state machine)
 - 322.Coin Change
