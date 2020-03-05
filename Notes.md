@@ -104,6 +104,7 @@
 	- 1038.Binary Search Tree to Greater Sum Tree
 - **recursive**
 	- 100.Same Tree
+	- 124.Binary Tree Maximum Path Sum
 	 - 129.Sum Root to Leaf Numbers
 	- 226.Invert Binary Tree
 	- 257.Binary Tree Paths
@@ -113,6 +114,7 @@
 	- 544.Output Contest Matches
 	- 606.Construct String from Binary Tree
 	- 617.dMerge Two Binary Trees
+	- 652.Find Duplicate Subtrees
 	- 687.Longest Univalue Path
 	- 872.Leaf-Similar Trees (**recursion using yield generator**)
 	- 951.Flip Equivalent Binary Trees
@@ -376,6 +378,7 @@
 	- 560.Subarray Sum Equals K
 	- 575.Distribute Candies
 	- 609.Find Duplicate File in System
+	- 652.Find Duplicate Subtrees
 	- 659.Split Array into Consecutive Subsequences
 	- 692.Top K Frequent Words
 	- 697.Degree of an Array
