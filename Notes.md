@@ -323,6 +323,7 @@
 	
 	- 17.Letter Combinations of a Phone Number
 	- 22.Generate Parentheses
+	- 39.Combination Sum
 	- 78.Subsets
 	- 90.Subsets II
 	- 100.Same Tree
