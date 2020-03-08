@@ -75,6 +75,7 @@
 	- 98.Validate Binary Search Tree
 	- 109.Convert Sorted List to Binary Search Tree
 	- 230.Kth Smallest Element in a BST
+	- 285.Inorder Successor in BST
 	- 501.Find Mode in Binary Search Tree
 	- 653.Two Sum IV - Input is a BST
 	- 669.Trim a Binary Search Tree
@@ -96,6 +97,7 @@
 	- 530.Minimum Absolute Difference in BST
 	- 538.Convert BST to Greater Tree
 	- 543.Diameter of Binary Tree
+	- 545.Boundary of Binary Tree
 	- 617.Mergeq Two Binary Trees
 	- 655.Print Binary Tree
 	- 814.Binary Tree Pruning
@@ -136,7 +138,12 @@
 
 ### Priority queue, heap
 
+- 23.Merge k Sorted Lists
 - 767.Reorganize String
+
+### Design
+
+- 348.Design Tic-Tac-Toe
 
 #### Greedy
 
@@ -178,6 +185,7 @@
 	- 277.Find the Celebritbin ry
 - **BFS**
   - 127.Word Ladder
+  - 399.Evaluate Division
   - 430.Flatten a Multilevel Doubly Linked List
   - 733.Flood Fill
   - 994.Rotting Oranges
