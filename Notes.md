@@ -149,6 +149,7 @@
 
 - 45.Jump Game II
 - 55.Jump Game
+- 57.Insert Interval
 - 121.Best Time to Buy and Sell Stock
 - 122.Best Time to Buy and Sell Stock II
 - 134.Gas Station
@@ -202,6 +203,7 @@
 	- 24.Swap Nodes in Pairs
 	- 61.Rotate List
 	- 80.Remove Duplicates from Sorted Array II
+	- 82.Remove Duplicates from Sorted List II
 	- 83.Remove Duplicates from Sorted List
 	- 86.Partition List
 	- 141.Linked List Cycle
@@ -390,11 +392,13 @@
 	- 652.Find Duplicate Subtrees
 	- 659.Split Array into Consecutive Subsequences
 	- 692.Top K Frequent Words
+	- 694.Number of Distinct Islands
 	- 697.Degree of an Array
 	- 750.Number Of Corner Rectangles
 	- 811.Subdomain Visit Count
 	- 846.Hand of Straights
 	- 939.Minimum Area Rectangle
+	- 957.Prison Cells After N Days
 	- 997.Find the Town Judge
 	- 1048.Longest String Chain
 	- 1057.Campus Bikes
@@ -513,6 +517,7 @@
 - 769.Max Chunks To Make Sorted
 - 836.Rectangle Overlap
 - 939.Minimum Area Rectangle
+- 957.Prison Cells After N Days
 
 #### Data Structures
 - 77.Combinations(using of stack)
