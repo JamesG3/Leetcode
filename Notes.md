@@ -50,6 +50,7 @@
 	- 542.01 Matrix
 	- 637.Average of Levels in Binary Tree 
 	- 677.Map Sum Pairs
+	- 690.Employee Importance
 	- 752.Open the Lock
 	- 863.All Nodes Distance K in Binary Tree
 	- 934.Shortest Bridge
@@ -126,6 +127,7 @@
 	- 78.Subsets
 	- 91.Decode Ways
 	- 93.Restore IP Addresses
+	- 212.Word Search II
 	- 298.Binary Tree Longest Consecutive Sequence 
 	- 329.Longest Increasing Path in a Matrix
 	- 489.Robot Room Cleaner
@@ -206,6 +208,7 @@
 	- 82.Remove Duplicates from Sorted List II
 	- 83.Remove Duplicates from Sorted List
 	- 86.Partition List
+	- 92.Reverse Linked List II
 	- 141.Linked List Cycle
 	- 143.Reorder List
 	- 203.Remove Linked List Elements
@@ -339,6 +342,7 @@
 	- 100.Same Tree
 	- 111.Minimum Depth of Binary Tree
 	- 113.Path Sum II
+	- 212.Word Search II
 	- 339.Nested List Weight Sum
 	- 366.Find Leaves of Binary Tree
 	- 388.Longest Absolute File Path
@@ -391,6 +395,7 @@
 	- 609.Find Duplicate File in System
 	- 652.Find Duplicate Subtrees
 	- 659.Split Array into Consecutive Subsequences
+	- 690.Employee Importance
 	- 692.Top K Frequent Words
 	- 694.Number of Distinct Islands
 	- 697.Degree of an Array
@@ -525,20 +530,24 @@
 - 117.Populating Next Right Pointers in Each Node II
 - 138.Copy List with Random Pointer (Deep copy)
 - 155.Min Stack
-- 208.Implement Trie (Prefix Tree)
-- 211.Add and Search Word - Data structure design (Prefix Tree)
 - 222.Count Complete Tree Nodes
 - 225.Implement Stack using Queues
 - 369.Plus One Linked List (reverse the linked list)
 - 380.Insert Delete GetRandom O(1)
 - 430.Flatten a Multilevel Doubly Linked List
 - 445.Add Two Numbers II (stack & linked list)
-- 648.Replace Words (Prefix Tree)
-- 677.Map Sum Pairs (Prefix Tree)
-- 720.Longest Word in Dictionary (Prefix Tree)
 - 946.Validate Stack Sequences (Stack)
 - 1167.Minimum Cost to Connect Sticks (Heap)
-- 1268.Search Suggestions System (Prefix Tree)
+
+### Trie (Prefix Tree)
+
+- 208.Implement Trie
+- 211.Add and Search Word - Data structure design
+- 212.Word Search II
+- 648.Replace Words
+- 677.Map Sum Pairs
+- 720.Longest Word in Dictionary
+- 1268.Search Suggestions System
 
 #### DP
 - 62.Unique Paths
@@ -566,6 +575,7 @@
 - 338.Counting Bits
 - 361.Bomb Enemy
 - 463.Island Perimeter
+- 518.Coin Change 2
 - 583.Delete Operation for Two Strings
 - 712.Minimum ASCII Delete Sum for Two Strings
 - 718.Maximum Length of Repeated Subarray
