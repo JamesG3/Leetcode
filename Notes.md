@@ -158,6 +158,7 @@
 - 152.Maximum Product Subarray
 - 198.House Robber
 - 213.House Robber II
+- 239.Sliding Window Maximum
 - 253.Meeting Rooms II
 - 334.Increasing Triplet Subsequence
 - 337.House Robber III
@@ -213,7 +214,6 @@
 	- 143.Reorder List
 	- 203.Remove Linked List Elements
 	- 237.Delete Node in a Linked List
-	
 - **Two pointers**
 	
 	- 16.3Sum Closest   
@@ -241,15 +241,12 @@
 	- 1048.Longest String Chain
 	- 1055.Shortest Way to Form String
 	- 1214.Two Sum BSTs
-	
 - **Double linked list**
 	- 146.LRU Cache
 	- 430.Flatten a Multilevel Doubly Linked List
-	
 - **Construct Binary Tree**
 	
 	- 105.Construct Binary Tree from Preorder and Inorder Traversal
-	
 - **Binary Search**
 	- 4.Median of Two Sorted Arrays
 	- 33.Search in Rotated Sorted Array
@@ -266,7 +263,6 @@
 	- 704.Binary Search
 	- 744.Find Smallest Letter Greater Than Target
 	- 1011.Capacity To Ship Packages Within D Days
-	
 - **Traverse & mark**
 	- 6.ZigZag Conversion
 	- 48.Rotate Image
@@ -292,135 +288,133 @@
 	- 665.Non-decreasing Array
 	- 766.Toeplitz Matrix
 	- 1198.Find Smallest Common Element in All Rows
-	
-- **Stack and Queue**
-	- 20.Valid Parentheses (stack)
-	- 32.Longest Valid Parentheses (stack)
-	- 71.Simplify Path
-	- 77.Combinations
-	- 84.Largest Rectangle in Histogram (stack)
-	- 102.Binary Tree Level Order Traversal
-	- 103.Binary Tree Zigzag Level Order Traversal
-	- 107.Binary Tree Level Order Traversal II
-	- 129.Sum Root to Leaf Numbers (stack)
-	- 144.Binary Tree Preorder Traversal (stack)
-	- 145.Binary Tree Postorder Traversal (stack)
-	- 150.Evaluate Reverse Polish Notation (stack)
-	- 173.Binary Search Tree Iterator
-	- 224.Basic Calculator (stack)
-	- 227.Basic Calculator II (stack)
-	- 232.Implement Queue using Stacks
-	- 281.Zigzag Iterator (queue)
-	- 316.Remove Duplicate Letters (stack)
-	- 394.Decode String
-	- 402.Remove K Digits (stack)
-	- 406.Queue Reconstruction by Height
-	- 445.Add Two Numbers II
-	- 456.132 Pattern (stack)
-	- 484.Find Permutation
-	- 496.Next Greater Element I (stack)
-	- 503.Next Greater Element II (stack)
-	- 526.Beautiful Arrangement
-	- 529.Minesweeper (stack)
-	- 739.Daily Temperatures (stack)
-	- 844.Backspace String Compare (stack)
-	- 846.Hand of Straights (stack)
-	- 917.Reverse Only Letters (stack)
-	- 921.Minimum Add to Make Parentheses Valid (stack)
-	- 946.Validate Stack Sequences (stack)
-	- 1021.Remove Outermost Parentheses (stack)
-	- 1047.Remove All Adjacent Duplicates In String (stack)
-	- 1110.Delete Nodes And Return Forest (stack)
-	
+- **Stack**
+  - 20.Valid Parentheses
+  - 32.Longest Valid Parentheses
+  - 71.Simplify Path
+  - 77.Combinations
+  - 84.Largest Rectangle in Histogram
+  - 102.Binary Tree Level Order Traversal
+  - 103.Binary Tree Zigzag Level Order Traversal
+  - 107.Binary Tree Level Order Traversal II
+  - 129.Sum Root to Leaf Numbers
+  - 144.Binary Tree Preorder Traversal
+  - 145.Binary Tree Postorder Traversal
+  - 150.Evaluate Reverse Polish Notation
+  - 173.Binary Search Tree Iterator
+  - 224.Basic Calculator
+  - 227.Basic Calculator II
+  - 232.Implement Queue using Stacks
+  - 316.Remove Duplicate Letters
+  - 394.Decode String
+  - 402.Remove K Digits
+  - 456.132 Pattern
+  - 484.Find Permutation
+  - 496.Next Greater Element I
+  - 503.Next Greater Element II
+  - 526.Beautiful Arrangement
+  - 529.Minesweeper
+  - 739.Daily Temperatures
+  - 844.Backspace String Compare
+  - 846.Hand of Straights
+  - 917.Reverse Only Letters
+  - 921.Minimum Add to Make Parentheses Valid
+  - 946.Validate Stack Sequences
+  - 1021.Remove Outermost Parentheses
+  - 1047.Remove All Adjacent Duplicates In String
+  - 1110.Delete Nodes And Return Forest
+- **Queue**
+  - 239.Sliding Window Maximum
+  - 281.Zigzag Iterator
+  - 406.Queue Reconstruction by Height
+  - 445.Add Two Numbers II
 - **DFS**
-	
-	- 17.Letter Combinations of a Phone Number
-	- 22.Generate Parentheses
-	- 39.Combination Sum
-	- 78.Subsets
-	- 90.Subsets II
-	- 100.Same Tree
-	- 111.Minimum Depth of Binary Tree
-	- 113.Path Sum II
-	- 212.Word Search II
-	- 339.Nested List Weight Sum
-	- 366.Find Leaves of Binary Tree
-	- 388.Longest Absolute File Path
-	- 437.Path Sum III
-	- 526.Beautiful Arrangement
-	- 529.Minesweeper
-	- 559.Maximum Depth of N-ary Tree
-	- 690.Employee Importance
-	- 695.Max Area of Island
-	- 654.Maximum Binary Tree
-	- 737.Sentence Similarity II
-	- 841.Keys and Rooms
-	- 1110.Delete Nodes And Return Forest
-	
+
+  - 17.Letter Combinations of a Phone Number
+  - 22.Generate Parentheses
+  - 39.Combination Sum
+  - 78.Subsets
+  - 90.Subsets II
+  - 100.Same Tree
+  - 111.Minimum Depth of Binary Tree
+  - 113.Path Sum II
+  - 212.Word Search II
+  - 339.Nested List Weight Sum
+  - 366.Find Leaves of Binary Tree
+  - 388.Longest Absolute File Path
+  - 437.Path Sum III
+  - 526.Beautiful Arrangement
+  - 529.Minesweeper
+  - 559.Maximum Depth of N-ary Tree
+  - 690.Employee Importance
+  - 695.Max Area of Island
+  - 654.Maximum Binary Tree
+  - 737.Sentence Similarity II
+  - 841.Keys and Rooms
+  - 1110.Delete Nodes And Return Forest
 - **Union Find**
-	- 737.Sentence Similarity II
-	- 200.Number of Islands
-	
+  - 737.Sentence Similarity II
+  - 200.Number of Islands
 - **Using dictionary (hash table)**
-	
-	- 1.Two Sum
-	- 15.3Sum
-	- 18.4Sum
-	- 76.Minimum Window Substring
-	- 130.Surrounded Regions
-	- 170.Two Sum III - Data structure design
-	- 187.Repeated DNA Sequences
-	- 210.Course Schedule II
-	- 243.Shortest Word Distance
-	- 244.Shortest Word Distance II
-	- 245.Shortest Word Distance III
-	- 288.Unique Word Abbreviation
-	- 290.Word Pattern
-	- 325.Maximum Size Subarray Sum Equals k
-	- 340.Longest Substring with At Most K Distinct Characters
-	- 355.Design Twitter
-	- 362.Design Hit Counter
-	- 364.Nested List Weight Sum II
-	- 409.Longest Palindrome
-	- 438.Find All Anagrams in a String
-	- 447.Number of Boomerangs
-	- 451.Sort Characters By Frequency
-	- 454.4Sum II
-	- 489.Robot Room Cleaner
-	- 506.Relative Ranks
-	- 523.Continuous Subarray Sum
-	- 525.Contiguous Array
-	- 560.Subarray Sum Equals K
-	- 575.Distribute Candies
-	- 609.Find Duplicate File in System
-	- 652.Find Duplicate Subtrees
-	- 659.Split Array into Consecutive Subsequences
-	- 690.Employee Importance
-	- 692.Top K Frequent Words
-	- 694.Number of Distinct Islands
-	- 697.Degree of an Array
-	- 750.Number Of Corner Rectangles
-	- 811.Subdomain Visit Count
-	- 846.Hand of Straights
-	- 939.Minimum Area Rectangle
-	- 957.Prison Cells After N Days
-	- 997.Find the Town Judge
-	- 1048.Longest String Chain
-	- 1057.Campus Bikes
-	- 1146.Snapshot Array (Data Structure Design)
-	- 1170.Compare Strings by Frequency of the Smallest Character
-	
+
+  - 1.Two Sum
+  - 15.3Sum
+  - 18.4Sum
+  - 76.Minimum Window Substring
+  - 130.Surrounded Regions
+  - 170.Two Sum III - Data structure design
+  - 187.Repeated DNA Sequences
+  - 210.Course Schedule II
+  - 243.Shortest Word Distance
+  - 244.Shortest Word Distance II
+  - 245.Shortest Word Distance III
+  - 288.Unique Word Abbreviation
+  - 290.Word Pattern
+  - 325.Maximum Size Subarray Sum Equals k
+  - 340.Longest Substring with At Most K Distinct Characters
+  - 355.Design Twitter
+  - 362.Design Hit Counter
+  - 364.Nested List Weight Sum II
+  - 409.Longest Palindrome
+  - 438.Find All Anagrams in a String
+  - 447.Number of Boomerangs
+  - 451.Sort Characters By Frequency
+  - 454.4Sum II
+  - 489.Robot Room Cleaner
+  - 506.Relative Ranks
+  - 523.Continuous Subarray Sum
+  - 525.Contiguous Array
+  - 560.Subarray Sum Equals K
+  - 575.Distribute Candies
+  - 609.Find Duplicate File in System
+  - 652.Find Duplicate Subtrees
+  - 659.Split Array into Consecutive Subsequences
+  - 690.Employee Importance
+  - 692.Top K Frequent Words
+  - 694.Number of Distinct Islands
+  - 697.Degree of an Array
+  - 750.Number Of Corner Rectangles
+  - 811.Subdomain Visit Count
+  - 846.Hand of Straights
+  - 939.Minimum Area Rectangle
+  - 957.Prison Cells After N Days
+  - 997.Find the Town Judge
+  - 1048.Longest String Chain
+  - 1057.Campus Bikes
+  - 1146.Snapshot Array (Data Structure Design)
+  - 1170.Compare Strings by Frequency of the Smallest Character
 - **Palindrome**
-	- 647.Palindromic Substrings
-	- 266.Palindrome Permutation
-	- 5.Longest Palindromic Substring
-	- 234.Palindrome Linked List
+  - 647.Palindromic Substrings
+  - 266.Palindrome Permutation
+  - 5.Longest Palindromic Substring
+  - 234.Palindrome Linked List
 
 
 - **Sort**
 	- 280.Wiggle Sort (in-place sort)
-	- 436.Find Right Interval (bucket sort)
 	- 386.Lexicographical Numbers
+	- 436.Find Right Interval (bucket sort)
+	- 581.Shortest Unsorted Continuous Subarray
 	- 973.K Closest Points to Origin
 
 
@@ -532,6 +526,7 @@
 - 155.Min Stack
 - 222.Count Complete Tree Nodes
 - 225.Implement Stack using Queues
+- 239.Sliding Window Maximum
 - 369.Plus One Linked List (reverse the linked list)
 - 380.Insert Delete GetRandom O(1)
 - 430.Flatten a Multilevel Doubly Linked List
