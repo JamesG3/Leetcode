@@ -183,10 +183,11 @@
 	- 207.Course Schedule
 	- 210.Course Schedule II
 	- 261.Graph Valid Tree
+	- 277.Find the Celebritbin ry
 	- 323.Number of Connected Components in an Undirected Graph
 	- 489.Robot Room Cleaner
 	- 547.Friend Circles
-	- 277.Find the Celebritbin ry
+	- 787.Cheapest Flights Within K Stops (DFS/Dijkstra's)
 - **BFS**
   - 127.Word Ladder
   - 399.Evaluate Division
@@ -349,7 +350,7 @@
   - 690.Employee Importance
   - 695.Max Area of Island
   - 654.Maximum Binary Tree
-  - 737.Sentence Similarity II
+  - 737.Sentence Similarity IIgragrap
   - 841.Keys and Rooms
   - 1110.Delete Nodes And Return Forest
 - **Union Find**
@@ -459,6 +460,7 @@
 - 946.Validate Stack Sequences
 #### HASH
 - 205.Isomorphic Strings
+- 289.Game of Life
 - 347.Top K Frequent Elements
 - 387.First Unique Character in a String
 - 535.Encode and Decode TinyURL
