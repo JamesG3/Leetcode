@@ -122,6 +122,7 @@
 	- 872.Leaf-Similar Trees (**recursion using yield generator**)
 	- 951.Flip Equivalent Binary Trees
 - **Backtracking**
+	- 22.Generate Parentheses
 	- 46.Permutations
 	- 47.Permutations II
 	- 78.Subsets
@@ -141,6 +142,7 @@
 ### Priority queue, heap
 
 - 23.Merge k Sorted Lists
+- 295.Find Median from Data Stream
 - 767.Reorganize String
 
 ### Design
@@ -325,6 +327,7 @@
   - 1047.Remove All Adjacent Duplicates In String
   - 1110.Delete Nodes And Return Forest
 - **Queue**
+  - 3.Longest Substring Without Repeating Characters
   - 239.Sliding Window Maximum
   - 281.Zigzag Iterator
   - 406.Queue Reconstruction by Height
@@ -359,6 +362,7 @@
 - **Using dictionary (hash table)**
 
   - 1.Two Sum
+  - 3.Longest Substring Without Repeating Characters
   - 15.3Sum
   - 18.4Sum
   - 76.Minimum Window Substring
@@ -572,6 +576,7 @@
 - 338.Counting Bits
 - 361.Bomb Enemy
 - 463.Island Perimeter
+- 516.Longest Palindromic Subsequence
 - 518.Coin Change 2
 - 583.Delete Operation for Two Strings
 - 712.Minimum ASCII Delete Sum for Two Strings
