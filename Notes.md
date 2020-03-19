@@ -128,10 +128,12 @@
 	- 78.Subsets
 	- 91.Decode Ways
 	- 93.Restore IP Addresses
+	- 168.Excel Sheet Column Title
 	- 212.Word Search II
 	- 298.Binary Tree Longest Consecutive Sequence 
 	- 329.Longest Increasing Path in a Matrix
 	- 489.Robot Room Cleaner
+	- 1239.Maximum Length of a Concatenated String with Unique Characters
 - **concepts about tree**
 	- 173.Binary Search Tree Iterator
 	- 222.Count Complete Tree Nodes
