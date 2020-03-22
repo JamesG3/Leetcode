@@ -144,6 +144,7 @@
 ### Priority queue, heap
 
 - 23.Merge k Sorted Lists
+- 253.Meeting Rooms II
 - 295.Find Median from Data Stream
 - 767.Reorganize String
 
@@ -204,6 +205,7 @@
   - 310.Minimum Height Trees
 #### Array and List
 - **Sorting**
+	- 252.Meeting Rooms
 	- 539.Minimum Time Difference
 	- 937.Reorder Data in Log Files
 - **Linked List - two pointers**
@@ -219,6 +221,7 @@
 	- 143.Reorder List
 	- 203.Remove Linked List Elements
 	- 237.Delete Node in a Linked List
+	- 328.Odd Even Linked List
 - **Two pointers**
 	
 	- 16.3Sum Closest   
@@ -233,6 +236,7 @@
 	- 151.Reverse Words in a String
 	- 159.Longest Substring with At Most Two Distinct Characters
 	- 161.One Edit Distance
+	- 165.Compare Version Numbers
 	- 209.Minimum Size Subarray Sum
 	- 243.Shortest Word Distance
 	- 244.Shortest Word Distance II
@@ -306,8 +310,10 @@
   - 144.Binary Tree Preorder Traversal
   - 145.Binary Tree Postorder Traversal
   - 150.Evaluate Reverse Polish Notation
+  - 155.Min Stack
   - 173.Binary Search Tree Iterator
   - 224.Basic Calculator
+  - 225.Implement Stack using Queues
   - 227.Basic Calculator II
   - 232.Implement Queue using Stacks
   - 316.Remove Duplicate Letters
@@ -319,6 +325,7 @@
   - 503.Next Greater Element II
   - 526.Beautiful Arrangement
   - 529.Minesweeper
+  - 636.Exclusive Time of Functions
   - 739.Daily Temperatures
   - 844.Backspace String Compare
   - 846.Hand of Straights
@@ -456,11 +463,13 @@
 #### Simulation
 - 54.Spiral Matrix
 - 59.Spiral Matrix II
+- 165.Compare Version Numbers
 - 281.Zigzag Iterator
 - 495.Teemo Attacking
 - 498.Diagonal Traverse
 - 529.Minesweeper
 - 681.Next Closest Time
+- 794.Valid Tic-Tac-Toe State
 - 846.Hand of Straights
 - 885.Spiral Matrix III
 - 946.Validate Stack Sequences
@@ -527,19 +536,15 @@
 - 957.Prison Cells After N Days
 
 #### Data Structures
-- 77.Combinations(using of stack)
 - 116.Populating Next Right Pointers in Each Node
 - 117.Populating Next Right Pointers in Each Node II
 - 138.Copy List with Random Pointer (Deep copy)
-- 155.Min Stack
 - 222.Count Complete Tree Nodes
-- 225.Implement Stack using Queues
 - 239.Sliding Window Maximum
 - 369.Plus One Linked List (reverse the linked list)
 - 380.Insert Delete GetRandom O(1)
 - 430.Flatten a Multilevel Doubly Linked List
 - 445.Add Two Numbers II (stack & linked list)
-- 946.Validate Stack Sequences (Stack)
 - 1167.Minimum Cost to Connect Sticks (Heap)
 
 ### Trie (Prefix Tree)
