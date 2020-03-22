@@ -1,0 +1,32 @@
+class Solution:
+    def isBipartite(self, graph: List[List[int]]) -> bool:
+        nodes = {}
+        for i, neis in enumerate(graph):
+            if i in nodes:
+                continue
+            
+            dfs = [i]
+            nodes[i] = 0
+            while dfs:
+                node = dfs.pop()
+                for nei in graph[node]:
+                    if nei not in nodes:
+                        nodes[nei] = 1 if nodes[node] == 0 else 0
+                        dfs.append(nei)
+                        
+                    elif nodes[nei] == nodes[node]:
+                        return False                
+        return True
+    
+
+'''
+Given an undirected graph, return true if and only if it is bipartite.
+
+Recall that a graph is bipartite if we can split it's set of nodes into two independent subsets A and B such that every edge in the graph has one node in A and another node in B.
+
+The graph is given in the following form: graph[i] is a list of indexes j for which the edge between nodes i and j exists.  Each node is an integer between 0 and graph.length - 1.  There are no self edges or parallel edges: graph[i] does not contain i, and it doesn't contain any element twice.
+
+Solution: Graph DFS, hash table
+Time: O(E+V)
+Space: O(E+V)
+'''
