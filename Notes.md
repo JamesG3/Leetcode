@@ -192,6 +192,7 @@
 	- 323.Number of Connected Components in an Undirected Graph
 	- 489.Robot Room Cleaner
 	- 547.Friend Circles
+	- 785.Is Graph Bipartite?
 	- 787.Cheapest Flights Within K Stops (DFS/Dijkstra's)
 - **BFS**
   - 127.Word Ladder
@@ -237,6 +238,7 @@
 	- 159.Longest Substring with At Most Two Distinct Characters
 	- 161.One Edit Distance
 	- 165.Compare Version Numbers
+	- 186.Reverse Words in a String II
 	- 209.Minimum Size Subarray Sum
 	- 243.Shortest Word Distance
 	- 244.Shortest Word Distance II
@@ -369,8 +371,7 @@
   - 737.Sentence Similarity II
   - 200.Number of Islands
 - **Using dictionary (hash table)**
-
-  - 1.Two Sum
+- 1.Two Sum
   - 3.Longest Substring Without Repeating Characters
   - 15.3Sum
   - 18.4Sum
@@ -553,6 +554,7 @@
 - 208.Implement Trie
 - 211.Add and Search Word - Data structure design
 - 212.Word Search II
+- 642.Design Search Autocomplete System
 - 648.Replace Words
 - 677.Map Sum Pairs
 - 720.Longest Word in Dictionary
