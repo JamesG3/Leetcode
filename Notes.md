@@ -179,6 +179,7 @@
 #### Sliding Window
 - 3.Longest Substring Without Repeating Characters
 - 76.Minimum Window Substring
+- 567.Permutation in String
 - 683.K Empty Slots
 #### Graph
 - **Loop Detection / DFS**
@@ -198,6 +199,7 @@
   - 127.Word Ladder
   - 399.Evaluate Division
   - 430.Flatten a Multilevel Doubly Linked List
+  - 490.The Maze
   - 733.Flood Fill
   - 994.Rotting Oranges
 - **Dijkstra's Algorithm**
@@ -276,6 +278,7 @@
 	- 1011.Capacity To Ship Packages Within D Days
 - **Traverse & mark**
 	- 6.ZigZag Conversion
+	- 41.First Missing Positive
 	- 48.Rotate Image
 	- 56.Merge Intervals
 	- 163.Missing Ranges
@@ -297,6 +300,7 @@
 	- 628.Maximum Product of Three Numbers
 	- 659.Split Array into Consecutive Subsequences
 	- 665.Non-decreasing Array
+	- 729.My Calendar I
 	- 766.Toeplitz Matrix
 	- 1198.Find Smallest Common Element in All Rows
 - **Stack**
@@ -400,6 +404,7 @@
   - 523.Continuous Subarray Sum
   - 525.Contiguous Array
   - 560.Subarray Sum Equals K
+  - 567.Permutation in String
   - 575.Distribute Candies
   - 609.Find Duplicate File in System
   - 652.Find Duplicate Subtrees
@@ -432,7 +437,8 @@
 	- 581.Shortest Unsorted Continuous Subarray
 	- 973.K Closest Points to Origin
 
-
+- **Using index**
+  - 442.Find All Duplicates in an Array
 
 
 #### deal with String
@@ -547,6 +553,7 @@
 - 380.Insert Delete GetRandom O(1)
 - 430.Flatten a Multilevel Doubly Linked List
 - 445.Add Two Numbers II (stack & linked list)
+- 622.Design Circular Queue
 - 1167.Minimum Cost to Connect Sticks (Heap)
 
 ### Trie (Prefix Tree)
@@ -566,6 +573,7 @@
 - 64.Minimum Path Sum
 - 70.Climbing Stairs
 - 72.Edit Distance
+- 73.Set Matrix Zeroes
 - 91.Decode Ways
 - 96.Unique Binary Search Trees
 - 95.Unique Binary Search Trees II
