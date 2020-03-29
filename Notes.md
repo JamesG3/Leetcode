@@ -124,6 +124,7 @@
 	- 951.Flip Equivalent Binary Trees
 - **Backtracking**
 	- 22.Generate Parentheses
+	- 37.Sudoku Solver
 	- 46.Permutations
 	- 47.Permutations II
 	- 78.Subsets
@@ -355,6 +356,7 @@
 
   - 17.Letter Combinations of a Phone Number
   - 22.Generate Parentheses
+  - 37.Sudoku Solver
   - 39.Combination Sum
   - 78.Subsets
   - 90.Subsets II
