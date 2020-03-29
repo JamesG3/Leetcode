@@ -1,10 +1,6 @@
-#Given an Iterator class interface with methods: next() and hasNext(), design and implement a PeekingIterator that support the peek() operation -- it essentially peek() at the element that will be returned by the next call to next().
+# Below is the interface for Iterator, which is already defined for you.
 #
-#
-#
-#Below is the interface for Iterator, which is already defined for you.
-#
-# class Iterator(object):
+# class Iterator:
 #     def __init__(self, nums):
 #         """
 #         Initializes an iterator object to the beginning of a list.
@@ -23,42 +19,45 @@
 #         :rtype: int
 #         """
 
-class PeekingIterator(object):
+class PeekingIterator:
     def __init__(self, iterator):
-        self.iterator = iterator
-        self.HN = iterator.hasNext()
-        self.cache = iterator.next()
         """
         Initialize your data structure here.
         :type iterator: Iterator
         """
+        self._next = iterator.next()
+        self._iterator = iterator
         
 
     def peek(self):
-        return self.cache
-        
         """
         Returns the next element in the iteration without advancing the iterator.
         :rtype: int
         """
+        return self._next
         
 
     def next(self):
-        next = self.cache
-        self.HN = self.iterator.hasNext()
-        if self.HN:
-            self.cache = self.iterator.next()
-        return next
         """
         :rtype: int
         """
+        if self._next == None:
+            raise Exception('Stop')
+        
+        res = self._next
+        if self._iterator.hasNext():
+            self._next = self._iterator.next()
+        else:
+            self._next = None
+            
+        return res
         
 
     def hasNext(self):
-        return self.HN
         """
         :rtype: bool
         """
+        return self._next is not None
         
 
 # Your PeekingIterator object will be instantiated and called as such:
@@ -68,5 +67,11 @@ class PeekingIterator(object):
 #     iter.next()         # Should return the same value as [val].
 
 
+'''
+Given an Iterator class interface with methods: next() and hasNext(), design and implement a PeekingIterator that support the peek() operation -- it essentially peek() at the element that will be returned by the next call to next().
 
-#Given an Iterator class interface with methods: next() and hasNext(), design and implement a PeekingIterator that support the peek() operation -- it essentially peek() at the element that will be returned by the next call to next().
+Solution: Design, iterator implemtation
+Time: O(1)
+Space: O(1)
+
+'''
