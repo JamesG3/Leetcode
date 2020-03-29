@@ -78,6 +78,7 @@
 	- 230.Kth Smallest Element in a BST
 	- 285.Inorder Successor in BST
 	- 501.Find Mode in Binary Search Tree
+	- 510.Inorder Successor in BST II
 	- 653.Two Sum IV - Input is a BST
 	- 669.Trim a Binary Search Tree
 	- 700.Search in a Binary Search Tree
@@ -181,6 +182,7 @@
 - 76.Minimum Window Substring
 - 567.Permutation in String
 - 683.K Empty Slots
+- 1004.Max Consecutive Ones III
 #### Graph
 - **Loop Detection / DFS**
 	- 79.Word Search
@@ -210,6 +212,7 @@
 - **Sorting**
 	- 252.Meeting Rooms
 	- 539.Minimum Time Difference
+	- 556.Next Greater Element III
 	- 937.Reorder Data in Log Files
 - **Linked List - two pointers**
 	- 19.Remove Nth Node From End of List
@@ -251,6 +254,7 @@
 	- 524.Longest Word in Dictionary through Deleting
 	- 832.Flipping an Image
 	- 942.DI String Match
+	- 1004.Max Consecutive Ones III
 	- 1048.Longest String Chain
 	- 1055.Shortest Way to Form String
 	- 1214.Two Sum BSTs
@@ -533,6 +537,7 @@
 - 523.Continuous Subarray Sum
 - 544.Output Contest Matches
 - 553.Optimal Division
+- 556.Next Greater Element III
 - 573.Squirrel Simulation
 - 593.Valid Square
 - 628.Maximum Product of Three Numbers
@@ -601,6 +606,7 @@
 - 718.Maximum Length of Repeated Subarray
 - 746.Min Cost Climbing Stairs
 - 1048.Longest String Chain
+- 1143.Longest Common Subsequence
 
 ### Marked questions
 - 172.Factorial Trailing Zeroes
