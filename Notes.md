@@ -125,6 +125,7 @@
 - **Backtracking**
 	- 22.Generate Parentheses
 	- 37.Sudoku Solver
+	- 40.Combination Sum II
 	- 46.Permutations
 	- 47.Permutations II
 	- 78.Subsets
@@ -148,11 +149,15 @@
 - 23.Merge k Sorted Lists
 - 253.Meeting Rooms II
 - 295.Find Median from Data Stream
+- 621.Task Scheduler
+- 703.Kth Largest Element in a Stream
 - 767.Reorganize String
 
 ### Design
 
+- 284.Peeking Iterator
 - 348.Design Tic-Tac-Toe
+- 
 
 #### Greedy
 
@@ -173,6 +178,7 @@
 - 402.Remove K Digits
 - 475.Heaters
 - 455.Assign Cookies
+- 621.Task Scheduler
 - 659.Split Array into Consecutive Subsequences
 - 763.Partition Labels
 - 939.Minimum Area Rectangle
@@ -358,6 +364,7 @@
   - 22.Generate Parentheses
   - 37.Sudoku Solver
   - 39.Combination Sum
+  - 40.Combination Sum II
   - 78.Subsets
   - 90.Subsets II
   - 100.Same Tree
@@ -413,6 +420,7 @@
   - 567.Permutation in String
   - 575.Distribute Candies
   - 609.Find Duplicate File in System
+  - 621.Task Scheduler
   - 652.Find Duplicate Subtrees
   - 659.Split Array into Consecutive Subsequences
   - 690.Employee Importance
