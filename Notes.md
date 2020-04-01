@@ -149,6 +149,7 @@
 - 23.Merge k Sorted Lists
 - 253.Meeting Rooms II
 - 295.Find Median from Data Stream
+- 378.Kth Smallest Element in a Sorted Matrix
 - 621.Task Scheduler
 - 703.Kth Largest Element in a Stream
 - 767.Reorganize String
@@ -157,7 +158,7 @@
 
 - 284.Peeking Iterator
 - 348.Design Tic-Tac-Toe
-- 
+- 432.All O`one Data Structure
 
 #### Greedy
 
@@ -268,6 +269,7 @@
 - **Double linked list**
 	- 146.LRU Cache
 	- 430.Flatten a Multilevel Doubly Linked List
+	- 432.All O`one Data Structure
 - **Construct Binary Tree**
 	
 	- 105.Construct Binary Tree from Preorder and Inorder Traversal
@@ -408,6 +410,7 @@
   - 362.Design Hit Counter
   - 364.Nested List Weight Sum II
   - 409.Longest Palindrome
+  - 432.All O`one Data Structure
   - 438.Find All Anagrams in a String
   - 447.Number of Boomerangs
   - 451.Sort Characters By Frequency
