@@ -1,5 +1,146 @@
+# double linked list solution: perfect solution
+class Node:
+    def __init__(self):
+        self.next = None
+        self.prev = None
+        self.keys = set()
+        self.cnt = None
+        
+        
 class AllOne:
 
+    def __init__(self):
+        """
+        Initialize your data structure here.
+        """
+        self.head = Node()
+        self.tail = Node()
+        self.head.next = self.tail
+        self.tail.prev = self.head
+        self.dic_k_n = {}
+        
+        
+    def addNode(self, prevnode, node):
+        nxtnode = prevnode.next
+        prevnode.next = node
+        node.prev = prevnode
+        node.next = nxtnode
+        nxtnode.prev = node
+        
+    def delNode(self, node):
+        prev, nxt = node.prev, node.next
+        prev.next = nxt
+        nxt.prev = prev
+        node.prev = None
+        node.next = None
+        
+    def inc(self, key: str) -> None:
+        """
+        Inserts a new key <Key> with value 1. Or increments an existing key by 1.
+        """
+        if key not in self.dic_k_n:
+            if self.head.next == self.tail or self.head.next.cnt > 1:
+                node = Node()
+                node.keys.add(key)
+                node.cnt = 1
+                self.addNode(self.head, node)
+                self.dic_k_n[key] = node
+                
+            else:
+                self.head.next.keys.add(key)
+                self.dic_k_n[key] = self.head.next
+                   
+        else:
+            node = self.dic_k_n[key]
+            node.keys.remove(key)
+            nxtnode = node.next
+            if nxtnode == self.tail or nxtnode.cnt > node.cnt+1:
+                new_node = Node()
+                new_node.cnt = node.cnt + 1
+                new_node.keys.add(key)
+                self.dic_k_n[key] = new_node
+                self.addNode(node, new_node)
+            
+            else:
+                nxtnode.keys.add(key)
+                self.dic_k_n[key] = nxtnode
+            
+            if len(node.keys) == 0:
+                self.delNode(node)
+                
+                
+
+    def dec(self, key: str) -> None:
+        """
+        Decrements an existing key by 1. If Key's value is 1, remove it from the data structure.
+        """
+        if key not in self.dic_k_n:
+            return
+        
+        node = self.dic_k_n[key]
+        if node.cnt == 1:
+            if len(node.keys) == 1:
+                self.delNode(node)
+            else:
+                node.keys.remove(key)
+            del self.dic_k_n[key]
+            
+        else:
+            prv = node.prev
+            node.keys.remove(key)
+            if prv == self.head or prv.cnt < node.cnt-1:
+                new_node = Node()
+                new_node.keys.add(key)
+                new_node.cnt = node.cnt-1
+                self.addNode(node.prev, new_node)
+                self.dic_k_n[key] = new_node
+            
+            else:
+                prv.keys.add(key)
+                self.dic_k_n[key] = prv
+        
+        if len(node.keys) == 0:
+            self.delNode(node)
+                
+
+    def getMaxKey(self) -> str:
+        """
+        Returns one of the keys with maximal value.
+        """
+        if self.tail.prev == self.head:
+            return ''
+        return list(self.tail.prev.keys)[0]
+        
+
+    def getMinKey(self) -> str:
+        """
+        Returns one of the keys with Minimal value.
+        """
+        if self.head.next == self.tail:
+            return ''
+        return list(self.head.next.keys)[0]
+        
+
+
+# Your AllOne object will be instantiated and called as such:
+# obj = AllOne()
+# obj.inc(key)
+# obj.dec(key)
+# param_3 = obj.getMaxKey()
+# param_4 = obj.getMinKey()
+
+
+
+'''
+Solution: Double linked list
+Time: O(1) on all operations
+Space: O(n)
+'''
+
+
+
+# two hash tables solution (not perfect due to one operation requires O(nlogn) time):
+class AllOne:
     def __init__(self):
         """
         Initialize your data structure here.
