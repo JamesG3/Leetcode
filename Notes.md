@@ -218,6 +218,7 @@
   - 310.Minimum Height Trees
 #### Array and List
 - **Sorting**
+	- 148.Sort List (merge sort)
 	- 252.Meeting Rooms
 	- 539.Minimum Time Difference
 	- 556.Next Greater Element III
@@ -233,6 +234,7 @@
 	- 92.Reverse Linked List II
 	- 141.Linked List Cycle
 	- 143.Reorder List
+	- 148.Sort List
 	- 203.Remove Linked List Elements
 	- 237.Delete Node in a Linked List
 	- 328.Odd Even Linked List
