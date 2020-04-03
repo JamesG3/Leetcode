@@ -74,9 +74,11 @@
 	- 1302.Deepest Leaves Sum
 - **Binary Search Tree**
 	- 98.Validate Binary Search Tree
+	- 99.Recover Binary Search Tree
 	- 109.Convert Sorted List to Binary Search Tree
 	- 230.Kth Smallest Element in a BST
 	- 285.Inorder Successor in BST
+	- 426.Convert Binary Search Tree to Sorted Doubly Linked List
 	- 501.Find Mode in Binary Search Tree
 	- 510.Inorder Successor in BST II
 	- 653.Two Sum IV - Input is a BST
@@ -89,11 +91,13 @@
 - **Tree Traversal**
 	- 94.Binary Tree Inorder Traversal
 	- 98.Validate Binary Search Tree
+	- 99.Recover Binary Search Tree
 	- 106.Construct Binary Tree from Inorder and Postorder Traversal
 	- 114.Flatten Binary Tree to Linked List (reverse pre-order traversal)
 	- 144.Binary Tree Preorder Traversal
 	- 145.Binary Tree Postorder Traversal
 	- 230.Kth Smallest Element in a BST
+	- 426.Convert Binary Search Tree to Sorted Doubly Linked List
 	- 501.Find Mode in Binary Search Tree
 	- 508.Most Frequent Subtree Sum
 	- 530.Minimum Absolute Difference in BST
@@ -159,6 +163,7 @@
 - 284.Peeking Iterator
 - 348.Design Tic-Tac-Toe
 - 432.All O`one Data Structure
+- 460.LFU Cache
 
 #### Greedy
 
@@ -288,6 +293,7 @@
 	- 278.First Bad Version
 	- 367.Valid Perfect Square
 	- 540.Single Element in a Sorted Array
+	- 528.Random Pick with Weight
 	- 704.Binary Search
 	- 744.Find Smallest Letter Greater Than Target
 	- 1011.Capacity To Ship Packages Within D Days
@@ -397,6 +403,7 @@
   - 15.3Sum
   - 18.4Sum
   - 76.Minimum Window Substring
+  - 128.Longest Consecutive Sequence
   - 130.Surrounded Regions
   - 170.Two Sum III - Data structure design
   - 187.Repeated DNA Sequences
@@ -417,6 +424,7 @@
   - 447.Number of Boomerangs
   - 451.Sort Characters By Frequency
   - 454.4Sum II
+  - 460.LFU Cache
   - 489.Robot Room Cleaner
   - 506.Relative Ranks
   - 523.Continuous Subarray Sum
