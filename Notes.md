@@ -85,6 +85,7 @@
 	- 669.Trim a Binary Search Tree
 	- 700.Search in a Binary Search Tree
 	- 701.Insert into a Binary Search Tree
+	- 729.My Calendar I
 	- 897.Increasing Order Search Tree
 	- 1038.Binary Search Tree to Greater Sum Tree
 	- 1214.Two Sum BSTs
@@ -127,6 +128,7 @@
 	- 872.Leaf-Similar Trees (**recursion using yield generator**)
 	- 951.Flip Equivalent Binary Trees
 - **Backtracking**
+	- 17.Letter Combinations of a Phone Number
 	- 22.Generate Parentheses
 	- 37.Sudoku Solver
 	- 40.Combination Sum II
@@ -164,6 +166,7 @@
 - 348.Design Tic-Tac-Toe
 - 432.All O`one Data Structure
 - 460.LFU Cache
+- 706.Design HashMap
 
 #### Greedy
 
@@ -240,6 +243,7 @@
 	- 141.Linked List Cycle
 	- 143.Reorder List
 	- 148.Sort List
+	- 160.Intersection of Two Linked Lists
 	- 203.Remove Linked List Elements
 	- 237.Delete Node in a Linked List
 	- 328.Odd Even Linked List
@@ -249,7 +253,6 @@
 	- 26.Remove Duplicates from Sorted Array
 	- 27.Remove Element
 	- 28.Implement strStr()
-	- 31.Next Permutation
 	- 42.Trapping Rain Water
 	- 75.Sort Colors
 	- 76.Minimum Window Substring
@@ -368,6 +371,7 @@
   - 281.Zigzag Iterator
   - 406.Queue Reconstruction by Height
   - 445.Add Two Numbers II
+  - 950.Reveal Cards In Increasing Order
 - **DFS**
 
   - 17.Letter Combinations of a Phone Number
@@ -508,6 +512,7 @@
 - 846.Hand of Straights
 - 885.Spiral Matrix III
 - 946.Validate Stack Sequences
+- 950.Reveal Cards In Increasing Order
 #### HASH
 - 205.Isomorphic Strings
 - 289.Game of Life
@@ -582,6 +587,7 @@
 - 430.Flatten a Multilevel Doubly Linked List
 - 445.Add Two Numbers II (stack & linked list)
 - 622.Design Circular Queue
+- 706.Design HashMap
 - 1167.Minimum Cost to Connect Sticks (Heap)
 
 ### Trie (Prefix Tree)
@@ -650,7 +656,6 @@
 - 506.Relative Ranks(version: same score supported)
 - 334.Increasing Triplet Subsequence
 - 503.Next Greater Element II
-- 160.Intersection of Two Linked Lists
 - 77.Combinations
 - 173.Binary Search Tree Iterator
 - 319.Bulb Switcher
