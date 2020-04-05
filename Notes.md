@@ -272,6 +272,7 @@
 	- 340.Longest Substring with At Most K Distinct Characters
 	- 443.String Compression
 	- 524.Longest Word in Dictionary through Deleting
+	- 680.Valid Palindrome II
 	- 832.Flipping an Image
 	- 942.DI String Match
 	- 1004.Max Consecutive Ones III
@@ -326,6 +327,7 @@
 	- 628.Maximum Product of Three Numbers
 	- 659.Split Array into Consecutive Subsequences
 	- 665.Non-decreasing Array
+	- 724.Find Pivot Index
 	- 729.My Calendar I
 	- 766.Toeplitz Matrix
 	- 1198.Find Smallest Common Element in All Rows
@@ -571,6 +573,7 @@
 - 573.Squirrel Simulation
 - 593.Valid Square
 - 628.Maximum Product of Three Numbers
+- 724.Find Pivot Index
 - 728.Self Dividing Numbers
 - 750.Number Of Corner Rectangles
 - 769.Max Chunks To Make Sorted
