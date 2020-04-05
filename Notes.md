@@ -79,6 +79,7 @@
 	- 230.Kth Smallest Element in a BST
 	- 285.Inorder Successor in BST
 	- 426.Convert Binary Search Tree to Sorted Doubly Linked List
+	- 449.Serialize and Deserialize BST
 	- 501.Find Mode in Binary Search Tree
 	- 510.Inorder Successor in BST II
 	- 653.Two Sum IV - Input is a BST
@@ -99,6 +100,7 @@
 	- 145.Binary Tree Postorder Traversal
 	- 230.Kth Smallest Element in a BST
 	- 426.Convert Binary Search Tree to Sorted Doubly Linked List
+	- 449.Serialize and Deserialize BST (post order traversal)
 	- 501.Find Mode in Binary Search Tree
 	- 508.Most Frequent Subtree Sum
 	- 530.Minimum Absolute Difference in BST
@@ -627,6 +629,7 @@
 - 357.Count Numbers with Unique Digits
 - 338.Counting Bits
 - 361.Bomb Enemy
+- 403.Frog Jump
 - 463.Island Perimeter
 - 516.Longest Palindromic Subsequence
 - 518.Coin Change 2
