@@ -227,12 +227,13 @@
 - **Graph**
   - 310.Minimum Height Trees
 #### Array and List
-- **Sorting**
+- **Sorting, customized sort**
 	- 148.Sort List (merge sort)
 	- 252.Meeting Rooms
 	- 539.Minimum Time Difference
 	- 556.Next Greater Element III
 	- 937.Reorder Data in Log Files
+	- 953.Verifying an Alien Dictionary
 - **Linked List - two pointers**
 	- 19.Remove Nth Node From End of List
 	- 24.Swap Nodes in Pairs
@@ -275,6 +276,7 @@
 	- 680.Valid Palindrome II
 	- 832.Flipping an Image
 	- 942.DI String Match
+	- 986.Interval List Intersections
 	- 1004.Max Consecutive Ones III
 	- 1048.Longest String Chain
 	- 1055.Shortest Way to Form String
@@ -330,6 +332,7 @@
 	- 724.Find Pivot Index
 	- 729.My Calendar I
 	- 766.Toeplitz Matrix
+	- 1060.Missing Element in Sorted Array
 	- 1198.Find Smallest Common Element in All Rows
 - **Stack**
   - 20.Valid Parentheses
@@ -369,6 +372,7 @@
   - 1021.Remove Outermost Parentheses
   - 1047.Remove All Adjacent Duplicates In String
   - 1110.Delete Nodes And Return Forest
+  - 1249.Minimum Remove to Make Valid Parentheses
 - **Queue**
   - 3.Longest Substring Without Repeating Characters
   - 239.Sliding Window Maximum
@@ -559,6 +563,7 @@
 - 357.Count Numbers with Unique Digits
  - 370.Range Addition
 - 371.Sum of Two Integers (bit manipulation)
+- 398.Random Pick Index
 - 418.Sentence Screen Fitting
 - 462.Minimum Moves to Equal Array Elements II
 - 476.Number Complement
@@ -580,6 +585,7 @@
 - 836.Rectangle Overlap
 - 939.Minimum Area Rectangle
 - 957.Prison Cells After N Days
+- 1060.Missing Element in Sorted Array
 
 #### Data Structures
 - 116.Populating Next Right Pointers in Each Node
