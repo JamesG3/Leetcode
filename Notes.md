@@ -36,11 +36,11 @@
 - **Using dictionary to save every level’s nodes:** 
 	- 103.Binary Tree Zigzag Level Order Traversal
 	- 107.Binary Tree Level Order Traversal II
-	- 199.Binary Tree Right Side View
 	- 501.Find Mode in Binary Search Tree
 	- 508.Most Frequent Subtree Sum
 	- 364.Nested List Weight Sum II (Similar Question)
 - **BFS**
+	- 199.Binary Tree Right Side View
 	- 211.Add and Search Word - Data structure design
 	- 279.Perfect Squares
 	- 286.Walls and Gates
@@ -77,6 +77,7 @@
 	- 99.Recover Binary Search Tree
 	- 109.Convert Sorted List to Binary Search Tree
 	- 230.Kth Smallest Element in a BST
+	- 270.Closest Binary Search Tree Value
 	- 285.Inorder Successor in BST
 	- 426.Convert Binary Search Tree to Sorted Doubly Linked List
 	- 449.Serialize and Deserialize BST
@@ -117,8 +118,10 @@
 	- 100.Same Tree
 	- 124.Binary Tree Maximum Path Sum
 	 - 129.Sum Root to Leaf Numbers
+	 - 173.Binary Search Tree Iterator (**recursion using yield generator**)
 	- 226.Invert Binary Tree
 	- 257.Binary Tree Paths
+	- 270.Closest Binary Search Tree Value
 	- 508.Most Frequent Subtree Sum
 	- 541.Reverse String II
 	- 543.Diameter of Binary Tree
@@ -314,6 +317,7 @@
 	- 167.Two Sum II - Input array is sorted    
 	- 203.Remove Linked List Elements
 	 - 204.Count Primes ([Sieve of Eratosthenes][3])
+	 - 238.Product of Array Except Self
 	- 240.Search a 2D Matrix II
 	 - 299.Bulls and Cows
 	 - 341.Flatten Nested List Iterator
@@ -548,6 +552,7 @@
 - 224.Basic Calculator
 - 227.Basic Calculator II
 - 231.Power of Two
+- 238.Product of Array Except Self
 - 258.Add Digitsr
 - 260.Single Number III(bit manipulation)
 - 263.Ugly Number
@@ -649,6 +654,10 @@
 - 1048.Longest String Chain
 - 1143.Longest Common Subsequence
 
+### Optimization, Early termination
+
+- 270.Closest Binary Search Tree Value
+
 ### Marked questions
 - 172.Factorial Trailing Zeroes
 - Battleship in a Board: checking head horizontally and vertically.
@@ -669,7 +678,7 @@
 - 334.Increasing Triplet Subsequence
 - 503.Next Greater Element II
 - 77.Combinations
-- 173.Binary Search Tree Iterator
+
 - 319.Bulb Switcher
 - 105.Construct Binary Tree from Preorder and Inorder Traversal
 - 260.Single Number III(bit manipulation)
