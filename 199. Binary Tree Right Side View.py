@@ -1,42 +1,34 @@
 # Definition for a binary tree node.
-# class TreeNode(object):
+# class TreeNode:
 #     def __init__(self, x):
 #         self.val = x
 #         self.left = None
 #         self.right = None
 
-class Solution(object):
-    def rightSideView(self, root):
-        """
-        :type root: TreeNode
-        :rtype: List[int]
-        Solution: level traverse (BFS)
-        Time: O(n)
-        Space: O(n)
-        """
-        q = []
+class Solution:
+    def rightSideView(self, root: TreeNode) -> List[int]:
+        bfs = [root]
         res = []
         
         if not root:
             return res
         
-        res.append(root.val)
-        q.append(root)
-        
-        while True:
-            tmp = []
-            for node in q:
-                if node.left:
-                    tmp.append(node.left)
-                if node.right:
-                    tmp.append(node.right)
-            if not tmp:
-                break
-                
-            res.append(tmp[-1].val)
-            q = tmp
+        while bfs:
+            tmp_bfs = []
+            res.append(bfs[-1].val)
             
+            for node in bfs:
+                if node.left:
+                    tmp_bfs.append(node.left)
+                if node.right:
+                    tmp_bfs.append(node.right)
+            bfs = tmp_bfs
         return res
                     
-# Given a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.    
-        
+'''
+Given a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.
+
+Solution: BFS, level, traversal
+Time: O(n)
+Space: O(n)
+'''
