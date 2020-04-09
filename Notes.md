@@ -411,10 +411,11 @@
   - 841.Keys and Rooms
   - 1110.Delete Nodes And Return Forest
 - **Union Find**
-  - 737.Sentence Similarity II
   - 200.Number of Islands
+  - 721.Accounts Merge
+  - 737.Sentence Similarity II
 - **Using dictionary (hash table)**
-- 1.Two Sum
+  - 1.Two Sum
   - 3.Longest Substring Without Repeating Characters
   - 15.3Sum
   - 18.4Sum
@@ -456,6 +457,7 @@
   - 692.Top K Frequent Words
   - 694.Number of Distinct Islands
   - 697.Degree of an Array
+  - 721.Accounts Merge
   - 750.Number Of Corner Rectangles
   - 811.Subdomain Visit Count
   - 846.Hand of Straights
