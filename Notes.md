@@ -201,6 +201,7 @@
 #### Sliding Window
 - 3.Longest Substring Without Repeating Characters
 - 76.Minimum Window Substring
+- 340.Longest Substring with At Most K Distinct Characters
 - 567.Permutation in String
 - 683.K Empty Slots
 - 1004.Max Consecutive Ones III
