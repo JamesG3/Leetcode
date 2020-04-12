@@ -142,6 +142,7 @@
 	- 78.Subsets
 	- 91.Decode Ways
 	- 93.Restore IP Addresses
+	- 140.Word Break II
 	- 168.Excel Sheet Column Title
 	- 212.Word Search II
 	- 298.Binary Tree Longest Consecutive Sequence 
@@ -202,6 +203,7 @@
 - 3.Longest Substring Without Repeating Characters
 - 76.Minimum Window Substring
 - 340.Longest Substring with At Most K Distinct Characters
+- 438.Find All Anagrams in a String
 - 567.Permutation in String
 - 683.K Empty Slots
 - 1004.Max Consecutive Ones III
@@ -611,6 +613,7 @@
 
 ### Trie (Prefix Tree)
 
+- 140.Word Break II
 - 208.Implement Trie
 - 211.Add and Search Word - Data structure design
 - 212.Word Search II
