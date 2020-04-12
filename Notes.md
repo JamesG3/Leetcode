@@ -336,6 +336,7 @@
 	- 628.Maximum Product of Three Numbers
 	- 659.Split Array into Consecutive Subsequences
 	- 665.Non-decreasing Array
+	- 674.Longest Continuous Increasing Subsequence
 	- 724.Find Pivot Index
 	- 729.My Calendar I
 	- 766.Toeplitz Matrix
@@ -463,6 +464,7 @@
   - 721.Accounts Merge
   - 750.Number Of Corner Rectangles
   - 811.Subdomain Visit Count
+  - 825.Friends Of Appropriate Ages
   - 846.Hand of Straights
   - 939.Minimum Area Rectangle
   - 957.Prison Cells After N Days
