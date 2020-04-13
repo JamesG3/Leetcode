@@ -54,6 +54,7 @@
 	- 752.Open the Lock
 	- 863.All Nodes Distance K in Binary Tree
 	- 934.Shortest Bridge
+	- 958.Check Completeness of a Binary Tree
 	- 1161.Maximum Level Sum of a Binary Tree
 	- 1302.Deepest Leaves Sum
 	
@@ -70,6 +71,7 @@
 - **Level traversal**
 	- 116.Populating Next Right Pointers in Each Node
 	- 515.Find Largest Value in Each Tree Row
+	- 958.Check Completeness of a Binary Tree
 	- 1161.Maximum Level Sum of a Binary Tree
 	- 1302.Deepest Leaves Sum
 - **Binary Search Tree**
@@ -473,6 +475,7 @@
   - 1057.Campus Bikes
   - 1146.Snapshot Array (Data Structure Design)
   - 1170.Compare Strings by Frequency of the Smallest Character
+  - 1213.Intersection of Three Sorted Arrays
 - **Palindrome**
   - 647.Palindromic Substrings
   - 266.Palindrome Permutation
@@ -661,6 +664,7 @@
 - 746.Min Cost Climbing Stairs
 - 1048.Longest String Chain
 - 1143.Longest Common Subsequence
+- 1216.Valid Palindrome III
 
 ### Optimization, Early termination
 
