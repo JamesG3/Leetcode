@@ -198,6 +198,7 @@
 - 621.Task Scheduler
 - 659.Split Array into Consecutive Subsequences
 - 763.Partition Labels
+- 855.Exam Room
 - 939.Minimum Area Rectangle
 - 1007.Minimum Domino Rotations For Equal Row
 - 1048.Longest String Chain
@@ -312,6 +313,7 @@
 	- 528.Random Pick with Weight
 	- 704.Binary Search
 	- 744.Find Smallest Letter Greater Than Target
+	- 855.Exam Room
 	- 1011.Capacity To Ship Packages Within D Days
 - **Traverse & mark**
 	- 6.ZigZag Conversion
