@@ -344,6 +344,7 @@
 	- 724.Find Pivot Index
 	- 729.My Calendar I
 	- 766.Toeplitz Matrix
+	- 985.Sum of Even Numbers After Queries
 	- 1060.Missing Element in Sorted Array
 	- 1198.Find Smallest Common Element in All Rows
 - **Stack**
@@ -470,6 +471,7 @@
   - 811.Subdomain Visit Count
   - 825.Friends Of Appropriate Ages
   - 846.Hand of Straights
+  - 884.Uncommon Words from Two Sentences
   - 939.Minimum Area Rectangle
   - 957.Prison Cells After N Days
   - 997.Find the Town Judge
